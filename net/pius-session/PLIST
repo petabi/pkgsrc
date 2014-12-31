@@ -1,0 +1,8 @@
+@comment $NetBSD$
+bin/batchtest
+bin/sessionmanager
+include/netcm.h
+include/pius/session.h
+include/session_table.h
+lib/libpius-session.a
+lib/pius/libsession.so
