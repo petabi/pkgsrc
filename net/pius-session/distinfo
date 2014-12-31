@@ -1,0 +1,7 @@
+$NetBSD$
+
+SHA1 (pius-session-0.18.1.tar.bz2) = d2581e9e6bad2d92a8069f4a769be427e1f9b5d8
+RMD160 (pius-session-0.18.1.tar.bz2) = 4f086679d46bf0e8646c2e083fc539f0f8e3ceb5
+SHA512 (pius-session-0.18.1.tar.bz2) = 721f0bd7d2af00d802b1f7bfe61a55d64591b0b7ddf9e495840d7d1c96038fa4f07c6a5e32b8024b38a50a27d675405c7447c68e2ed5a00be11d7819c5b1c292
+Size (pius-session-0.18.1.tar.bz2) = 53026 bytes
+SHA1 (patch-src_itvtree.cpp) = b5495e2054b49a584aaf847119affbe81f0f1716
