@@ -1,0 +1,4 @@
+@comment $NetBSD$
+include/pius/carp.h
+${PLIST.carp}include/pius/ip_carp.h
+lib/libpius-carp.so
