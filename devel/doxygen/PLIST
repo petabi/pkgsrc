@@ -286,6 +286,7 @@ ${PLIST.latex}share/doc/doxygen/examples/diagrams/html/folderclosed.png
 ${PLIST.latex}share/doc/doxygen/examples/diagrams/html/folderopen.png
 ${PLIST.latex}share/doc/doxygen/examples/diagrams/html/functions.html
 ${PLIST.latex}share/doc/doxygen/examples/diagrams/html/functions_vars.html
+${PLIST.latex}share/doc/doxygen/examples/diagrams/html/graph_legend.dot
 ${PLIST.latex}share/doc/doxygen/examples/diagrams/html/graph_legend.html
 ${PLIST.latex}share/doc/doxygen/examples/diagrams/html/graph_legend.md5
 ${PLIST.latex}share/doc/doxygen/examples/diagrams/html/graph_legend.png
