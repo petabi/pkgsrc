@@ -716,6 +716,7 @@ SUBDIR+=	py-scp
 SUBDIR+=	py-simplesoap
 SUBDIR+=	py-smb
 SUBDIR+=	py-smbc
+SUBDIR+=	py-sniffles
 SUBDIR+=	py-soaplib
 SUBDIR+=	py-soappy
 SUBDIR+=	py-socketpool

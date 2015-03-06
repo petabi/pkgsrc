@@ -1,0 +1,3 @@
+bin/regexgen @PREFIX@/bin/regexgen@PYVERSSUFFIX@
+bin/rulegen @PREFIX@/bin/rulegen@PYVERSSUFFIX@
+bin/sniffles @PREFIX@/bin/sniffles@PYVERSSUFFIX@
