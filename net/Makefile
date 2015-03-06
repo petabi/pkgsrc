@@ -690,6 +690,7 @@ SUBDIR+=	py-s3transfer
 SUBDIR+=	py-scp
 SUBDIR+=	py-simplesoap
 SUBDIR+=	py-smb
+SUBDIR+=	py-sniffles
 SUBDIR+=	py-soaplib
 SUBDIR+=	py-soappy
 SUBDIR+=	py-socketpool
