@@ -768,6 +768,7 @@ SUBDIR+=	sitescooper
 SUBDIR+=	slurm
 SUBDIR+=	smokeping
 SUBDIR+=	sniffit
+SUBDIR+=	sniffles
 SUBDIR+=	sniproxy
 SUBDIR+=	snmptt
 SUBDIR+=	snort
