@@ -295,6 +295,7 @@ ${PLIST.latex}share/doc/doxygen/examples/diagrams/html/graph_legend.md5
 ${PLIST.latex}share/doc/doxygen/examples/diagrams/html/graph_legend.png
 ${PLIST.latex}share/doc/doxygen/examples/diagrams/html/hierarchy.html
 ${PLIST.latex}share/doc/doxygen/examples/diagrams/html/index.html
+${PLIST.latex}share/doc/doxygen/examples/diagrams/html/inherit_graph_0.dot
 ${PLIST.pangocairo}${PLIST.latex}share/doc/doxygen/examples/diagrams/html/inherit_graph_0.map
 ${PLIST.latex}share/doc/doxygen/examples/diagrams/html/inherit_graph_0.md5
 ${PLIST.latex}share/doc/doxygen/examples/diagrams/html/inherit_graph_0.png
