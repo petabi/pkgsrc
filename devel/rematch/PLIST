@@ -1,0 +1,8 @@
+@comment $NetBSD$
+bin/rematchtest
+include/rematch/compile.h
+include/rematch/execute.h
+include/rematch/rematch.h
+lib/librematchcomp.a
+lib/librematchexec.a
+lib/pius/librematch.so

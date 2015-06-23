@@ -2172,6 +2172,7 @@ SUBDIR+=	re2c
 SUBDIR+=	readline
 SUBDIR+=	rebar
 SUBDIR+=	refinecvs
+SUBDIR+=	rematch
 SUBDIR+=	reposurgeon
 SUBDIR+=	ropper
 SUBDIR+=	roundup
