@@ -704,6 +704,7 @@ SUBDIR+=	rancid
 SUBDIR+=	rbldnsd
 SUBDIR+=	rdesktop
 SUBDIR+=	rdist6
+SUBDIR+=	regorus-sdk
 SUBDIR+=	remmina
 SUBDIR+=	remmina-plugins
 SUBDIR+=	restclient-ui
