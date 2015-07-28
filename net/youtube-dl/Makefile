@@ -13,6 +13,8 @@ HOMEPAGE=	http://rg3.github.io/youtube-dl/
 COMMENT=	Download videos from youtube.com
 LICENSE=	public-domain
 
+DEPENDS+=	${PYPKGPREFIX}-expat-[0-9]*:../../textproc/py-expat
+
 USE_LANGUAGES=	# none
 EGG_NAME=	youtube_dl-${VERSION_DATE:S/.0/./g}
 WRKSRC=		${WRKDIR}/youtube-dl
