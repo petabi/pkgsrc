@@ -181,12 +181,21 @@ PY_COMPILE_O_ALL= \
 	${PYTHONBIN} -O ${PREFIX}/lib/python${PYVERSSUFFIX}/compileall.py -q
 
 .if exists(${PYTHONBIN})
+.if ${_PYTHON_VERSION} == "34"
+PYINC!=	${PYTHONBIN} -c "import distutils.sysconfig; \
+	print(\"Library/Frameworks/Python.framework/Versions/3.4/\" + distutils.sysconfig.get_python_inc(0, \"\"))" || ${ECHO} ""
+PYLIB!=	${PYTHONBIN} -c "import distutils.sysconfig; \
+	print(\"Library/Frameworks/Python.framework/Versions/3.4/\" + distutils.sysconfig.get_python_lib(0, 1, \"\"))" || ${ECHO} ""
+PYSITELIB!=	${PYTHONBIN} -c "import distutils.sysconfig; \
+	print(\"Library/Frameworks/Python.framework/Versions/3.4/\" + distutils.sysconfig.get_python_lib(0, 0, \"\"))" || ${ECHO} ""
+.else
 PYINC!=	${PYTHONBIN} -c "import distutils.sysconfig; \
 	print (distutils.sysconfig.get_python_inc(0, \"\"))" || ${ECHO} ""
 PYLIB!=	${PYTHONBIN} -c "import distutils.sysconfig; \
 	print (distutils.sysconfig.get_python_lib(0, 1, \"\"))" || ${ECHO} ""
 PYSITELIB!=	${PYTHONBIN} -c "import distutils.sysconfig; \
 	print (distutils.sysconfig.get_python_lib(0, 0, \"\"))" || ${ECHO} ""
+.endif
 
 PRINT_PLIST_AWK+=	/^${PYINC:S|/|\\/|g}/ \
 			{ gsub(/${PYINC:S|/|\\/|g}/, "$${PYINC}") }
