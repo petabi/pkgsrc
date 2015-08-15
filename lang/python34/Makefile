@@ -20,7 +20,7 @@ PRINT_PLIST_AWK+=	gsub(/\.cpython-34/, "")}
 
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-threads
-CONFIGURE_ARGS+=	--enable-shared
+CONFIGURE_ARGS+=	--enable-framework=${PREFIX:Q}/Library/Frameworks
 CONFIGURE_ARGS+=	OPT=${CFLAGS:M*:Q}
 CONFIGURE_ARGS+=	--with-system-ffi
 CONFIGURE_ARGS+=	--without-pymalloc
@@ -105,7 +105,7 @@ INSTALL_TARGET=	altinstall
 REPLACE_INTERPRETER+=	py34
 REPLACE.py34.old=	.*python[^ ]*
 REPLACE.py34.new=	${PREFIX}/bin/python${PY_VER_SUFFIX}
-REPLACE_FILES.py34=	Lib/*.py Lib/*/*.py Lib/*/*/*.py Lib/*/*/*/*.py
+REPLACE_FILES.py34=	Lib/*.py Lib/*/*.py Lib/*/*/*.py Lib/*/*/*/*.py Mac/Tools/*.py
 
 SUBST_CLASSES+=		findlib
 SUBST_MESSAGE.findlib=	Fixing find_library_file on Darwin.
@@ -139,7 +139,7 @@ SUBST_STAGE.sslbase=	pre-configure
 SUBST_FILES.sslbase=	setup.py
 SUBST_VARS.sslbase=	SSLBASE
 
-CHECK_INTERPRETER_SKIP=	lib/python${PY_VER_SUFFIX}/venv/scripts/posix/pydoc
+CHECK_INTERPRETER_SKIP=	Library/Frameworks/Python.framework/Versions/${PY_VER_SUFFIX}/lib/python${PY_VER_SUFFIX}/*
 
 .if ${OPSYS} == "HPUX"
 post-install:
