@@ -188,11 +188,20 @@ PY_COMPILE_O_ALL= \
 
 .if exists(${PYTHONBIN})
 PYINC!=	${PYTHONBIN} -c "import distutils.sysconfig; \
-	print (distutils.sysconfig.get_python_inc(0, \"\"))" || ${ECHO} ""
+	prefix = distutils.sysconfig.get_config_var('prefix') + '/'; \
+	relprefix = prefix.replace(\"${LOCALBASE}/\", '', 1); \
+	incdir = relprefix + distutils.sysconfig.get_python_inc(0, \"\"); \
+	print (incdir)" || ${ECHO} ""
 PYLIB!=	${PYTHONBIN} -c "import distutils.sysconfig; \
-	print (distutils.sysconfig.get_python_lib(0, 1, \"\"))" || ${ECHO} ""
+	prefix = distutils.sysconfig.get_config_var('prefix') + '/'; \
+	relprefix = prefix.replace(\"${LOCALBASE}/\", '', 1); \
+	incdir = relprefix + distutils.sysconfig.get_python_lib(0, 1, \"\"); \
+	print (incdir)" || ${ECHO} ""
 PYSITELIB!=	${PYTHONBIN} -c "import distutils.sysconfig; \
-	print (distutils.sysconfig.get_python_lib(0, 0, \"\"))" || ${ECHO} ""
+	prefix = distutils.sysconfig.get_config_var('prefix') + '/'; \
+	relprefix = prefix.replace(\"${LOCALBASE}/\", '', 1); \
+	incdir = relprefix + distutils.sysconfig.get_python_lib(0, 0, \"\"); \
+	print (incdir)" || ${ECHO} ""
 
 PRINT_PLIST_AWK+=	/^${PYINC:S|/|\\/|g}/ \
 			{ gsub(/${PYINC:S|/|\\/|g}/, "$${PYINC}") }
