@@ -11,6 +11,15 @@ detect netcan/can.h on NetBSD
 
 --- configure.orig	2017-01-17 08:57:47.000000000 +0100
 +++ configure	2017-05-30 15:49:43.508649775 +0200
+@@ -3187,7 +3187,7 @@ if test "${enable_framework+set}" = set;
+ 		FRAMEWORKINSTALLLAST="frameworkinstallmaclib frameworkinstallapps frameworkinstallunixtools"
+ 		FRAMEWORKALTINSTALLLAST="frameworkinstallmaclib frameworkinstallapps frameworkaltinstallunixtools"
+ 		FRAMEWORKPYTHONW="frameworkpythonw"
+-		FRAMEWORKINSTALLAPPSPREFIX="/Applications"
++		FRAMEWORKINSTALLAPPSPREFIX="${prefix}/Applications"
+ 
+ 		if test "x${prefix}" = "xNONE" ; then
+ 			FRAMEWORKUNIXTOOLSPREFIX="${ac_default_prefix}"
 @@ -3369,7 +3369,7 @@
    # Reconfirmed for OpenBSD 3.3 by Zachary Hamm, for 3.4 by Jason Ish.
    # In addition, Stefan Krah confirms that issue #1244610 exists through
@@ -46,7 +55,7 @@ detect netcan/can.h on NetBSD
  do :
    as_ac_Header=`$as_echo "ac_cv_header_$ac_header" | $as_tr_sh`
  ac_fn_c_check_header_compile "$LINENO" "$ac_header" "$as_ac_Header" "
-@@ -8561,8 +8556,8 @@
+@@ -8553,8 +8548,8 @@ then
  			LDCXXSHARED="$LDCXXSHARED "'$(PYTHONFRAMEWORKPREFIX)/$(PYTHONFRAMEWORKDIR)/Versions/$(VERSION)/$(PYTHONFRAMEWORK)'
  		else
  			# No framework, use the Python app as bundle-loader
