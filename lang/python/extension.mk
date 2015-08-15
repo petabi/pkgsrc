@@ -40,6 +40,12 @@ do-build:
 do-install:
 	(cd ${WRKSRC}/${PYSETUPSUBDIR} && ${SETENV} ${INSTALL_ENV} ${MAKE_ENV} \
 	 ${PYTHONBIN} ${PYSETUP} ${PYSETUPARGS} "install" ${_PYSETUPINSTALLARGS})
+.for d in bin man share
+	if [ -d ${DESTDIR}${PREFIX}/Library/Frameworks/Python.framework/Versions/${PYVERSSUFFIX}/${d} ]; then \
+		${MV} ${DESTDIR}${PREFIX}/Library/Frameworks/Python.framework/Versions/${PYVERSSUFFIX}/${d} \
+			${DESTDIR}${PREFIX}/ ; \
+	fi
+.endfor
 
 .  if !target(do-test) && !(defined(TEST_TARGET) && !empty(TEST_TARGET))
 do-test:
