@@ -20,7 +20,7 @@ PRINT_PLIST_AWK+=	gsub(/\.cpython-34/, "")}
 
 USE_LANGUAGES=		c c++
 GNU_CONFIGURE=		yes
-CONFIGURE_ARGS+=	--enable-shared
+CONFIGURE_ARGS+=	--enable-framework=${PREFIX:Q}/Library/Frameworks
 CONFIGURE_ARGS+=	--with-system-ffi
 CONFIGURE_ARGS+=	--with-threads
 CONFIGURE_ARGS+=	--without-ensurepip
@@ -147,6 +147,7 @@ REPLACE_FILES.python+=	Lib/turtledemo/tree.py
 REPLACE_FILES.python+=	Lib/turtledemo/yinyang.py
 REPLACE_FILES.python+=	Lib/uu.py
 REPLACE_FILES.python+=	Lib/webbrowser.py
+REPLACE_FILES.python+=	Mac/Tools/*.py
 
 SUBST_CLASSES+=		findlib
 SUBST_MESSAGE.findlib=	Fixing find_library_file on Darwin.
@@ -176,7 +177,7 @@ SUBST_STAGE.sslbase=	pre-configure
 SUBST_FILES.sslbase=	setup.py
 SUBST_VARS.sslbase=	SSLBASE
 
-CHECK_INTERPRETER_SKIP=	lib/python${PY_VER_SUFFIX}/venv/scripts/posix/pydoc
+CHECK_INTERPRETER_SKIP=	Library/Frameworks/Python.framework/Versions/${PY_VER_SUFFIX}/lib/python${PY_VER_SUFFIX}/*
 
 .if ${OPSYS} == "HPUX"
 post-install:
