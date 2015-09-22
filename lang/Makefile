@@ -28,6 +28,7 @@ SUBDIR+=	chicken
 SUBDIR+=	cim
 SUBDIR+=	cint
 SUBDIR+=	clang
+SUBDIR+=	clang-bin
 SUBDIR+=	clang-static-analyzer
 SUBDIR+=	classpath
 SUBDIR+=	classpath-gui
