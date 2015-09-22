@@ -1,0 +1,6 @@
+$NetBSD: distinfo,v 1.2 2009/05/18 22:04:28 abs Exp $
+
+SHA1 (clang+llvm-5.0.0-x86_64-apple-darwin.tar.xz) = 5b93baa64181a1cf04a88d47d0279cf6ef382ac9
+RMD160 (clang+llvm-5.0.0-x86_64-apple-darwin.tar.xz) = 639aba10064e6b20071c430b1bbdfbbeaa4a1084
+SHA512 (clang+llvm-5.0.0-x86_64-apple-darwin.tar.xz) = 58938057c1232421e5ff9aa4b25137812d773c1bed2c523458b566e49c2ce16956f100a3d42e43a976539c9e2d8fedaf7bc0107be22ab899caf3d872541388f9
+Size (clang+llvm-5.0.0-x86_64-apple-darwin.tar.xz) = 252642380 bytes
