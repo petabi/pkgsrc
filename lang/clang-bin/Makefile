@@ -22,6 +22,7 @@ ONLY_FOR_PLATFORM=	Darwin-*-x86_64
 INSTALLATION_DIRS=	bin include lib share/doc share/llvm
 
 do-install:
+	${RM} ${WRKSRC}/share/llvm/cmake/LLVMConfig.cmake.orig
 	cd ${WRKSRC}/bin && ${PAX} -rw . ${DESTDIR}${PREFIX}/bin
 	cd ${WRKSRC}/include && ${PAX} -rw . ${DESTDIR}${PREFIX}/include
 	${INSTALL_LIB} ${WRKSRC}/lib/*.dylib ${DESTDIR}${PREFIX}/lib
