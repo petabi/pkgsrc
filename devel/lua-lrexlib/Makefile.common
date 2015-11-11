@@ -29,6 +29,7 @@ PATCHDIR=		${.CURDIR}/../../devel/lua-lrexlib/patches
 DISTINFO_FILE=		${.CURDIR}/../../devel/lua-lrexlib/distinfo
 DESCR_SRC=		${.CURDIR}/../../devel/lua-lrexlib/DESCR.common
 
+CFLAGS+=                -DLUA_COMPAT_APIINTCASTS
 MAKE_FLAGS+=		LIBS=${LIBS:Q}
 MAKE_FLAGS+=		LIBTOOL=${LIBTOOL:Q}
 MAKE_FLAGS+=		MODULES_DIR=${PREFIX}/${LUA_CDIR}
