@@ -1,0 +1,14 @@
+@comment $NetBSD$
+${LUA_CDIR}/lsqlite3.so
+${LUA_DOCDIR}/HISTORY
+${LUA_DOCDIR}/README
+${LUA_DOCDIR}/lsqlite3.wiki
+${LUA_EXAMPLESDIR}/aggregate.lua
+${LUA_EXAMPLESDIR}/function.lua
+${LUA_EXAMPLESDIR}/hooks_advanced.lua
+${LUA_EXAMPLESDIR}/order.lua
+${LUA_EXAMPLESDIR}/simple.lua
+${LUA_EXAMPLESDIR}/smart.lua
+${LUA_EXAMPLESDIR}/statement.lua
+${LUA_EXAMPLESDIR}/tracing.lua
+${LUA_EXAMPLESDIR}/update_hook.lua
