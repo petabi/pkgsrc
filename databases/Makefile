@@ -80,6 +80,7 @@ SUBDIR+=	libpqxx-doc
 SUBDIR+=	libzdb
 SUBDIR+=	liquibase
 SUBDIR+=	lmdb
+SUBDIR+=	lua-lsqlite3
 SUBDIR+=	lua-sql-mysql
 SUBDIR+=	lua-sql-postgres
 SUBDIR+=	lua-sql-sqlite
