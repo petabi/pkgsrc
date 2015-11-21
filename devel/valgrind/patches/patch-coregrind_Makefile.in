@@ -1,0 +1,19 @@
+$NetBSD$
+
+--- coregrind/Makefile.in.orig	2016-10-21 10:42:34.000000000 +0000
++++ coregrind/Makefile.in
+@@ -149,10 +149,10 @@ bin_PROGRAMS = valgrind$(EXEEXT) vgdb$(E
+ @VGCONF_OS_IS_DARWIN_TRUE@        m_mach/vm_map.h
+ 
+ @VGCONF_OS_IS_DARWIN_TRUE@am__append_17 = \
+-@VGCONF_OS_IS_DARWIN_TRUE@	/usr/include/mach/mach_vm.defs \
+-@VGCONF_OS_IS_DARWIN_TRUE@        /usr/include/mach/task.defs \
+-@VGCONF_OS_IS_DARWIN_TRUE@        /usr/include/mach/thread_act.defs \
+-@VGCONF_OS_IS_DARWIN_TRUE@        /usr/include/mach/vm_map.defs
++@VGCONF_OS_IS_DARWIN_TRUE@	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/mach/mach_vm.defs \
++@VGCONF_OS_IS_DARWIN_TRUE@        /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/mach/task.defs \
++@VGCONF_OS_IS_DARWIN_TRUE@        /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/mach/thread_act.defs \
++@VGCONF_OS_IS_DARWIN_TRUE@        /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/mach/vm_map.defs
+ 
+ @VGCONF_HAVE_PLATFORM_SEC_TRUE@am__append_18 = libcoregrind-@VGCONF_ARCH_SEC@-@VGCONF_OS@.a
+ @ENABLE_LINUX_TICKET_LOCK_PRIMARY_TRUE@am__append_19 = \
