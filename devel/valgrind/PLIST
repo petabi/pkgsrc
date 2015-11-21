@@ -71,6 +71,8 @@ include/valgrind/pub_tool_vkiscnums_asm.h
 include/valgrind/pub_tool_vkiscnums.h
 include/valgrind/pub_tool_wordfm.h
 include/valgrind/pub_tool_xarray.h
+include/valgrind/pub_tool_xtmemory.h
+include/valgrind/pub_tool_xtree.h
 include/valgrind/valgrind.h
 include/valgrind/vki/vki-amd64-linux.h
 include/valgrind/vki/vki-arm64-linux.h
@@ -275,9 +277,9 @@ share/doc/valgrind/html/dist.readme-s390.html
 share/doc/valgrind/html/dist.readme-solaris.html
 share/doc/valgrind/html/drd-manual.html
 share/doc/valgrind/html/faq.html
-share/doc/valgrind/html/FAQ.html
 share/doc/valgrind/html/hg-manual.html
 share/doc/valgrind/html/images/home.png
+share/doc/valgrind/html/images/kcachegrind_xtree.png
 share/doc/valgrind/html/images/next.png
 share/doc/valgrind/html/images/prev.png
 share/doc/valgrind/html/images/up.png
