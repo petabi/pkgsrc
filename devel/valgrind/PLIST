@@ -24,6 +24,7 @@ include/valgrind/libvex_guest_offsets.h
 include/valgrind/libvex_guest_ppc32.h
 include/valgrind/libvex_guest_ppc64.h
 include/valgrind/libvex_guest_s390x.h
+include/valgrind/libvex_guest_tilegx.h
 include/valgrind/libvex_guest_x86.h
 include/valgrind/libvex_guest_tilegx.h
 include/valgrind/libvex.h
@@ -275,7 +276,6 @@ share/doc/valgrind/html/dist.readme-packagers.html
 share/doc/valgrind/html/dist.readme-s390.html
 share/doc/valgrind/html/dist.readme-solaris.html
 share/doc/valgrind/html/drd-manual.html
-share/doc/valgrind/html/faq.html
 share/doc/valgrind/html/FAQ.html
 share/doc/valgrind/html/hg-manual.html
 share/doc/valgrind/html/images/home.png
