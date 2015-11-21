@@ -1,0 +1,14 @@
+$NetBSD$
+
+--- config.h.in.orig	2017-05-31 15:54:45.000000000 +0000
++++ config.h.in
+@@ -12,6 +12,9 @@
+ /* DARWIN_VERS value for macOS 10.12 */
+ #undef DARWIN_10_12
+ 
++/* DARWIN_VERS value for macOS 10.13 */
++#undef DARWIN_10_13
++
+ /* DARWIN_VERS value for Mac OS X 10.5 */
+ #undef DARWIN_10_5
+ 

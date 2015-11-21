@@ -277,7 +277,6 @@ share/doc/valgrind/html/dist.readme-s390.html
 share/doc/valgrind/html/dist.readme-solaris.html
 share/doc/valgrind/html/drd-manual.html
 share/doc/valgrind/html/faq.html
-share/doc/valgrind/html/FAQ.html
 share/doc/valgrind/html/hg-manual.html
 share/doc/valgrind/html/images/home.png
 share/doc/valgrind/html/images/kcachegrind_xtree.png

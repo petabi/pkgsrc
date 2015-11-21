@@ -27,6 +27,9 @@ USE_LANGUAGES=		c c++
 TEST_TARGET=		regtest
 SSP_SUPPORTED=		no
 
+# A workaround for check-shlibs errors
+CHECK_SHLIBS_SKIP=	lib/valgrind/*.so
+
 .include "../../mk/bsd.prefs.mk"
 
 .if ${MACHINE_ARCH:C/arm.*/arm/} == "arm"

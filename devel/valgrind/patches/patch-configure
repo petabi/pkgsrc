@@ -1,0 +1,44 @@
+$NetBSD$
+
+--- configure.orig	2017-06-15 13:41:35.000000000 +0000
++++ configure
+@@ -5465,7 +5465,7 @@ fi
+ # Note: m4 arguments are quoted with [ and ] so square brackets in shell
+ # statements have to be quoted.
+ case "${is_clang}-${gcc_version}" in
+-     applellvm-5.1|applellvm-6.*|applellvm-7.*|applellvm-8.*)
++     applellvm-5.1|applellvm-6.*|applellvm-7.*|applellvm-8.*|applellvm-9.*)
+ 	{ $as_echo "$as_me:${as_lineno-$LINENO}: result: ok (Apple LLVM version ${gcc_version})" >&5
+ $as_echo "ok (Apple LLVM version ${gcc_version})" >&6; }
+ 	;;
+@@ -5792,6 +5792,9 @@ $as_echo "#define DARWIN_10_11 101100" >
+ $as_echo "#define DARWIN_10_12 101200" >>confdefs.h
+ 
+ 
++$as_echo "#define DARWIN_10_13 101300" >>confdefs.h
++
++
+ 	{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for the kernel version" >&5
+ $as_echo_n "checking for the kernel version... " >&6; }
+ 	kernel=`uname -r`
+@@ -5885,10 +5888,19 @@ $as_echo "#define DARWIN_VERS DARWIN_10_
+ 		  DEFAULT_SUPP="darwin16.supp ${DEFAULT_SUPP}"
+ 		  DEFAULT_SUPP="darwin10-drd.supp ${DEFAULT_SUPP}"
+ 		  ;;
++	     17.*)
++		  { $as_echo "$as_me:${as_lineno-$LINENO}: result: Darwin 17.x (${kernel}) / macOS 10.13 High Sierra" >&5
++$as_echo "Darwin 17.x (${kernel}) / macOS 10.13 High Sierra" >&6; }
++
++$as_echo "#define DARWIN_VERS DARWIN_10_13" >>confdefs.h
++
++		  DEFAULT_SUPP="darwin17.supp ${DEFAULT_SUPP}"
++		  DEFAULT_SUPP="darwin10-drd.supp ${DEFAULT_SUPP}"
++		  ;;
+              *)
+ 		  { $as_echo "$as_me:${as_lineno-$LINENO}: result: unsupported (${kernel})" >&5
+ $as_echo "unsupported (${kernel})" >&6; }
+-		  as_fn_error $? "Valgrind works on Darwin 10.x, 11.x, 12.x, 13.x, 14.x, 15.x and 16.x (Mac OS X 10.6/7/8/9/10/11 and macOS 10.12)" "$LINENO" 5
++		  as_fn_error $? "Valgrind works on Darwin 10.x, 11.x, 12.x, 13.x, 14.x, 15.x, 16.x and 17.x (Mac OS X 10.6/7/8/9/10/11 and macOS 10.12)" "$LINENO" 5
+ 		  ;;
+ 	esac
+         ;;
