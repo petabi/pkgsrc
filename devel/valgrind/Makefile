@@ -25,6 +25,9 @@ USE_TOOLS+=		gmake perl
 USE_LANGUAGES=		c c++
 TEST_TARGET=		regtest
 
+# A workaround for check-shlibs errors
+CHECK_SHLIBS_SKIP=	lib/valgrind/*.so
+
 .include "../../mk/bsd.prefs.mk"
 
 .if ${MACHINE_ARCH:C/arm.*/arm/} == "arm"
