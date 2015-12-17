@@ -151,6 +151,7 @@ REPLACE_FILES.python+=	Lib/turtledemo/tree.py
 REPLACE_FILES.python+=	Lib/turtledemo/yinyang.py
 REPLACE_FILES.python+=	Lib/uu.py
 REPLACE_FILES.python+=	Lib/webbrowser.py
+REPLACE_FILES.python+=	Mac/Tools/*.py
 
 SUBST_CLASSES+=		findlib
 SUBST_MESSAGE.findlib=	Fixing find_library_file on Darwin.
