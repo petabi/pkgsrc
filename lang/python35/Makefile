@@ -105,7 +105,7 @@ INSTALL_TARGET=	altinstall
 REPLACE_INTERPRETER+=	py35
 REPLACE.py35.old=	.*python[^ ]*
 REPLACE.py35.new=	${PREFIX}/bin/python${PY_VER_SUFFIX}
-REPLACE_FILES.py35=	Lib/*.py Lib/*/*.py Lib/*/*/*.py Lib/*/*/*/*.py
+REPLACE_FILES.py35=	Lib/*.py Lib/encodings/*.py Lib/idlelib/*.py Lib/*/*/*.py Lib/*/*/*/*.py Mac/Tools/*.py
 
 SUBST_CLASSES+=		findlib
 SUBST_MESSAGE.findlib=	Fixing find_library_file on Darwin.
