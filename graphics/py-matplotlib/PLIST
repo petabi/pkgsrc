@@ -73,6 +73,7 @@ ${PYSITELIB}/matplotlib/backends/__init__.py
 ${PYSITELIB}/matplotlib/backends/__init__.pyc
 ${PYSITELIB}/matplotlib/backends/__init__.pyo
 ${PYSITELIB}/matplotlib/backends/_backend_agg.so
+${PYSITELIB}/matplotlib/backends/_macosx.so
 ${PYSITELIB}/matplotlib/backends/backend_agg.py
 ${PYSITELIB}/matplotlib/backends/backend_agg.pyc
 ${PYSITELIB}/matplotlib/backends/backend_agg.pyo
