@@ -50,6 +50,7 @@ CONFIGURE_ARGS+=	--with-system-mpfr \
 CONFIGURE_ARGS+=	--with-system-gmp \
 			--with-gmp-includes=${BUILDLINK_PREFIX.gmp}/include \
 			--with-gmp-libdir=${BUILDLINK_PREFIX.gmp}/lib
+CONFIGURE_ARGS+=	--with-x=no
 
 CONFIGURE_DIRS=		libs/lua52
 CONFIGURE_DIRS+=	libs/poppler
