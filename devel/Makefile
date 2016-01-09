@@ -2463,6 +2463,7 @@ SUBDIR+=	tex-pst-uml-doc
 SUBDIR+=	tex-xifthen
 SUBDIR+=	tex-xifthen-doc
 SUBDIR+=	threadweaver
+SUBDIR+=	thrift
 SUBDIR+=	tig
 SUBDIR+=	tinycthread
 SUBDIR+=	tkcvs
