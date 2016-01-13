@@ -2472,6 +2472,7 @@ SUBDIR+=	tex-xifthen
 SUBDIR+=	tex-xifthen-doc
 SUBDIR+=	threadweaver
 SUBDIR+=	thrift
+SUBDIR+=	thrift-cpp
 SUBDIR+=	tig
 SUBDIR+=	tinycthread
 SUBDIR+=	tkcvs
