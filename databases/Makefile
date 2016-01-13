@@ -4,6 +4,7 @@ COMMENT=	Databases
 
 SUBDIR+=	R-RSQLite
 SUBDIR+=	R-sqldf
+SUBDIR+=	SQLiteCpp
 SUBDIR+=	abook
 SUBDIR+=	adodb
 SUBDIR+=	apache-cassandra
