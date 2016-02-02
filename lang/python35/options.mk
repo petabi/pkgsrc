@@ -1,11 +1,21 @@
 # $NetBSD: options.mk,v 1.2 2017/01/01 15:06:24 adam Exp $
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.python35
-PKG_SUPPORTED_OPTIONS+=	x11
+PKG_SUPPORTED_OPTIONS+=	framework x11
 PKG_SUGGESTED_OPTIONS=	x11
+
+.if ${OPSYS} == "Darwin"
+PKG_SUPPORTED_OPTIONS+=	framework
+.endif
 
 .include "../../mk/bsd.prefs.mk"
 .include "../../mk/bsd.options.mk"
+
+.if !empty(PKG_OPTIONS:Mframework)
+CONFIGURE_ARGS+=	--enable-framework=${PREFIX:Q}/Library/Frameworks
+.else
+CONFIGURE_ARGS+=	--enable-shared
+.endif
 
 .if !empty(PKG_OPTIONS:Mx11)
 # Support for native X11 paths as an option
