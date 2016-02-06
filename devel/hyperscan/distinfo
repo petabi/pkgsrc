@@ -1,0 +1,8 @@
+$NetBSD$
+
+SHA1 (hyperscan-4.5.1.tar.gz) = 25a19e241fd05db5445cbe418a898234f9e36ac5
+RMD160 (hyperscan-4.5.1.tar.gz) = 9ecdfdc2f9c36a87a7684543956ea09861a32087
+SHA512 (hyperscan-4.5.1.tar.gz) = be053cd95b23cd5ad81955cd09200735d61a18013ae968d79493b2efbb4e6d9fc1af1b7a4ebd737cb8e81e6e6dbd11084a262e2380a3a4486a28173fddec64cf
+Size (hyperscan-4.5.1.tar.gz) = 1521347 bytes
+SHA1 (patch-CMakeLists.txt) = 1cadfc6950e7dc1f15cd1b5084c3fe362f0b0d6f
+SHA1 (patch-tools_hsbench_CMakeLists.txt) = 845fe023fd6025f45a6d4967c56abd07233d9ebb
