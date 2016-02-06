@@ -432,6 +432,7 @@ SUBDIR+=	hs-void
 SUBDIR+=	ht
 SUBDIR+=	hugs-HUnit
 SUBDIR+=	hugs-unix
+SUBDIR+=	hyperscan
 SUBDIR+=	idiff
 SUBDIR+=	idutils
 SUBDIR+=	imake
