@@ -1,0 +1,24 @@
+$NetBSD$
+
+--- CMakeLists.txt.orig	2015-12-18 03:41:50.000000000 +0000
++++ CMakeLists.txt
+@@ -17,8 +17,8 @@ INCLUDE (CheckIncludeFileCXX)
+ INCLUDE (CheckLibraryExists)
+ INCLUDE (CheckSymbolExists)
+ include (CMakeDependentOption)
+-include (${CMAKE_MODULE_PATH}/platform.cmake)
+-include (${CMAKE_MODULE_PATH}/ragel.cmake)
++include (cmake/platform.cmake)
++include (cmake/ragel.cmake)
+ 
+ find_package(PkgConfig QUIET)
+ 
+@@ -337,7 +337,7 @@ if (EXISTS ${CMAKE_SOURCE_DIR}/tools)
+ endif()
+ 
+ # do substitutions
+-configure_file(${CMAKE_MODULE_PATH}/config.h.in ${PROJECT_BINARY_DIR}/config.h)
++configure_file(${PROJECT_SOURCE_DIR}/cmake/config.h.in ${PROJECT_BINARY_DIR}/config.h)
+ configure_file(src/hs_version.h.in ${PROJECT_BINARY_DIR}/hs_version.h)
+ 
+ if (PKG_CONFIG_FOUND)
