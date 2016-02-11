@@ -1,2 +1,46 @@
 @comment $NetBSD: PLIST.Darwin,v 1.1 2015/12/05 17:12:13 adam Exp $
-lib/python${PY_VER_SUFFIX}/lib-dynload/_scproxy.so
+${PLIST.framework}Applications/Python ${PY_VER_SUFFIX}/IDLE.app/Contents/Info.plist
+${PLIST.framework}Applications/Python ${PY_VER_SUFFIX}/IDLE.app/Contents/MacOS/IDLE
+${PLIST.framework}Applications/Python ${PY_VER_SUFFIX}/IDLE.app/Contents/MacOS/Python
+${PLIST.framework}Applications/Python ${PY_VER_SUFFIX}/IDLE.app/Contents/PkgInfo
+${PLIST.framework}Applications/Python ${PY_VER_SUFFIX}/IDLE.app/Contents/Resources/IDLE.icns
+${PLIST.framework}Applications/Python ${PY_VER_SUFFIX}/IDLE.app/Contents/Resources/PythonCompiled.icns
+${PLIST.framework}Applications/Python ${PY_VER_SUFFIX}/IDLE.app/Contents/Resources/PythonSource.icns
+${PLIST.framework}Applications/Python ${PY_VER_SUFFIX}/IDLE.app/Contents/Resources/idlemain.py
+${PLIST.framework}Applications/Python ${PY_VER_SUFFIX}/Python Launcher.app/Contents/Info.plist
+${PLIST.framework}Applications/Python ${PY_VER_SUFFIX}/Python Launcher.app/Contents/MacOS/Python Launcher
+${PLIST.framework}Applications/Python ${PY_VER_SUFFIX}/Python Launcher.app/Contents/Resources/English.lproj/Credits.rtf
+${PLIST.framework}Applications/Python ${PY_VER_SUFFIX}/Python Launcher.app/Contents/Resources/English.lproj/MainMenu.nib/classes.nib
+${PLIST.framework}Applications/Python ${PY_VER_SUFFIX}/Python Launcher.app/Contents/Resources/English.lproj/MainMenu.nib/info.nib
+${PLIST.framework}Applications/Python ${PY_VER_SUFFIX}/Python Launcher.app/Contents/Resources/English.lproj/MainMenu.nib/objects.nib
+${PLIST.framework}Applications/Python ${PY_VER_SUFFIX}/Python Launcher.app/Contents/Resources/English.lproj/MyDocument.nib/classes.nib
+${PLIST.framework}Applications/Python ${PY_VER_SUFFIX}/Python Launcher.app/Contents/Resources/English.lproj/MyDocument.nib/info.nib
+${PLIST.framework}Applications/Python ${PY_VER_SUFFIX}/Python Launcher.app/Contents/Resources/English.lproj/MyDocument.nib/objects.nib
+${PLIST.framework}Applications/Python ${PY_VER_SUFFIX}/Python Launcher.app/Contents/Resources/English.lproj/PreferenceWindow.nib/classes.nib
+${PLIST.framework}Applications/Python ${PY_VER_SUFFIX}/Python Launcher.app/Contents/Resources/English.lproj/PreferenceWindow.nib/info.nib
+${PLIST.framework}Applications/Python ${PY_VER_SUFFIX}/Python Launcher.app/Contents/Resources/English.lproj/PreferenceWindow.nib/objects.nib
+${PLIST.framework}Applications/Python ${PY_VER_SUFFIX}/Python Launcher.app/Contents/Resources/PythonCompiled.icns
+${PLIST.framework}Applications/Python ${PY_VER_SUFFIX}/Python Launcher.app/Contents/Resources/PythonLauncher.icns
+${PLIST.framework}Applications/Python ${PY_VER_SUFFIX}/Python Launcher.app/Contents/Resources/PythonSource.icns
+${PLIST.framework}Applications/Python ${PY_VER_SUFFIX}/Python Launcher.app/Contents/Resources/factorySettings.plist
+${PLIST.framework}Library/Frameworks/Python.framework/Headers
+${PLIST.framework}Library/Frameworks/Python.framework/Python
+${PLIST.framework}Library/Frameworks/Python.framework/Resources
+${PLIST.framework}Library/Frameworks/Python.framework/Versions/${PY_VER_SUFFIX}/Headers
+${PLIST.framework}Library/Frameworks/Python.framework/Versions/${PY_VER_SUFFIX}/Python
+${PLIST.framework}Library/Frameworks/Python.framework/Versions/${PY_VER_SUFFIX}/Resources/Info.plist
+${PLIST.framework}Library/Frameworks/Python.framework/Versions/${PY_VER_SUFFIX}/Resources/Python.app/Contents/Info.plist
+${PLIST.framework}Library/Frameworks/Python.framework/Versions/${PY_VER_SUFFIX}/Resources/Python.app/Contents/MacOS/Python
+${PLIST.framework}Library/Frameworks/Python.framework/Versions/${PY_VER_SUFFIX}/Resources/Python.app/Contents/PkgInfo
+${PLIST.framework}Library/Frameworks/Python.framework/Versions/${PY_VER_SUFFIX}/Resources/Python.app/Contents/Resources/PythonApplet.icns
+${PLIST.framework}Library/Frameworks/Python.framework/Versions/${PY_VER_SUFFIX}/Resources/Python.app/Contents/Resources/PythonInterpreter.icns
+${PLIST.framework}Library/Frameworks/Python.framework/Versions/${PY_VER_SUFFIX}/bin/2to3-${PY_VER_SUFFIX}
+${PLIST.framework}Library/Frameworks/Python.framework/Versions/${PY_VER_SUFFIX}/bin/pydoc${PY_VER_SUFFIX}
+${PLIST.framework}Library/Frameworks/Python.framework/Versions/${PY_VER_SUFFIX}/bin/python${PY_VER_SUFFIX}
+${PLIST.framework}Library/Frameworks/Python.framework/Versions/${PY_VER_SUFFIX}/bin/python${PY_VER_SUFFIX}-config
+${PLIST.framework}Library/Frameworks/Python.framework/Versions/${PY_VER_SUFFIX}/bin/pyvenv-${PY_VER_SUFFIX}
+${PLIST.framework}Library/Frameworks/Python.framework/Versions/${PY_VER_SUFFIX}/lib/Python
+${PLIST.framework}Library/Frameworks/Python.framework/Versions/${PY_VER_SUFFIX}/lib/python${PY_VER_SUFFIX}/config-${PY_VER_SUFFIX}/libpython${PY_VER_SUFFIX}.dylib
+${PLIST.framework}${PYTHON_FRAMEWORK_DIR}lib/python${PY_VER_SUFFIX}/lib-dynload/_scproxy.so
+${PLIST.framework}Library/Frameworks/Python.framework/Versions/Current
+bin/idle${PY_VER_SUFFIX}
