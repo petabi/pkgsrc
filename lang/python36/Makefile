@@ -166,7 +166,7 @@ SUBST_STAGE.sslbase=	pre-configure
 SUBST_FILES.sslbase=	setup.py
 SUBST_VARS.sslbase=	SSLBASE
 
-CHECK_INTERPRETER_SKIP=	lib/python${PY_VER_SUFFIX}/venv/scripts/posix/pydoc
+CHECK_INTERPRETER_SKIP+=	lib/python${PY_VER_SUFFIX}/venv/scripts/posix/pydoc
 
 # Avoid error: Cannot generate ./Include/opcode.h, python not found !
 post-configure:
