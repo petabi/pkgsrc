@@ -188,6 +188,13 @@ PYLIB!=	${PYTHONBIN} -c "import distutils.sysconfig; \
 	print(\"Library/Frameworks/Python.framework/Versions/3.4/\" + distutils.sysconfig.get_python_lib(0, 1, \"\"))" || ${ECHO} ""
 PYSITELIB!=	${PYTHONBIN} -c "import distutils.sysconfig; \
 	print(\"Library/Frameworks/Python.framework/Versions/3.4/\" + distutils.sysconfig.get_python_lib(0, 0, \"\"))" || ${ECHO} ""
+.elif ${_PYTHON_VERSION} == "35"
+PYINC!=	${PYTHONBIN} -c "import distutils.sysconfig; \
+	print(\"Library/Frameworks/Python.framework/Versions/3.5/\" + distutils.sysconfig.get_python_inc(0, \"\"))" || ${ECHO} ""
+PYLIB!=	${PYTHONBIN} -c "import distutils.sysconfig; \
+	print(\"Library/Frameworks/Python.framework/Versions/3.5/\" + distutils.sysconfig.get_python_lib(0, 1, \"\"))" || ${ECHO} ""
+PYSITELIB!=	${PYTHONBIN} -c "import distutils.sysconfig; \
+	print(\"Library/Frameworks/Python.framework/Versions/3.5/\" + distutils.sysconfig.get_python_lib(0, 0, \"\"))" || ${ECHO} ""
 .else
 PYINC!=	${PYTHONBIN} -c "import distutils.sysconfig; \
 	print (distutils.sysconfig.get_python_inc(0, \"\"))" || ${ECHO} ""
