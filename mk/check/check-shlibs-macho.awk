@@ -88,7 +88,8 @@ function checkshlib(DSO,	needed, found) {
 		#
 		# Ensure there are no relative paths.
 		#
-		if (substr(lib, 1, 1) != "/")
+		if (substr(lib, 1, 1) != "/" &&
+		    substr(lib, 1, 7) != "@rpath/")
 			print DSO ": relative library path: " lib
 
 		#
