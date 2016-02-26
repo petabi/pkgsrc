@@ -30,8 +30,8 @@ CXXFLAGS+=		-std=c++14
 .endif
 
 .if !empty(PKGSRC_COMPILER:Mclang)
-BJAM_ARGS+=		cxxflags=-std=c++11
-CXXFLAGS+=		-std=c++11
+BJAM_ARGS+=		cxxflags=-std=c++14
+CXXFLAGS+=		-std=c++14
 .  if ${OPSYS} == "Darwin"
 BJAM_ARGS+=		cxxflags=-stdlib=libc++ linkflags=-stdlib=libc++
 .  endif
