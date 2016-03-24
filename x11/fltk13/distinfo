@@ -18,5 +18,6 @@ SHA1 (patch-src_Fl__Tree__Item.cxx) = 39c0c4cbb905caef8cb2ff4159fa12c42ed890d6
 SHA1 (patch-src_Fl_cocoa.mm) = 878038c611623b5337634e43d756bfb291872b18
 SHA1 (patch-src_Fl_grab.cxx) = 08e2ddabf55c7de46558681ec651acc134182e01
 SHA1 (patch-src_Fl_x.cxx) = ca7e4b98c52a84d0bc23ecf33fc30f94c0d16d35
+SHA1 (patch-src_fl__line__style.cxx) = 52038c768d395677e8109e16aed52cb8204174b4
 SHA1 (patch-src_xutf8_imKStoUCS.c) = 55ba2343b6f021bba03f67410078ae419b3354be
 SHA1 (patch-test_Makefile) = 5c3ad88366f45af1580690af938d54cd81b6beb7
