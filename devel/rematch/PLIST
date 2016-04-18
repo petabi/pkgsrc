@@ -1,4 +1,5 @@
 @comment $NetBSD$
+bin/rematchc
 bin/rematchtest
 include/rematch/compile.h
 include/rematch/execute.h
