@@ -19,4 +19,6 @@ SUBST_STAGE.path=	pre-configure
 SUBST_FILES.path=	Makefile
 SUBST_SED.path=		-e 's|/usr/local|${PREFIX}|g'
 
+CXXFLAGS+=	-O3
+
 .include "../../mk/bsd.pkg.mk"
