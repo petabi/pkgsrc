@@ -21,4 +21,6 @@ SUBST_SED.path=		-e 's|/usr/local|${PREFIX}|g'
 
 CXXFLAGS+=	-O3
 
+CHECK_SHLIBS_SKIP=	lib/libre2*.dylib
+
 .include "../../mk/bsd.pkg.mk"
