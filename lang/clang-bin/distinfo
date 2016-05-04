@@ -1,6 +1,6 @@
 $NetBSD: distinfo,v 1.2 2009/05/18 22:04:28 abs Exp $
 
-SHA1 (clang+llvm-3.7.0-x86_64-apple-darwin.tar.xz) = 138844aee637464d323147baec0da8bdf478f142
-RMD160 (clang+llvm-3.7.0-x86_64-apple-darwin.tar.xz) = 59d994799af4ef96b3b7e0acfa26b0300a7c6569
-Size (clang+llvm-3.7.0-x86_64-apple-darwin.tar.xz) = 91274428 bytes
-SHA1 (patch-share_llvm_cmake_LLVMConfig.cmake) = 64f6b76cef756e13c479cb5701246230a02e80c1
+SHA1 (clang+llvm-3.8.0-x86_64-apple-darwin.tar.xz) = 8d1f41aee5f3b29f14db90141430faee5e0d7723
+RMD160 (clang+llvm-3.8.0-x86_64-apple-darwin.tar.xz) = e57366c4a85e429a1ab59786f57270edcf16a060
+SHA512 (clang+llvm-3.8.0-x86_64-apple-darwin.tar.xz) = 596026fb6f5531adc449e85177520042994d41f4e213e2fe1565b2319cc43e13108cb0b864c3b8c827c5c30c393b0f2d6daad910791ea3118673e920118d5a2a
+Size (clang+llvm-3.8.0-x86_64-apple-darwin.tar.xz) = 144724396 bytes
