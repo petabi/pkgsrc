@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	regorus-sdk-0.2
+DISTNAME=	regorus-sdk-0.2.1
 CATEGORIES=	net
 MASTER_SITES=	# None
 EXTRACT_SUFX=	.tar.bz2
