@@ -1,5 +1,6 @@
 $NetBSD$
 
-SHA1 (regorus-sdk-0.2.tar.bz2) = ee24ebcb7d80b75c01b3abea9b03e72749563a64
-RMD160 (regorus-sdk-0.2.tar.bz2) = 224cf3b65e5c342c6f6d1036c241464ad816d88c
-Size (regorus-sdk-0.2.tar.bz2) = 6578 bytes
+SHA1 (regorus-sdk-0.2.1.tar.bz2) = 905c6e1e2141ca50373e701337f2ee8c8b4729a9
+RMD160 (regorus-sdk-0.2.1.tar.bz2) = 944c71150d9380bb53a3399e68bc5861234a9561
+SHA512 (regorus-sdk-0.2.1.tar.bz2) = e302d4ea3a8ffc93ef774e5bdd7749a261b1b51103225c9d2aa0bf9237c3ffd241d5a7a0f4cc4b5ea45097f62658b5ec1fcbad391931d825b10184bc0c4bb734
+Size (regorus-sdk-0.2.1.tar.bz2) = 6805 bytes
