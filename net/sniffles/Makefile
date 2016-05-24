@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	sniffles-3.1.0
+DISTNAME=	sniffles-3.1.1
 CATEGORIES=	net
 MASTER_SITES=	file:///usr/pkgsrc/distfiles/
 
