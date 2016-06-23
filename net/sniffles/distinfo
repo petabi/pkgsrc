@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (sniffles-3.1.1.tar.gz) = 9ead490bdb45a3143d8736149604b90143f17034
-RMD160 (sniffles-3.1.1.tar.gz) = 6a437e9cf7490e1e7566acc0e46f18fd52e120e2
-SHA512 (sniffles-3.1.1.tar.gz) = 878b224062dc4660fb14152564f587f41b405bcb841dfcbccacbcbe0f51083efb92cb3b465afe876452bf466cbb5313d9d2322e9fef28dadefbe8b46bfe87b86
-Size (sniffles-3.1.1.tar.gz) = 230206 bytes
+SHA1 (sniffles-3.3.0.tar.gz) = a6c79fa6897a05bfecaebd97b627c26729e3068e
+RMD160 (sniffles-3.3.0.tar.gz) = 3f6d6f857622d597e5f4ce20b9e5ebcf1fa92275
+SHA512 (sniffles-3.3.0.tar.gz) = e20a380c87bc0bc231f121d04846cdcece3ca633210aa7f0618c36853880df253acd8f2e4ed988b6d4552f74cd0c7a1d1ebe9c4df0c66319ba6888fcab392c34
+Size (sniffles-3.3.0.tar.gz) = 243655 bytes
