@@ -494,6 +494,8 @@ Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/asyn
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/asyncio/base_events.pyo
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/asyncio/base_subprocess.pyc
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/asyncio/base_subprocess.pyo
+Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/asyncio/compat.pyc
+Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/asyncio/compat.pyo
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/asyncio/constants.pyc
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/asyncio/constants.pyo
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/asyncio/coroutines.pyc
@@ -534,6 +536,7 @@ Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/asyn
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/asyncio/windows_utils.pyo
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/asyncio/base_events.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/asyncio/base_subprocess.py
+Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/asyncio/compat.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/asyncio/constants.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/asyncio/coroutines.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/asyncio/events.py
@@ -1585,8 +1588,8 @@ Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/ensu
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/ensurepip/_bundled/setuptools-28.8.0-py2.py3-none-any.whl
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/ensurepip/_uninstall.pyc
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/ensurepip/_uninstall.pyo
-Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/ensurepip/_bundled/pip-6.0.8-py2.py3-none-any.whl
-Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/ensurepip/_bundled/setuptools-12.0.5-py2.py3-none-any.whl
+Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/ensurepip/_bundled/pip-7.1.2-py2.py3-none-any.whl
+Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/ensurepip/_bundled/setuptools-18.2-py2.py3-none-any.whl
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/ensurepip/_uninstall.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/enum.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/filecmp.py
@@ -1796,6 +1799,8 @@ Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idle
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/configSectionNameDialog.pyo
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/dynOptionMenuWidget.pyc
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/dynOptionMenuWidget.pyo
+Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/help.pyc
+Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/help.pyo
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle.pyc
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle.pyo
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idlever.pyc
@@ -1823,6 +1828,8 @@ Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idle
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/configSectionNameDialog.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/dynOptionMenuWidget.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/extend.txt
+Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/help.html
+Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/help.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/help.txt
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle.bat
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle.py
@@ -1849,6 +1856,8 @@ Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idle
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_configdialog.pyo
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_delegator.pyc
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_delegator.pyo
+Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_editor.pyc
+Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_editor.pyo
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_formatparagraph.pyc
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_formatparagraph.pyo
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_grep.pyc
@@ -1857,6 +1866,8 @@ Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idle
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_hyperparser.pyo
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_idlehistory.pyc
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_idlehistory.pyo
+Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_io.pyc
+Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_io.pyo
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_parenmatch.pyc
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_parenmatch.pyo
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_pathbrowser.pyc
@@ -1884,10 +1895,12 @@ Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idle
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_config_name.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_configdialog.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_delegator.py
+Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_editor.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_formatparagraph.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_grep.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_hyperparser.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_idlehistory.py
+Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_io.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_parenmatch.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_pathbrowser.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/idlelib/idle_test/test_rstrip.py
@@ -2995,6 +3008,8 @@ Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test/test_operator.pyo
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test/test_optparse.pyc
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test/test_optparse.pyo
+Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test/test_ordered_dict.pyc
+Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test/test_ordered_dict.pyo
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test/test_os.pyc
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test/test_os.pyo
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test/test_ossaudiodev.pyc
@@ -3576,7 +3591,7 @@ Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test/decimaltestdata/tointegral.decTest
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test/decimaltestdata/tointegralx.decTest
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test/decimaltestdata/xor.decTest
-Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test/dh512.pem
+Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test/dh1024.pem
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test/dis_module.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test/doctest_aliases.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test/double_const.py
@@ -4309,6 +4324,7 @@ Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test/test_openpty.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test/test_operator.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test/test_optparse.py
+Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test/test_ordered_dict.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test/test_os.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test/test_ossaudiodev.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/test/test_osx_env.py
