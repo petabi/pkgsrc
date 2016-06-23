@@ -13,7 +13,6 @@ Assume panel_library is correct; this is a fix for ncurses' gnupanel
  # This global variable is used to hold the list of modules to be disabled.
 -disabled_module_list = []
 +disabled_module_list = ["_curses", "_curses_panel", "_elementtree", "_gdbm", "readline", "_sqlite3", "_tkinter", "xxlimited"]
-m
  
  def add_dir_to_list(dirlist, dir):
      """Add the directory 'dir' to the list 'dirlist' (after any relative
