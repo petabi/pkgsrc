@@ -1588,8 +1588,6 @@ Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/ensu
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/ensurepip/_bundled/setuptools-28.8.0-py2.py3-none-any.whl
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/ensurepip/_uninstall.pyc
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/ensurepip/_uninstall.pyo
-Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/ensurepip/_bundled/pip-7.1.2-py2.py3-none-any.whl
-Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/ensurepip/_bundled/setuptools-18.2-py2.py3-none-any.whl
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/ensurepip/_uninstall.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/enum.py
 Library/Frameworks/Python.framework/Versions/3.4/lib/python${PY_VER_SUFFIX}/filecmp.py
