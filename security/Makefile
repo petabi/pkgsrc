@@ -202,6 +202,7 @@ SUBDIR+=	mcrypt
 SUBDIR+=	md4-collision
 SUBDIR+=	md5-collision
 SUBDIR+=	merkletree
+SUBDIR+=	metasploit-framework
 SUBDIR+=	mhash
 SUBDIR+=	minisign
 SUBDIR+=	mirrordir
