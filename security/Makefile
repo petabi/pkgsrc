@@ -198,6 +198,7 @@ SUBDIR+=	mcrypt
 SUBDIR+=	md4-collision
 SUBDIR+=	md5-collision
 SUBDIR+=	merkletree
+SUBDIR+=	metasploit-framework
 SUBDIR+=	mhash
 SUBDIR+=	mirrordir
 SUBDIR+=	mit-krb5
