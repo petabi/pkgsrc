@@ -8,7 +8,7 @@ HOMEPAGE=	https://github.com/josh/rack-ssl
 COMMENT=	Rack middleware to force SSL/TLS
 LICENSE=	mit
 
-DEPENDS+=	${RUBY_PKGPREFIX}-rack14>=0:../../www/ruby-rack14
+DEPENDS+=	${RUBY_PKGPREFIX}-rack>=0:../../www/ruby-rack
 
 .include "../../lang/ruby/gem.mk"
 .include "../../mk/bsd.pkg.mk"
