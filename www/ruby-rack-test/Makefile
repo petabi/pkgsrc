@@ -8,7 +8,7 @@ HOMEPAGE=	https://github.com/brynary/rack-test
 COMMENT=	Simple testing API built on Rack
 LICENSE=	mit
 
-DEPENDS+=	${RUBY_PKGPREFIX}-rack14>=1.0:../../www/ruby-rack14
+DEPENDS+=	${RUBY_PKGPREFIX}-rack>=1.0:../../www/ruby-rack
 
 .include "../../lang/ruby/gem.mk"
 .include "../../mk/bsd.pkg.mk"
