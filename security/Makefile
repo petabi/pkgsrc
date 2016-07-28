@@ -481,6 +481,7 @@ SUBDIR+=	ruby-rex-random_identifier
 SUBDIR+=	ruby-rex-struct2
 SUBDIR+=	ruby-rex-text
 SUBDIR+=	ruby-ruby-openid
+SUBDIR+=	ruby-rubyntlm
 SUBDIR+=	ruby-shadow
 SUBDIR+=	ruby-simple_oauth
 SUBDIR+=	ruby-sshkey
