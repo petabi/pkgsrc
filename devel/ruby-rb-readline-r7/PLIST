@@ -1,0 +1,23 @@
+@comment $NetBSD$
+${GEM_HOME}/cache/${GEM_NAME}.gem
+${GEM_LIBDIR}/CHANGES
+${GEM_LIBDIR}/LICENSE
+${GEM_LIBDIR}/README.rdoc
+${GEM_LIBDIR}/Rakefile
+${GEM_LIBDIR}/bench/_rl_adjust_point.rb
+${GEM_LIBDIR}/examples/example_readline.rb
+${GEM_LIBDIR}/examples/example_readline_with_completion.rb
+${GEM_LIBDIR}/examples/tinyirb.rb
+${GEM_LIBDIR}/lib/rb-readline.rb
+${GEM_LIBDIR}/lib/rbreadline.rb
+${GEM_LIBDIR}/lib/rbreadline/version.rb
+${GEM_LIBDIR}/lib/readline.rb
+${GEM_LIBDIR}/rb-readline.gemspec
+${GEM_LIBDIR}/setup.rb
+${GEM_LIBDIR}/test/support/filesystem_completion_helper.rb
+${GEM_LIBDIR}/test/test_completion.rb
+${GEM_LIBDIR}/test/test_filename_completion_proc.rb
+${GEM_LIBDIR}/test/test_history.rb
+${GEM_LIBDIR}/test/test_rbreadline.rb
+${GEM_LIBDIR}/test/test_readline.rb
+${GEM_HOME}/specifications/${GEM_NAME}.gemspec
