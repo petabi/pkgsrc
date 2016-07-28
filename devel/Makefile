@@ -2491,6 +2491,7 @@ SUBDIR+=	ruby-railties51
 SUBDIR+=	ruby-randexp
 SUBDIR+=	ruby-rb-fsevent
 SUBDIR+=	ruby-rb-kqueue
+SUBDIR+=	ruby-rb-readline-r7
 SUBDIR+=	ruby-rbtree
 SUBDIR+=	ruby-rcsparse
 SUBDIR+=	ruby-rd-mode
