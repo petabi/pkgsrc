@@ -1,0 +1,4 @@
+The readline library provides a pure Ruby implementation of the GNU
+readline C library, as well as the Readline extension that ships as
+part of the standard library. This fork is maintained by Rapid7 for
+use with the Metasploit Framework.
