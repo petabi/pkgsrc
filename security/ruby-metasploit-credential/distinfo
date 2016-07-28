@@ -1,0 +1,6 @@
+$NetBSD: distinfo,v 1.23 2016/03/05 05:27:42 taca Exp $
+
+SHA1 (metasploit-credential-2.0.3.gem) = 0beffa9ce666fc732c1665f925e9885cd2ce31c9
+RMD160 (metasploit-credential-2.0.3.gem) = c15e74455fd28b0cbdab1765b626ca31047d2d3a
+SHA512 (metasploit-credential-2.0.3.gem) = df3289756fa26931ae8cdbbfa94efbbd370ac4f6e7acdb3188e6fdcbbe89d4a894cdeb673c0a4608764b1916691f2522bd3e658d97b7742ca7637e17c299ad3a
+Size (metasploit-credential-2.0.3.gem) = 108032 bytes
