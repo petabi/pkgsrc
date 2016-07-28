@@ -851,6 +851,7 @@ SUBDIR+=	ruby-rails32
 SUBDIR+=	ruby-rails42
 SUBDIR+=	ruby-raindrops
 SUBDIR+=	ruby-rest-client
+SUBDIR+=	ruby-robots
 SUBDIR+=	ruby-rouge
 SUBDIR+=	ruby-sass
 SUBDIR+=	ruby-sass-rails32
