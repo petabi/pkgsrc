@@ -476,6 +476,7 @@ SUBDIR+=	ruby-oauth
 SUBDIR+=	ruby-openid
 SUBDIR+=	ruby-openssl-ccm
 SUBDIR+=	ruby-password
+SUBDIR+=	ruby-patch_finder
 SUBDIR+=	ruby-rack-openid
 SUBDIR+=	ruby-rc4
 SUBDIR+=	ruby-rex-java
