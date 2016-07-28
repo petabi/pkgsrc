@@ -483,6 +483,7 @@ SUBDIR+=	ruby-openid
 SUBDIR+=	ruby-openssl-ccm
 SUBDIR+=	ruby-openvas-omp
 SUBDIR+=	ruby-password
+SUBDIR+=	ruby-patch_finder
 SUBDIR+=	ruby-rack-openid
 SUBDIR+=	ruby-rbnacl
 SUBDIR+=	ruby-rc4
