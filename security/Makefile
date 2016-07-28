@@ -481,6 +481,7 @@ SUBDIR+=	ruby-rc4
 SUBDIR+=	ruby-rex-java
 SUBDIR+=	ruby-rex-powershell
 SUBDIR+=	ruby-rex-random_identifier
+SUBDIR+=	ruby-rex-registry
 SUBDIR+=	ruby-rex-struct2
 SUBDIR+=	ruby-rex-text
 SUBDIR+=	ruby-ruby-openid
