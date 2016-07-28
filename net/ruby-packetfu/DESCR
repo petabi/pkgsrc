@@ -1,0 +1,5 @@
+PacketFu is a mid-level packet manipulation library for Ruby. With it,
+users can read, parse, and write network packets with the level of
+ease and fun they expect from Ruby. Note that this gem does not
+automatically require pcaprub, since users may install pcaprub through
+non-gem means.
