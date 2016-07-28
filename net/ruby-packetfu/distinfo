@@ -1,0 +1,6 @@
+$NetBSD: distinfo,v 1.23 2016/03/05 05:27:42 taca Exp $
+
+SHA1 (packetfu-1.1.11.gem) = 92acc4fa9517172aa5be5b17a670572b6c7c78d9
+RMD160 (packetfu-1.1.11.gem) = d866e3440e37d8a6f7c27758b5540f216a3c64eb
+SHA512 (packetfu-1.1.11.gem) = c4e2a86ab331f87989e675777a7c47570afee1426007ac91387d5bd4594206c0ae9c0e180dd0f890558d46ff54d0298e89ef57bb4b433c1fea5644315d7b61b6
+Size (packetfu-1.1.11.gem) = 751104 bytes
