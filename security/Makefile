@@ -462,6 +462,7 @@ SUBDIR+=	ruby-ezcrypto
 SUBDIR+=	ruby-hmac
 SUBDIR+=	ruby-jsobfu
 SUBDIR+=	ruby-metasploit-concern
+SUBDIR+=	ruby-metasploit-credential
 SUBDIR+=	ruby-metasploit-model
 SUBDIR+=	ruby-metasploit-payloads
 SUBDIR+=	ruby-metasploit_data_models
