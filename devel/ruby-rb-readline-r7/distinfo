@@ -1,0 +1,6 @@
+$NetBSD: distinfo,v 1.23 2016/03/05 05:27:42 taca Exp $
+
+SHA1 (rb-readline-r7-0.5.2.0.gem) = 5617c27e5687e2265cf2340d4aacfd1c7178f784
+RMD160 (rb-readline-r7-0.5.2.0.gem) = 4ce2bfefd205acf291cb199bcb18fcb22247fbd6
+SHA512 (rb-readline-r7-0.5.2.0.gem) = e94b60e368104f5e626a5c98dbe894cea52294b9c2061aa0cf32c34b7575a1ba9b0c514221ce266be89553d7936fc82696fc979710b9e8bb2503fc8b3cc0a938
+Size (rb-readline-r7-0.5.2.0.gem) = 96256 bytes
