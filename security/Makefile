@@ -478,6 +478,7 @@ SUBDIR+=	ruby-openssl-ccm
 SUBDIR+=	ruby-password
 SUBDIR+=	ruby-rack-openid
 SUBDIR+=	ruby-rc4
+SUBDIR+=	ruby-rex-java
 SUBDIR+=	ruby-rex-powershell
 SUBDIR+=	ruby-rex-random_identifier
 SUBDIR+=	ruby-rex-struct2
