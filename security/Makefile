@@ -474,6 +474,7 @@ SUBDIR+=	ruby-net-ssh-gateway
 SUBDIR+=	ruby-net-ssh-multi
 SUBDIR+=	ruby-oauth
 SUBDIR+=	ruby-openid
+SUBDIR+=	ruby-openssl-ccm
 SUBDIR+=	ruby-password
 SUBDIR+=	ruby-rack-openid
 SUBDIR+=	ruby-rc4
