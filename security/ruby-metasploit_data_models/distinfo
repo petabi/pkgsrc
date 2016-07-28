@@ -1,0 +1,6 @@
+$NetBSD: distinfo,v 1.23 2016/03/05 05:27:42 taca Exp $
+
+SHA1 (metasploit_data_models-2.0.0.gem) = 4df6c59281ce200e3a6d80d528cdb1b8114b2272
+RMD160 (metasploit_data_models-2.0.0.gem) = cb0e60678feae725b52a12b61282f9a2ca31a48f
+SHA512 (metasploit_data_models-2.0.0.gem) = 4ff18ba09fe58e5846b745152739a6602fc144ca68240901f18791f7c6ffacc0a1d621fda222c86960ca59cd3034ef2fda4fc85dead669837e3c0a7c2ddc3f1d
+Size (metasploit_data_models-2.0.0.gem) = 177152 bytes
