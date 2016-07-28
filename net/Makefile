@@ -752,6 +752,7 @@ SUBDIR+=	ruby-netaddr
 SUBDIR+=	ruby-netrc
 SUBDIR+=	ruby-network_interface
 SUBDIR+=	ruby-nio4r
+SUBDIR+=	ruby-packetfu
 SUBDIR+=	ruby-pcaprub
 SUBDIR+=	ruby-pluggaloid
 SUBDIR+=	ruby-proxifier
