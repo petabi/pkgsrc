@@ -468,6 +468,7 @@ SUBDIR+=	ruby-jsobfu
 SUBDIR+=	ruby-metasploit-concern
 SUBDIR+=	ruby-metasploit-model
 SUBDIR+=	ruby-metasploit-payloads
+SUBDIR+=	ruby-metasploit_data_models
 SUBDIR+=	ruby-metasploit_payloads-mettle
 SUBDIR+=	ruby-nessus_rest
 SUBDIR+=	ruby-net-scp
