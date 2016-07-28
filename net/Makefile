@@ -734,6 +734,7 @@ SUBDIR+=	ruby-net-ping
 SUBDIR+=	ruby-net-telnet
 SUBDIR+=	ruby-netaddr
 SUBDIR+=	ruby-netrc
+SUBDIR+=	ruby-network_interface
 SUBDIR+=	ruby-pcaprub
 SUBDIR+=	ruby-pluggaloid
 SUBDIR+=	ruby-proxifier
