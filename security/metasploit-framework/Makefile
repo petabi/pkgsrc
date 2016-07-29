@@ -64,7 +64,7 @@ DEPENDS+=	${RUBY_PKGPREFIX}-tzinfo-[0-9]*:../../time/ruby-tzinfo
 DEPENDS+=	${RUBY_PKGPREFIX}-tzinfo-data-[0-9]*:../../time/ruby-tzinfo-data
 DEPENDS+=	${RUBY_PKGPREFIX}-zip-[0-9]*:../../archivers/ruby-zip
 
-RUBY_VERSION_REQD=	23
+RUBY_VERSION_SUPPORTED=	23
 
 GEM_SPECFILE=	${WRKSRC}/${PKGBASE}.gemspec
 GEM_NAME=	${PKGNAME_NOREV}
