@@ -1,0 +1,8 @@
+# $NetBSD$
+
+case "${STAGE}" in
+POST-INSTALL)
+	@TOUCH@ @PREFIX@/share/metasploit-framework/Gemfile.lock
+	@CHMOD@ 666 @PREFIX@/share/metasploit-framework/Gemfile.lock
+	;;
+esac
