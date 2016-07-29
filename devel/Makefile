@@ -2195,6 +2195,7 @@ SUBDIR+=	ruby-activesupport32
 SUBDIR+=	ruby-activesupport42
 SUBDIR+=	ruby-algorithms
 SUBDIR+=	ruby-amstd
+SUBDIR+=	ruby-aruba
 SUBDIR+=	ruby-assistance
 SUBDIR+=	ruby-atomic
 SUBDIR+=	ruby-backports
