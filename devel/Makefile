@@ -2230,6 +2230,7 @@ SUBDIR+=	ruby-celluloid-pool
 SUBDIR+=	ruby-celluloid-supervision
 SUBDIR+=	ruby-cmd
 SUBDIR+=	ruby-contracts
+SUBDIR+=	ruby-cucumber
 SUBDIR+=	ruby-cucumber-core
 SUBDIR+=	ruby-cucumber-wire
 SUBDIR+=	ruby-curses
