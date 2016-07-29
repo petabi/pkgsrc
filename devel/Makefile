@@ -2328,6 +2328,7 @@ SUBDIR+=	ruby-classy_hash
 SUBDIR+=	ruby-cmd
 SUBDIR+=	ruby-concurrent-ruby
 SUBDIR+=	ruby-contracts
+SUBDIR+=	ruby-cucumber
 SUBDIR+=	ruby-cucumber-core
 SUBDIR+=	ruby-cucumber-tag_expressions
 SUBDIR+=	ruby-cucumber-wire
