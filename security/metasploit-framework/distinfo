@@ -1,6 +1,7 @@
 $NetBSD$
 
-SHA1 (framework-latest.tar.bz2) = 60171c9d32e3b23fea5535cd23476111f81dc71f
-RMD160 (framework-latest.tar.bz2) = 1ceafe206132124342aba221a62a6a12ad768b34
-SHA512 (framework-latest.tar.bz2) = c353ccd25ae1897c66f2e75bb3f5c4fa71fc149bf09c6add38b3fda727f71707f0d76aaf5a48059cd646dc2b32544da527202206f40b4c9440b8361654be215d
-Size (framework-latest.tar.bz2) = 20926868 bytes
+SHA1 (4.12.15.tar.gz) = 895b7c90fac750e3eac33f6df08ebed1ff14f272
+RMD160 (4.12.15.tar.gz) = 2dffa0c2e5559293d0508063111b734478dc14e3
+SHA512 (4.12.15.tar.gz) = d95801cfcb3434335d2ff406ff2660ba302d503d4514796dbe37dc18d644e43881ea6dca02a1c904cf16fa917d5ace978e40ede35606282ba8ca075cd4cbcc4c
+Size (4.12.15.tar.gz) = 23275808 bytes
+SHA1 (patch-metasploit-framework.gemspec) = e3dbbaa35dcadc0cfa74f9c6d4d6aa54d6900cfc
