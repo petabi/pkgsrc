@@ -14,11 +14,11 @@ HOMEPAGE=	http://www.metasploit.com/
 COMMENT=	Exploit-Framework for Penetration-Testing
 LICENSE=	modified-bsd
 
-DEPENDS+=	${RUBY_PKGPREFIX}-actionpack>=4.2.6:../../www/ruby-actionpack42
-DEPENDS+=	${RUBY_PKGPREFIX}-activerecord>=4.2.6:../../databases/ruby-activerecord42
-DEPENDS+=	${RUBY_PKGPREFIX}-activesupport>=4.2.6:../../devel/ruby-activesupport42
+DEPENDS+=	${RUBY_PKGPREFIX}-actionpack42>=4.2.6:../../www/ruby-actionpack42
+DEPENDS+=	${RUBY_PKGPREFIX}-activerecord42>=4.2.6:../../databases/ruby-activerecord42
+DEPENDS+=	${RUBY_PKGPREFIX}-activesupport42>=4.2.6:../../devel/ruby-activesupport42
 DEPENDS+=	${RUBY_PKGPREFIX}-bcrypt-[0-9]*:../../security/ruby-bcrypt
-DEPENDS+=	${RUBY_PKGPREFIX}-jsobfu-[0-9]*:../../lang/ruby-jsobfu
+DEPENDS+=	${RUBY_PKGPREFIX}-jsobfu-[0-9]*:../../security/ruby-jsobfu
 DEPENDS+=	${RUBY_PKGPREFIX}-json-[0-9]*:../../textproc/ruby-json
 DEPENDS+=	${RUBY_PKGPREFIX}-metasm-[0-9]*:../../devel/ruby-metasm
 DEPENDS+=	${RUBY_PKGPREFIX}-metasploit-concern-[0-9]*:../../security/ruby-metasploit-concern
@@ -33,7 +33,7 @@ DEPENDS+=	${RUBY_PKGPREFIX}-nokogiri-[0-9]*:../../textproc/ruby-nokogiri
 DEPENDS+=	${RUBY_PKGPREFIX}-packetfu-[0-9]*:../../net/ruby-packetfu
 DEPENDS+=	${RUBY_PKGPREFIX}-pcaprub-[0-9]*:../../net/ruby-pcaprub
 DEPENDS+=	${RUBY_PKGPREFIX}-pg-[0-9]*:../../databases/ruby-pg
-DEPENDS+=	${RUBY_PKGPREFIX}-railties-[0-9]*:../../devel/ruby-railties42
+DEPENDS+=	${RUBY_PKGPREFIX}-railties42-[0-9]*:../../devel/ruby-railties42
 DEPENDS+=	${RUBY_PKGPREFIX}-recog-[0-9]*:../../net/ruby-recog
 DEPENDS+=	${RUBY_PKGPREFIX}-openssl-ccm-[0-9]*:../../security/ruby-openssl-ccm
 DEPENDS+=	${RUBY_PKGPREFIX}-octokit-[0-9]*:../../devel/ruby-octokit
@@ -56,8 +56,9 @@ DEPENDS+=	${RUBY_PKGPREFIX}-sqlite3-[0-9]*:../../databases/ruby-sqlite3
 DEPENDS+=	${RUBY_PKGPREFIX}-tzinfo-[0-9]*:../../time/ruby-tzinfo
 DEPENDS+=	${RUBY_PKGPREFIX}-filesize-[0-9]*:../../devel/ruby-filesize
 DEPENDS+=	${RUBY_PKGPREFIX}-bundler-[0-9]*:../../misc/ruby-bundler
+DEPENDS+=	${RUBY_PKGPREFIX}-rb-readline-r7-[0-9]*:../../devel/ruby-rb-readline-r7
 
-RUBY_VERSION_SUPPORTED=	23
+RUBY_VERSIONS_ACCEPTED=	24
 
 USE_TOOLS+=	bash:run pax
 
