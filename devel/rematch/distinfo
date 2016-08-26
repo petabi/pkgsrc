@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (rematch-1.4.3.tar.bz2) = 5685abf2f81d2123aa1cf8a6dd8a7572f8a9e250
-RMD160 (rematch-1.4.3.tar.bz2) = d0a6ae9dfb76568171be3c5c6b2bb26d36af9fc1
-SHA512 (rematch-1.4.3.tar.bz2) = 59b1d9cbf87bfb1d79e3a190180174d1a307d5479154f8e2bf018315436eeb4286e12dc1d6350224620e7ad206f616260f425f3cdd497a38a51e2a71b1b782b7
-Size (rematch-1.4.3.tar.bz2) = 288592 bytes
+SHA1 (rematch-1.5.tar.bz2) = e25155db2f6476b7efdcf3255846d3424b8fc4ab
+RMD160 (rematch-1.5.tar.bz2) = 9175435d143c16f039871f3987ba56605e4db232
+SHA512 (rematch-1.5.tar.bz2) = 23750ef61501106ee3fded4e1e8fc72e3f631481764334da8e6796d1f843ba0ea2b452a1ac149c3c583789b3fa4227df001f13a172a15f83e0d6ef0f932ded20
+Size (rematch-1.5.tar.bz2) = 348755 bytes
