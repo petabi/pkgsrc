@@ -1,9 +1,11 @@
 @comment $NetBSD$
 bin/rematchc
 bin/rematchtest
+include/rematch/REmake_web.h
 include/rematch/compile.h
 include/rematch/execute.h
 include/rematch/rematch.h
+lib/libremake.so
 lib/librematchcomp.a
 lib/librematchexec.a
 lib/pius/librematch.so
