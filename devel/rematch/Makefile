@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	rematch-1.4.3
+DISTNAME=	rematch-1.5
 CATEGORIES=	devel
 MASTER_SITES=	# None
 EXTRACT_SUFX=	.tar.bz2
@@ -14,8 +14,10 @@ USE_LANGUAGES=	c c++
 
 CMAKE_ARGS=	-DCMAKE_BUILD_TYPE=Release
 
+BUILDLINK_DEPMETHOD.atf?=	build
 BUILDLINK_DEPMETHOD.llvm?=	build
 
+.include "../../benchmarks/google-benchmark/buildlink3.mk"
 .include "../../devel/atf/buildlink3.mk"
 .include "../../devel/boost-libs/buildlink3.mk"
 .include "../../devel/pcre2/buildlink3.mk"
