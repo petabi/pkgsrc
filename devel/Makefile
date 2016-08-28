@@ -65,6 +65,7 @@ SUBDIR+=	at-spi2-core
 SUBDIR+=	atf
 SUBDIR+=	atk
 SUBDIR+=	atkmm
+SUBDIR+=	auto-opt
 SUBDIR+=	autoconf
 SUBDIR+=	autoconf-archive
 SUBDIR+=	autoconf213
