@@ -29,14 +29,14 @@ if [ -n "$unprivileged" ]; then
 fi
 
 ##
-: ${PBULKPREFIX:=/usr/pbulk}
-: ${PBULKWORK:=${TMPDIR}/work-pbulk}
+: ${PBULKPREFIX:=/Volumes/Data/pbulk}
+: ${PBULKWORK:=/Volumes/Data/pkgsrc/work-pbulk}
 
-: ${PACKAGES:=/mnt/packages}
-: ${BULKLOG:=/mnt/bulklog}
+: ${PACKAGES:=/Volumes/Data/pkgsrc/packages}
+: ${BULKLOG:=/Volumes/Data/pkgsrc/bulklog}
 
 # almost constant:
-: ${PKGSRCDIR:=/usr/pkgsrc}
+: ${PKGSRCDIR:=/opt/pkgsrc}
 
 # setting pkgdb directory:
 if [ -n "$unprivileged" -o -n "${PREFIX}" ]; then
@@ -54,6 +54,8 @@ if ! id pbulk; then
     if ! pw groupshow users; then pw groupadd users; fi
     pw useradd pbulk -m -g users
 fi
+;;
+Darwin)
 ;;
 *)
 if ! id pbulk; then echo "user \"pbulk\" is absent"; exit 1; fi
