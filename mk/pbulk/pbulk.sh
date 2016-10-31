@@ -29,11 +29,11 @@ if [ -n "$unprivileged" ]; then
 fi
 
 ##
-: ${PBULKPREFIX:=/Volumes/Data/pbulk}
-: ${PBULKWORK:=/Volumes/Data/pkgsrc/work-pbulk}
+: ${PBULKPREFIX:=/opt/pbulk}
+: ${PBULKWORK:=${TMPDIR}/work-pbulk}
 
-: ${PACKAGES:=/Volumes/Data/pkgsrc/packages}
-: ${BULKLOG:=/Volumes/Data/pkgsrc/bulklog}
+: ${PACKAGES:=/opt/pkgsrc/packages}
+: ${BULKLOG:=/opt/pkgsrc/bulklog}
 
 # almost constant:
 : ${PKGSRCDIR:=/opt/pkgsrc}
