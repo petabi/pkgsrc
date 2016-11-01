@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	pius-session-0.18.3
+DISTNAME=	pius-session-0.18.5
 CATEGORIES=	net
 MASTER_SITES=	# None
 EXTRACT_SUFX=	.tar.bz2
@@ -19,4 +19,5 @@ BUILDLINK_DEPMETHOD.atf?=	build
 .include "../../devel/boost-libs/buildlink3.mk"
 .include "../../net/pius-carp/buildlink3.mk"
 .include "../../net/pius-netmap/buildlink3.mk"
+.include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
