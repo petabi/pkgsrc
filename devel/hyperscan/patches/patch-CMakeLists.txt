@@ -1,8 +1,17 @@
 $NetBSD$
 
---- CMakeLists.txt.orig	2015-12-18 03:41:50.000000000 +0000
+--- CMakeLists.txt.orig	2016-08-29 03:51:17.000000000 +0000
 +++ CMakeLists.txt
-@@ -17,8 +17,8 @@ INCLUDE (CheckIncludeFileCXX)
+@@ -14,7 +14,7 @@ set (HS_VERSION ${HS_MAJOR_VERSION}.${HS
+ set (CMAKE_CONFIGURATION_TYPES "Debug;Release;RelWithDebInfo"
+      CACHE STRING "" FORCE)
+ 
+-set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
++set (CMAKE_MODULE_PATH "/opt/pkgsrc/devel/hyperscan/work/.buildlink/cmake-Modules" ${PROJECT_SOURCE_DIR}/cmake)
+ include(CheckCCompilerFlag)
+ include(CheckCXXCompilerFlag)
+ INCLUDE (CheckFunctionExists)
+@@ -23,8 +23,8 @@ INCLUDE (CheckIncludeFileCXX)
  INCLUDE (CheckLibraryExists)
  INCLUDE (CheckSymbolExists)
  include (CMakeDependentOption)
@@ -13,7 +22,16 @@ $NetBSD$
  
  find_package(PkgConfig QUIET)
  
-@@ -337,7 +337,7 @@ if (EXISTS ${CMAKE_SOURCE_DIR}/tools)
+@@ -268,7 +268,7 @@ if (RELEASE_BUILD)
+ endif()
+ 
+ # ensure we are building for the right target arch
+-include (${CMAKE_MODULE_PATH}/arch.cmake)
++include (cmake/arch.cmake)
+ 
+ # testing a builtin takes a little more work
+ CHECK_C_SOURCE_COMPILES("void *aa_test(void *x) { return __builtin_assume_aligned(x, 16);}\nint main(void) { return 0; }" HAVE_CC_BUILTIN_ASSUME_ALIGNED)
+@@ -383,7 +383,7 @@ if (EXISTS ${CMAKE_SOURCE_DIR}/tools/CMa
  endif()
  
  # do substitutions
@@ -21,4 +39,4 @@ $NetBSD$
 +configure_file(${PROJECT_SOURCE_DIR}/cmake/config.h.in ${PROJECT_BINARY_DIR}/config.h)
  configure_file(src/hs_version.h.in ${PROJECT_BINARY_DIR}/hs_version.h)
  
- if (PKG_CONFIG_FOUND)
+ if (NOT WIN32)
