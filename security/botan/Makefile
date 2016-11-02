@@ -20,6 +20,7 @@ PYTHON_VERSIONS_INCOMPATIBLE=	34 35 36 # not yet ported as of 1.8.14; 1.10 is su
 CONFIG_SHELL=		${PYTHONBIN}
 CONFIGURE_SCRIPT=	./configure.py
 CONFIGURE_ARGS+=	--prefix=${PREFIX}
+CONFIGURE_ARGS+=	--docdir=share/doc
 CONFIGURE_ARGS+=	--without-sphinx
 
 MAKE_FLAGS+=	LIB_OPT=${CXXFLAGS:Q}

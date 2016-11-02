@@ -20,6 +20,7 @@ PYTHON_FOR_BUILD_ONLY=	yes
 CONFIG_SHELL=		${PYTHONBIN}
 CONFIGURE_SCRIPT=	./configure.py
 CONFIGURE_ARGS+=	--prefix=${PREFIX} --with-zlib --with-boost --destdir=${DESTDIR}${PREFIX}
+CONFIGURE_ARGS+=	--docdir=share/doc
 
 REPLACE_PYTHON+=	*.py src/scripts/*.py
 
