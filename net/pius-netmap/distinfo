@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (pius-netmap-1.6.1.tar.bz2) = b14bf1a9cd27c30a587723049562900bd21e28e2
-RMD160 (pius-netmap-1.6.1.tar.bz2) = 12560e1909817d975b0159ce3907f97c3687d16e
-SHA512 (pius-netmap-1.6.1.tar.bz2) = c008ce4d2c74062c2a127d2cb6ea5804d1c2d14d516e0038c5a3098a60ff7762071ca4a0220bd44bb85081c65dc9e64dfe13530e3d054a9be13319a1f007c15b
-Size (pius-netmap-1.6.1.tar.bz2) = 6979 bytes
+SHA1 (pius-netmap-1.7.0.tar.bz2) = 6f14b45b017eebb112839de0a8386371a0048d59
+RMD160 (pius-netmap-1.7.0.tar.bz2) = 88a309c2183ff82cc886fe4bc1304ce8d88c9f1c
+SHA512 (pius-netmap-1.7.0.tar.bz2) = f947b96d619133f24988900d650bda03ebc9710d6ca1fb0134cc4b4ae03733a428f54e80a8a5df6ef5c75a066b080ec88183dd17bdc54a9fa0c6d895f402208b
+Size (pius-netmap-1.7.0.tar.bz2) = 33225 bytes
