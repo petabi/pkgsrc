@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	pius-session-0.18.5
+DISTNAME=	pius-session-0.19.0
 CATEGORIES=	net
 MASTER_SITES=	# None
 EXTRACT_SUFX=	.tar.bz2
