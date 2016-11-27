@@ -151,4 +151,5 @@ BUILDLINK_TRANSFORM+=	rm:-Wl,--enable-new-dtags
 .include "../../archivers/libarchive/buildlink3.mk"
 .endif
 .include "../../mk/pthread.buildlink3.mk"
+.include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
