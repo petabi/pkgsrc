@@ -149,4 +149,5 @@ BUILDLINK_TRANSFORM+=	rm:-Wl,--enable-new-dtags
 .if ${OPSYS} != "FreeBSD" && ${OPSYS} != "DragonFly" && ${OPSYS} != "NetBSD"
 .include "../../archivers/libarchive/buildlink3.mk"
 .endif
+.include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
