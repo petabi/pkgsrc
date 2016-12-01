@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	pius-carp-0.4.2
+DISTNAME=	pius-carp-0.4.4
 CATEGORIES=	net
 MASTER_SITES=	# None
 EXTRACT_SUFX=	.tar.bz2
