@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	auto-opt-0.2.1
+DISTNAME=	auto-opt-0.2.4
 CATEGORIES=	devel
 MASTER_SITES=	# None
 EXTRACT_SUFX=	.tar.bz2
