@@ -574,6 +574,7 @@ SUBDIR+=	pear-Net_URL2
 SUBDIR+=	pear-SOAP
 SUBDIR+=	pen
 SUBDIR+=	perlbal
+SUBDIR+=	petabi-ip_tools
 SUBDIR+=	pfnet
 SUBDIR+=	php-baikal
 SUBDIR+=	php-ftp
