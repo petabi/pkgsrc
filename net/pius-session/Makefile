@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	pius-session-0.19.0
+DISTNAME=	pius-session-0.21.0
 CATEGORIES=	net
 MASTER_SITES=	# None
 EXTRACT_SUFX=	.tar.bz2
@@ -17,6 +17,7 @@ CMAKE_ARGS=	-DCMAKE_BUILD_TYPE=Release
 BUILDLINK_DEPMETHOD.atf?=	build
 .include "../../devel/atf/buildlink3.mk"
 .include "../../devel/boost-libs/buildlink3.mk"
+.include "../../net/petabi-ip_tools/buildlink3.mk"
 .include "../../net/pius-carp/buildlink3.mk"
 .include "../../net/pius-netmap/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"
