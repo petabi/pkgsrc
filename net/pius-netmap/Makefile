@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	pius-netmap-1.7.0
+DISTNAME=	pius-netmap-1.8.0
 CATEGORIES=	net
 MASTER_SITES=	# None
 EXTRACT_SUFX=	.tar.bz2
