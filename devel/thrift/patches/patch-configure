@@ -1,8 +1,8 @@
 $NetBSD$
 
---- configure.orig	2015-09-30 11:39:52.000000000 +0000
+--- configure.orig	2016-12-21 21:27:01.000000000 +0000
 +++ configure
-@@ -18504,7 +18504,7 @@ else
+@@ -18529,7 +18529,7 @@ else
  $as_echo "yes" >&6; }
  	mono_2_11=yes
  fi
@@ -11,7 +11,7 @@ $NetBSD$
      # Extract the first word of "mcs", so it can be a program name with args.
  set dummy mcs; ac_word=$2
  { $as_echo "$as_me:${as_lineno-$LINENO}: checking for $ac_word" >&5
-@@ -21630,7 +21630,7 @@ $as_echo "yes" >&6; }
+@@ -21875,7 +21875,7 @@ $as_echo "yes" >&6; }
  
            # Test whether OPTLINK is used by trying if DMD accepts -L/? without
            # erroring out.
