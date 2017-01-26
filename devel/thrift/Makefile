@@ -1,8 +1,8 @@
 # $NetBSD$
 
-DISTNAME=	thrift-0.9.3
+DISTNAME=	thrift-0.10.0
 CATEGORIES=	devel
-MASTER_SITES=	http://www.apache.org/dyn/closer.cgi?path=/thrift/0.9.3/
+MASTER_SITES=	${MASTER_SITE_APACHE:=thrift/0.10.0/}
 
 MAINTAINER=	minskim@NetBSD.org
 HOMEPAGE=	https://thrift.apache.org/
