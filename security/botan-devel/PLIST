@@ -142,7 +142,7 @@ include/botan-2/botan/key_spec.h
 include/botan-2/botan/keypair.h
 include/botan-2/botan/lion.h
 include/botan-2/botan/loadstor.h
-include/botan-2/botan/locking_allocator.h
+${PLIST.locking_allocator}include/botan-2/botan/locking_allocator.h
 include/botan-2/botan/lookup.h
 include/botan-2/botan/mac.h
 include/botan-2/botan/mceies.h
