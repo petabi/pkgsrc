@@ -1,37 +1,63 @@
 $NetBSD$
 
---- CMakeLists.txt.orig	2016-08-29 03:51:17.000000000 +0000
+--- CMakeLists.txt.orig	2017-03-01 02:09:48.000000000 +0000
 +++ CMakeLists.txt
-@@ -14,7 +14,7 @@ set (HS_VERSION ${HS_MAJOR_VERSION}.${HS
- set (CMAKE_CONFIGURATION_TYPES "Debug;Release;RelWithDebInfo"
-      CACHE STRING "" FORCE)
+@@ -6,7 +6,6 @@ set (HS_MINOR_VERSION 4)
+ set (HS_PATCH_VERSION 1)
+ set (HS_VERSION ${HS_MAJOR_VERSION}.${HS_MINOR_VERSION}.${HS_PATCH_VERSION})
  
 -set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
-+set (CMAKE_MODULE_PATH "/opt/pkgsrc/devel/hyperscan/work/.buildlink/cmake-Modules" ${PROJECT_SOURCE_DIR}/cmake)
  include(CheckCCompilerFlag)
  include(CheckCXXCompilerFlag)
  INCLUDE (CheckFunctionExists)
-@@ -23,8 +23,8 @@ INCLUDE (CheckIncludeFileCXX)
+@@ -15,8 +14,8 @@ INCLUDE (CheckIncludeFileCXX)
  INCLUDE (CheckLibraryExists)
  INCLUDE (CheckSymbolExists)
  include (CMakeDependentOption)
 -include (${CMAKE_MODULE_PATH}/platform.cmake)
 -include (${CMAKE_MODULE_PATH}/ragel.cmake)
-+include (cmake/platform.cmake)
-+include (cmake/ragel.cmake)
++include (${PROJECT_SOURCE_DIR}/cmake/platform.cmake)
++include (${PROJECT_SOURCE_DIR}/cmake/ragel.cmake)
  
  find_package(PkgConfig QUIET)
  
-@@ -268,7 +268,7 @@ if (RELEASE_BUILD)
+@@ -84,7 +83,7 @@ if(NOT Boost_FOUND)
+     endif()
  endif()
  
- # ensure we are building for the right target arch
--include (${CMAKE_MODULE_PATH}/arch.cmake)
-+include (cmake/arch.cmake)
+-include (${CMAKE_MODULE_PATH}/boost.cmake)
++include (${PROJECT_SOURCE_DIR}/cmake/boost.cmake)
  
- # testing a builtin takes a little more work
- CHECK_C_SOURCE_COMPILES("void *aa_test(void *x) { return __builtin_assume_aligned(x, 16);}\nint main(void) { return 0; }" HAVE_CC_BUILTIN_ASSUME_ALIGNED)
-@@ -383,7 +383,7 @@ if (EXISTS ${CMAKE_SOURCE_DIR}/tools/CMa
+ # -- make this work? set(python_ADDITIONAL_VERSIONS 2.7 2.6)
+ find_package(PythonInterp)
+@@ -99,7 +98,7 @@ endif()
+ # allow for reproducible builds - python for portability
+ if (DEFINED ENV{SOURCE_DATE_EPOCH})
+       execute_process(
+-          COMMAND "${PYTHON}" "${CMAKE_MODULE_PATH}/formatdate.py" "$ENV{SOURCE_DATE_EPOCH}"
++          COMMAND "${PYTHON}" "${PROJECT_SOURCE_DIR}/cmake/formatdate.py" "$ENV{SOURCE_DATE_EPOCH}"
+           OUTPUT_VARIABLE BUILD_DATE
+           OUTPUT_STRIP_TRAILING_WHITESPACE)
+ else ()
+@@ -281,7 +280,7 @@ if (CMAKE_SYSTEM_NAME MATCHES "Linux")
+         message (STATUS "Building the fat runtime requires the Unix Makefiles generator, or Ninja with CMake v3.0 or higher")
+         set (FAT_RUNTIME_REQUISITES FALSE)
+     else()
+-        include (${CMAKE_MODULE_PATH}/attrib.cmake)
++        include (${PROJECT_SOURCE_DIR}/cmake/attrib.cmake)
+         if (NOT HAS_C_ATTR_IFUNC)
+             message(STATUS "Compiler does not support ifunc attribute, cannot build fat runtime")
+             set (FAT_RUNTIME_REQUISITES FALSE)
+@@ -292,7 +291,7 @@ if (CMAKE_SYSTEM_NAME MATCHES "Linux")
+     CMAKE_DEPENDENT_OPTION(FAT_RUNTIME "Build a library that supports multiple microarchitecures" ${RELEASE_BUILD} "FAT_RUNTIME_REQUISITES" OFF)
+ endif ()
+ 
+-include (${CMAKE_MODULE_PATH}/arch.cmake)
++include (${PROJECT_SOURCE_DIR}/cmake/arch.cmake)
+ 
+ if (NOT FAT_RUNTIME AND NOT HAVE_SSSE3)
+         message(FATAL_ERROR "A minimum of SSSE3 compiler support is required")
+@@ -421,7 +420,7 @@ if (EXISTS ${CMAKE_SOURCE_DIR}/tools/CMa
  endif()
  
  # do substitutions

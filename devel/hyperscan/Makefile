@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	hyperscan-4.3.2
+DISTNAME=	hyperscan-4.4.1
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=01org/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}
@@ -19,5 +19,6 @@ USE_LANGUAGES=	c c++
 
 PKGCONFIG_OVERRIDE+=	libhs.pc.in
 
+.include "../../databases/sqlite3/buildlink3.mk"
 .include "../../devel/boost-libs/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
