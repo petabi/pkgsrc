@@ -45,6 +45,10 @@ MAKE_FLAGS+=	LIB_OPT=${CXXFLAGS:Q}
 
 USE_TOOLS+=	gmake
 
+PLIST_VARS+=	locking_allocator
+.if ${OPSYS} != "Darwin"
+PLIST.locking_allocator=	yes
+.endif
 PY_PATCHPLIST=	yes
 
 LDFLAGS.SunOS+=	-lnsl -lsocket
