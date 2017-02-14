@@ -14,5 +14,8 @@ USE_LANGUAGES=	c c++
 
 CMAKE_ARGS=	-DCMAKE_BUILD_TYPE=Release
 
-.include "../../devel/boost-headers/buildlink3.mk"
+BUILDLINK_DEPMETHOD.boost-libs?=	build
+# Should be replaced with boost-headers once CMakeLists.txt is fixed
+# not to search for the system component of the Boost library.
+.include "../../devel/boost-libs/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
