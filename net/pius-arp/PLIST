@@ -1,0 +1,5 @@
+@comment $NetBSD$
+include/pius/arp.h
+include/pius/ndp.h
+lib/libpius-arp.dylib
+lib/libpius-ndp.dylib
