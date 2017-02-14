@@ -590,6 +590,7 @@ SUBDIR+=	php-xmlrpc
 SUBDIR+=	php-yaz
 SUBDIR+=	pim6dd
 SUBDIR+=	pim6sd
+SUBDIR+=	pius-arp
 SUBDIR+=	pload
 SUBDIR+=	podcastdl
 SUBDIR+=	poink
