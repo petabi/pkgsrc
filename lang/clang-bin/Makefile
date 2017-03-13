@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	clang+llvm-3.8.0-x86_64-apple-darwin
-PKGNAME=	clang-bin-3.8.0
+DISTNAME=	clang+llvm-4.0.0-x86_64-apple-darwin
+PKGNAME=	clang-bin-4.0.0
 CATEGORIES=	lang
-MASTER_SITES=	http://llvm.org/releases/3.8.0/
+MASTER_SITES=	http://llvm.org/releases/4.0.0/
 EXTRACT_SUFX=	.tar.xz
 
 MAINTAINER=	minskim@NetBSD.org
@@ -23,10 +23,12 @@ ONLY_FOR_PLATFORM=	Darwin-*-x86_64
 REPLACE_PERL=	bin/scan-build libexec/c++-analyzer libexec/ccc-analyzer
 REPLACE_PYTHON=	bin/git-clang-format bin/scan-view \
 		share/clang/clang-format-diff.py \
-		share/clang/run-clang-tidy.py
+		share/clang/clang-tidy-diff.py \
+		share/clang/run-clang-tidy.py \
+		share/clang/run-find-all-symbols.py
 
 INSTALLATION_DIRS=	bin include lib libexec man/man1 \
-			share/clang share/llvm \
+			share/clang \
 			share/scan-build share/scan-view
 
 .include "../../lang/python/application.mk"
@@ -34,14 +36,11 @@ INSTALLATION_DIRS=	bin include lib libexec man/man1 \
 do-install:
 	cd ${WRKSRC}/bin && ${PAX} -rw . ${DESTDIR}${PREFIX}/bin
 	cd ${WRKSRC}/include && ${PAX} -rw . ${DESTDIR}${PREFIX}/include
-	${INSTALL_LIB} ${WRKSRC}/lib/*.dylib ${DESTDIR}${PREFIX}/lib
-	${INSTALL_DATA} ${WRKSRC}/lib/*.a ${DESTDIR}${PREFIX}/lib
-	cd ${WRKSRC}/lib && ${PAX} -rw clang ${DESTDIR}${PREFIX}/lib
+	cd ${WRKSRC}/lib && ${PAX} -rw . ${DESTDIR}${PREFIX}/lib
 	${INSTALL_LIB} ${WRKSRC}/libexec/* ${DESTDIR}${PREFIX}/libexec
 	${INSTALL_MAN} ${WRKSRC}/share/man/man1/* ${DESTDIR}${PREFIX}/man/man1
 	cd ${WRKSRC}/share/clang && \
 		${PAX} -rw . ${DESTDIR}${PREFIX}/share/clang
-	cd ${WRKSRC}/share/llvm && ${PAX} -rw . ${DESTDIR}${PREFIX}/share/llvm
 	cd ${WRKSRC}/share/scan-build && \
 		${PAX} -rw . ${DESTDIR}${PREFIX}/share/scan-build
 	cd ${WRKSRC}/share/scan-view && \
