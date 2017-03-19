@@ -104,7 +104,7 @@ INSTALL_TARGET=	altinstall
 REPLACE_INTERPRETER+=	py36
 REPLACE.py36.old=	.*python[^ ]*
 REPLACE.py36.new=	${PREFIX}/bin/python${PY_VER_SUFFIX}
-REPLACE_FILES.py36=	Lib/*.py Lib/*/*.py Lib/*/*/*.py Lib/*/*/*/*.py
+REPLACE_FILES.py36=	Lib/*.py Lib/encodings/*.py Lib/idlelib/*.py Lib/*/*/*.py Lib/*/*/*/*.py Mac/Tools/*.py
 
 SUBST_CLASSES+=		findlib
 SUBST_MESSAGE.findlib=	Fixing find_library_file on Darwin.
@@ -143,6 +143,14 @@ CHECK_INTERPRETER_SKIP+=	lib/python${PY_VER_SUFFIX}/venv/scripts/posix/pydoc
 # Avoid error: Cannot generate ./Include/opcode.h, python not found !
 post-configure:
 	touch ${WRKSRC}/Include/opcode.h
+
+.if ${OPSYS} == "Darwin"
+post-install:
+	${FIND} ${DESTDIR}${PREFIX}/Applications -d -print0 | \
+	${XARGS} -0 ${CHMOD} 755
+	${CHMOD} -w ${DESTDIR}${PREFIX}/Library/Frameworks/Python.framework/Versions/${PY_VER_SUFFIX}/lib/python3.6/idlelib/idle.bat
+	${CHMOD} -w ${DESTDIR}${PREFIX}/Library/Frameworks/Python.framework/Versions/${PY_VER_SUFFIX}/lib/python3.6/turtledemo/two_canvases.py
+.endif
 
 .if ${OPSYS} == "HPUX"
 post-install:
