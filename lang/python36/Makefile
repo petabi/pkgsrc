@@ -23,7 +23,6 @@ PRINT_PLIST_AWK+=	sub(/.opt-[12].pyc$$/, ".pyo")}
 USE_LANGUAGES=		c c++
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-threads
-CONFIGURE_ARGS+=	--enable-shared
 CONFIGURE_ARGS+=	OPT=${CFLAGS:M*:Q}
 CONFIGURE_ARGS+=	--with-system-ffi
 CONFIGURE_ARGS+=	--without-pymalloc
