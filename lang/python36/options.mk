@@ -6,6 +6,8 @@ PKG_SUGGESTED_OPTIONS=	x11
 
 .if ${OPSYS} == "Darwin"
 PKG_SUPPORTED_OPTIONS+=	framework
+
+PLIST_VARS+=	framework
 .endif
 
 .include "../../mk/bsd.prefs.mk"
@@ -19,8 +21,15 @@ PLIST.dtrace=		yes
 
 .if !empty(PKG_OPTIONS:Mframework)
 CONFIGURE_ARGS+=	--enable-framework=${PREFIX:Q}/Library/Frameworks
+
+PLIST.framework=	yes
+PLIST_SUBST+=		PYTHON_FRAMEWORK_DIR=Library/Frameworks/Python.framework/Versions/${PY_VER_SUFFIX}/
+
+CHECK_INTERPRETER_SKIP+=	Library/Frameworks/Python.framework/Versions/${PY_VER_SUFFIX}/lib/python${PY_VER_SUFFIX}/*
 .else
 CONFIGURE_ARGS+=	--enable-shared
+
+PLIST_SUBST+=		PYTHON_FRAMEWORK_DIR=""
 .endif
 
 .if !empty(PKG_OPTIONS:Mx11)
