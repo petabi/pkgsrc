@@ -150,6 +150,7 @@ REPLACE_FILES.python+=	Lib/turtledemo/tree.py
 REPLACE_FILES.python+=	Lib/turtledemo/yinyang.py
 REPLACE_FILES.python+=	Lib/uu.py
 REPLACE_FILES.python+=	Lib/webbrowser.py
+REPLACE_FILES.python+=	Mac/Tools/*.py
 
 SUBST_CLASSES+=		findlib
 SUBST_MESSAGE.findlib=	Fixing find_library_file on Darwin.
@@ -184,6 +185,14 @@ CHECK_INTERPRETER_SKIP+=	lib/python${PY_VER_SUFFIX}/venv/scripts/posix/pydoc
 # Avoid error: Cannot generate ./Include/opcode.h, python not found !
 post-configure:
 	touch ${WRKSRC}/Include/opcode.h
+
+.if ${OPSYS} == "Darwin"
+post-install:
+	${FIND} ${DESTDIR}${PREFIX}/Applications -d -print0 | \
+	${XARGS} -0 ${CHMOD} 755
+	${CHMOD} -w ${DESTDIR}${PREFIX}/Library/Frameworks/Python.framework/Versions/${PY_VER_SUFFIX}/lib/python3.6/idlelib/idle.bat
+	${CHMOD} -w ${DESTDIR}${PREFIX}/Library/Frameworks/Python.framework/Versions/${PY_VER_SUFFIX}/lib/python3.6/turtledemo/two_canvases.py
+.endif
 
 .if ${OPSYS} == "HPUX"
 post-install:
