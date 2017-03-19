@@ -4,6 +4,10 @@ PKG_OPTIONS_VAR=	PKG_OPTIONS.python36
 PKG_SUPPORTED_OPTIONS=	dtrace x11
 PKG_SUGGESTED_OPTIONS=	x11
 
+.if ${OPSYS} == "Darwin"
+PKG_SUPPORTED_OPTIONS+=	framework
+.endif
+
 .include "../../mk/bsd.prefs.mk"
 .include "../../mk/bsd.options.mk"
 
@@ -11,6 +15,12 @@ PLIST_VARS+=		dtrace
 .if !empty(PKG_OPTIONS:Mdtrace)
 CONFIGURE_ARGS+=	--with-dtrace
 PLIST.dtrace=		yes
+.endif
+
+.if !empty(PKG_OPTIONS:Mframework)
+CONFIGURE_ARGS+=	--enable-framework=${PREFIX:Q}/Library/Frameworks
+.else
+CONFIGURE_ARGS+=	--enable-shared
 .endif
 
 .if !empty(PKG_OPTIONS:Mx11)
