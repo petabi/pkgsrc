@@ -10,8 +10,7 @@ COMMENT=	Packet capture generator for IDS evaluation
 
 DEPENDS+=	${PYPKGPREFIX}-sortedcontainers-[0-9]*:../../devel/py-sortedcontainers
 
-PYDISTUTILSPKG=			yes
-PYTHON_VERSIONS_ACCEPTED=	35 34
+PYTHON_VERSIONS_ACCEPTED=	36 35 34
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
