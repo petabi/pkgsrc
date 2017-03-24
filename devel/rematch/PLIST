@@ -1,4 +1,5 @@
 @comment $NetBSD$
+bin/rematch2
 bin/rematchc
 bin/rematchtest
 include/rematch/REmake_web.h
