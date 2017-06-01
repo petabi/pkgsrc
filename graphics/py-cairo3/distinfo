@@ -5,4 +5,5 @@ RMD160 (pycairo-1.10.0.tar.bz2) = 7d1c1c05113e5bbad32dbe96c65c918b170cac33
 SHA512 (pycairo-1.10.0.tar.bz2) = a03db6f04cea504985f390b0734042390f491f32ae2bee1299dabbafd369fde36bb506ebb941d22bbc11b0d008c4f758baeacf309a7336880529455092db829f
 Size (pycairo-1.10.0.tar.bz2) = 246556 bytes
 SHA1 (patch-.waf3-1.6.4-e3c1e08604b18a10567cfcd2d02eb6e6_waflib_Build.py) = 37e4dbfc3a5410de59b8dbd6e79c42fd4a193f37
-SHA1 (patch-.waf3-1.6.4-e3c1e08604b18a10567cfcd2d02eb6e6_waflib_Tools_python.py) = 44bd5b6f82476df48bec7976da5e488063ff9f07
+SHA1 (patch-.waf3-1.6.4-e3c1e08604b18a10567cfcd2d02eb6e6_waflib_Tools_python.py) = f043a736f3fa0b33b59e9bc24a20e20ffe0c06fa
+SHA1 (patch-src_wscript) = 24cef157867603638ff85a40c80ab20f6cb77877
