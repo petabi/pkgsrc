@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- src/wscript.orig	2011-03-27 03:54:09.000000000 +0000
++++ src/wscript
+@@ -7,7 +7,7 @@ d = 'src'
+ 
+ def build(ctx):
+   print('  %s/build()' %d)
+-  pycairoLibDir = os.path.join(ctx.env['LIBDIR'],
++  pycairoLibDir = os.path.join(ctx.env['LIBPATH_PYEXT'][0],
+                                'python'+ctx.env['PYTHON_VERSION'],
+                                'site-packages', 'cairo')
+   # .py files
