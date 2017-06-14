@@ -10,3 +10,7 @@ lib/libhs_runtime.${PKGVERSION}.so
 lib/libhs_runtime.4.so
 lib/libhs_runtime.so
 lib/pkgconfig/libhs.pc
+share/doc/hyperscan/examples/README.md
+share/doc/hyperscan/examples/patbench.cc
+share/doc/hyperscan/examples/pcapscan.cc
+share/doc/hyperscan/examples/simplegrep.c
