@@ -12,7 +12,7 @@ DEPENDS+=	${RUBY_PKGPREFIX}-metasploit-model-[0-9]*:../../security/ruby-metasplo
 DEPENDS+=	${RUBY_PKGPREFIX}-metasploit_data_models-[0-9]*:../../security/ruby-metasploit_data_models
 DEPENDS+=	${RUBY_PKGPREFIX}-ntlm-[0-9]*:../../security/ruby-ntlm
 DEPENDS+=	${RUBY_PKGPREFIX}-pg-[0-9]*:../../databases/ruby-pg
-DEPENDS+=	${RUBY_PKGPREFIX}-railties-[0-9]*:../../devel/ruby-railties42
+DEPENDS+=	${RUBY_PKGPREFIX}-railties42-[0-9]*:../../devel/ruby-railties42
 DEPENDS+=	${RUBY_PKGPREFIX}-zip-[0-9]*:../../archivers/ruby-zip
 
 .include "../../lang/ruby/gem.mk"
