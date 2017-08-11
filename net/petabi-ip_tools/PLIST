@@ -1,3 +1,7 @@
 @comment $NetBSD$
+include/petabi/ip_tools/Pclass.h
+include/petabi/ip_tools/Rule.h
+include/petabi/ip_tools/common.h
 include/petabi/ip_tools/lpm.h
-lib/liblpm.so
+lib/liblpm.dylib
+lib/libpclass.dylib
