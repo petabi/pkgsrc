@@ -288,6 +288,7 @@ SUBDIR+=	py-pandas
 SUBDIR+=	py-pandas-datareader
 SUBDIR+=	py-patsy
 SUBDIR+=	py-powerlaw
+SUBDIR+=	py-pymc3
 SUBDIR+=	py-pytables
 SUBDIR+=	py-pywavelets
 SUBDIR+=	py-quadprog
