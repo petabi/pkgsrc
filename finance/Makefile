@@ -30,6 +30,7 @@ SUBDIR+=	py-braintree
 SUBDIR+=	py-empyrical
 SUBDIR+=	py-fecon235
 SUBDIR+=	py-ofxparse
+SUBDIR+=	py-pyfolio
 SUBDIR+=	py-python-bitcoinlib
 SUBDIR+=	py-quickbooks
 SUBDIR+=	py-stripe
