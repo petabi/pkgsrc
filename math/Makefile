@@ -264,6 +264,7 @@ SUBDIR+=	py-numpy
 SUBDIR+=	py-pandas
 SUBDIR+=	py-pandas-datareader
 SUBDIR+=	py-patsy
+SUBDIR+=	py-pymc3
 SUBDIR+=	py-pytables
 SUBDIR+=	py-roman
 SUBDIR+=	py-rpy
