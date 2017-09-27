@@ -1,4 +1,5 @@
 @comment $NetBSD$
+bin/remaketest
 bin/rematch2
 bin/rematchc
 bin/rematchtest
