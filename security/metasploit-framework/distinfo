@@ -1,8 +1,8 @@
 $NetBSD$
 
-SHA1 (metasploit-framework/4.12.15.tar.gz) = 895b7c90fac750e3eac33f6df08ebed1ff14f272
-RMD160 (metasploit-framework/4.12.15.tar.gz) = 2dffa0c2e5559293d0508063111b734478dc14e3
-SHA512 (metasploit-framework/4.12.15.tar.gz) = d95801cfcb3434335d2ff406ff2660ba302d503d4514796dbe37dc18d644e43881ea6dca02a1c904cf16fa917d5ace978e40ede35606282ba8ca075cd4cbcc4c
-Size (metasploit-framework/4.12.15.tar.gz) = 23275808 bytes
+SHA1 (metasploit-framework/4.16.8.tar.gz) = af78e8579393ec64165eedf19530cc5c9dae0ef9
+RMD160 (metasploit-framework/4.16.8.tar.gz) = b4c902d900550f9c4de99a5fd116eff7e3beae1e
+SHA512 (metasploit-framework/4.16.8.tar.gz) = 05132d3b27d0a7455f676a44181daa5fd34bbe5214ee6e9cb47322ee2bfc8e01d763327502988b10c0898dd6f877b7430d54c3e8afe3aca4f8c373dfff7e6b73
+Size (metasploit-framework/4.16.8.tar.gz) = 24089210 bytes
 SHA1 (patch-Gemfile) = 7f6eba6e4f3f40d7ed9bee0625e9482178456e34
 SHA1 (patch-metasploit-framework.gemspec) = b138e2efb3ac5dd4b39ca28a9d85505a42657a58
