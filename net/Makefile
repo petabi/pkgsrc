@@ -650,6 +650,7 @@ SUBDIR+=	py-gevent
 SUBDIR+=	py-geventhttpclient
 SUBDIR+=	py-google
 SUBDIR+=	py-google-cloud-sdk
+SUBDIR+=	py-grpcio
 SUBDIR+=	py-hatop
 SUBDIR+=	py-hpack
 SUBDIR+=	py-ipaddress
