@@ -1,0 +1,8 @@
+$NetBSD: distinfo,v 1.1 2017/10/25 22:16:31 minskim Exp $
+
+SHA1 (grpcio-1.7.0.tar.gz) = dbe82d5d257721c07b20ab7fa508beebef736995
+RMD160 (grpcio-1.7.0.tar.gz) = cce12b9970ed8b9bdf9e8d252538a17ea3695530
+SHA512 (grpcio-1.7.0.tar.gz) = 551e0f4078a4d0b48d6686ebdc80d44d9bd7718f4e794995f9cd09322ba90bb4063578478ff8d721eaaab37c911ab09a9b8fd61be7886c5fa943ebab099fb162
+Size (grpcio-1.7.0.tar.gz) = 9999425 bytes
+SHA1 (patch-setup.py) = 5b7498341ce7335533c31b4f58667b9703818245
+SHA1 (patch-src_python_grpcio_commands.py) = 40e1d001a8f2cc504e525d2c3ad2acb3094ea5ed
