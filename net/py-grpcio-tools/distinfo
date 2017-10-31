@@ -1,0 +1,6 @@
+$NetBSD: distinfo,v 1.1 2017/10/25 22:16:31 minskim Exp $
+
+SHA1 (grpcio-tools-1.7.0.tar.gz) = 298ac0fbf827020ac45d7a10f6f6bf56d6278a67
+RMD160 (grpcio-tools-1.7.0.tar.gz) = a9ca810aefe869ae05a64f684c9489cb9aff1bba
+SHA512 (grpcio-tools-1.7.0.tar.gz) = 9205f9804b13f01d2543e037496bcab1eb026d35daa0f3e3a3da87cfb561be5f61da09411757a82e08a21f77dcdc10694ea3aa1a4668c6689cdbc4223991e8d7
+Size (grpcio-tools-1.7.0.tar.gz) = 1920133 bytes
