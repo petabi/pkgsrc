@@ -3,6 +3,7 @@ bin/remaketest
 bin/rematch2
 bin/rematchc
 bin/rematchtest
+include/rematch/REmake_util.h
 include/rematch/REmake_web.h
 include/rematch/compile.h
 include/rematch/execute.h
