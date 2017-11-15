@@ -24,7 +24,7 @@ USE_TOOLS+=	pax
 CHECK_RELRO_SUPPORTED=	no
 
 # JDK8 Update number
-UPDATE_NUMBER=	144
+UPDATE_NUMBER=	151
 
 .include "../../mk/bsd.prefs.mk"
 
