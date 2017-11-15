@@ -1,0 +1,6 @@
+$NetBSD$
+
+SHA1 (tensorflow-1.4.0.tar.gz) = 9562d1d86f1afeec9739461df91ada44cc91ace7
+RMD160 (tensorflow-1.4.0.tar.gz) = e36f8e274b2eee2f0cffe9f42688973d24ba1f17
+SHA512 (tensorflow-1.4.0.tar.gz) = 37ac22faf9e59faf8dc5d952df1e7bc73c27905d564a508d3fd172fff37da10c99b3d6b62b3684b88688fd109172c9de61f620ff0eb2209d73553d6617912dda
+Size (tensorflow-1.4.0.tar.gz) = 16533915 bytes
