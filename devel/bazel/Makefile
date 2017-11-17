@@ -11,6 +11,8 @@ HOMEPAGE=	https://bazel.build/
 COMMENT=	Fast, scalable, multi-language, and extensible build system
 LICENSE=	apache-2.0
 
+DEPENDS+=	protobuf-[0-9]*:../../devel/protobuf
+
 USE_JAVA=	yes
 USE_TOOLS+=	sh tr
 
@@ -19,6 +21,6 @@ CHECK_PORTABILITY_SKIP=	third_party/protobuf/3.4.0/post_process_dist.sh
 .include "../../mk/java-vm.mk"
 
 do-build:
-	cd ${WRKSRC} && ${SH} compile.sh
+	${RUN} cd ${WRKSRC} && ${SETENV} PROTOC=${LOCALBASE}/protoc ${SH} compile.sh
 
 .include "../../mk/bsd.pkg.mk"
