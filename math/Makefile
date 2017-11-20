@@ -274,6 +274,7 @@ SUBDIR+=	py-scipy
 SUBDIR+=	py-simpleeval
 SUBDIR+=	py-statsmodels
 SUBDIR+=	py-sympy
+SUBDIR+=	py-tensorflow-bin
 SUBDIR+=	py-tensorflow-tensorboard
 SUBDIR+=	qalculate
 SUBDIR+=	qalculate-bases
