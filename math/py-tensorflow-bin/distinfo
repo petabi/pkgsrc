@@ -1,0 +1,6 @@
+$NetBSD$
+
+SHA1 (tensorflow-1.4.0-cp36-cp36m-macosx_10_11_x86_64.whl) = aa3f235238c275df5f9a068d8941a6d51b2c0c64
+RMD160 (tensorflow-1.4.0-cp36-cp36m-macosx_10_11_x86_64.whl) = 3b4c4b3cf7e23cc40f6f3e48c01d07785f32e784
+SHA512 (tensorflow-1.4.0-cp36-cp36m-macosx_10_11_x86_64.whl) = d551945b98610f255904d7ec8cbe2b9d6da392a9992e6dd7f23c8999096d8cfa0e8864de78412869aac8729819ee58a1acfd26e7acdd72134ab3ef9cccf8a5e6
+Size (tensorflow-1.4.0-cp36-cp36m-macosx_10_11_x86_64.whl) = 39309229 bytes
