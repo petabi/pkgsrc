@@ -1,0 +1,6 @@
+$NetBSD$
+
+SHA1 (bazel-0.7.0-installer-darwin-x86_64.sh) = 32abb3750202ab47b73a0a3b7cefc8aec6a0655e
+RMD160 (bazel-0.7.0-installer-darwin-x86_64.sh) = fd847c41e5d4f096d384dba93066a84910535348
+SHA512 (bazel-0.7.0-installer-darwin-x86_64.sh) = dc4d66863be7dd65b0a4e516264183bfec5554e648915615f01af6fbc02f541031ffdf37988c5b83c31277d77cc083f75d674c1c10ea3de8b4f72af812324c75
+Size (bazel-0.7.0-installer-darwin-x86_64.sh) = 175081432 bytes

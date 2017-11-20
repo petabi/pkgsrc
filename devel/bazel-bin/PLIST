@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/bazel
+lib/bazel/bin/bazel
+lib/bazel/bin/bazel-complete.bash
+lib/bazel/bin/bazel-real
+@pkgdir lib/bazel/etc
