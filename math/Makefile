@@ -316,6 +316,7 @@ SUBDIR+=	py-statsmodels
 SUBDIR+=	py-sympy
 SUBDIR+=	py-tables
 SUBDIR+=	py-tensorboard
+SUBDIR+=	py-tensorflow-bin
 SUBDIR+=	py-z3
 SUBDIR+=	py-z3solver
 SUBDIR+=	qalculate
