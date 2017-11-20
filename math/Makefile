@@ -352,6 +352,7 @@ SUBDIR+=	py-statsmodels
 SUBDIR+=	py-sympy
 SUBDIR+=	py-tables
 SUBDIR+=	py-tensorboard
+SUBDIR+=	py-tensorflow-bin
 SUBDIR+=	py-uncertainties
 SUBDIR+=	py-xarray
 SUBDIR+=	py-z3
