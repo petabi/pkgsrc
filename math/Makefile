@@ -300,6 +300,7 @@ SUBDIR+=	py-scipy
 SUBDIR+=	py-simpleeval
 SUBDIR+=	py-statsmodels
 SUBDIR+=	py-sympy
+SUBDIR+=	py-tensorflow-bin
 SUBDIR+=	py-tensorflow-tensorboard
 SUBDIR+=	py-z3
 SUBDIR+=	py-z3solver
