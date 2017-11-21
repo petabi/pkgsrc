@@ -1,0 +1,9 @@
+$NetBSD$
+
+SHA1 (apache-arrow-0.7.1.tar.gz) = 4597b28bf78c4055e14214ea840a957d73669232
+RMD160 (apache-arrow-0.7.1.tar.gz) = e0341b0891163de9bba37b266128b3e4867da197
+SHA512 (apache-arrow-0.7.1.tar.gz) = 8c5614c53ee3bdff579d938dca06ff2e2f9afeba0466de3a7469bfa95d06f0c2e42a80c1908e5c73a9b711057a433a882135fc392a409aa7cf101cb68d621cb8
+Size (apache-arrow-0.7.1.tar.gz) = 1728000 bytes
+SHA1 (patch-cmake__modules_FindBrotli.cmake) = f03fbbdb9a23dafeb313f1b1ea0fbd2573dbbaa6
+SHA1 (patch-cmake__modules_FindZLIB.cmake) = 5b79255028574564a2385d4b6565e74cc8b0245b
+SHA1 (patch-cmake__modules_ThirdpartyToolchain.cmake) = e41b25cc69f3c7fca38102c3fb65d590cd4bd24d
