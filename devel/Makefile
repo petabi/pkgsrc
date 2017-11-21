@@ -93,6 +93,7 @@ SUBDIR+=	ant-contrib
 SUBDIR+=	apache-ant
 SUBDIR+=	apache-ant15
 SUBDIR+=	apache-ant19
+SUBDIR+=	apache-arrow-c++
 SUBDIR+=	apache-ivy
 SUBDIR+=	apache-maven
 SUBDIR+=	apel
