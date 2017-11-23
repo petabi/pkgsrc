@@ -1,4 +1,5 @@
 @comment $NetBSD$
+include/petabi/ip_tools/Hypercut.h
 include/petabi/ip_tools/Pclass.h
 include/petabi/ip_tools/Rule.h
 include/petabi/ip_tools/common.h

@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	petabi-ip_tools-0.2
+DISTNAME=	petabi-ip_tools-0.2.3
 CATEGORIES=	net
 MASTER_SITES=	# None
 EXTRACT_SUFX=	.tar.bz2
