@@ -14,6 +14,8 @@ LICENSE=		gnu-lgpl-v2.1 OR mpl-1.1
 
 USE_TOOLS+=		pkg-config
 
+PYSETUPINSTALLARGS+=	--install-data=${PREFIX:Q}
+
 BUILDLINK_API_DEPENDS.cairo+=	cairo>=1.13.1
 .include "../../graphics/cairo/buildlink3.mk"
 .include "../../lang/python/egg.mk"
