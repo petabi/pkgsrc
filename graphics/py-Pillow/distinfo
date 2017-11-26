@@ -4,4 +4,4 @@ SHA1 (Pillow-4.3.0.tar.gz) = f070a099690b4a8d1539644c98c7fe65e66c8149
 RMD160 (Pillow-4.3.0.tar.gz) = e2d862ed90e654da9057f13443fedc390f935d9a
 SHA512 (Pillow-4.3.0.tar.gz) = 5811252802bd01ac86157235d42138685e746723df48b67ec7c7ebd3f172532b40cf86ca9d3d792e82f03986303a084bf3491c0d511dc068dea1bc631afdeabb
 Size (Pillow-4.3.0.tar.gz) = 13874155 bytes
-SHA1 (patch-setup.py) = d53b9600c4b449f70c2ff8a85d059ebd74b0403c
+SHA1 (patch-setup.py) = 3c75d25c1244d4c646c9020ac3db2a7db04f8613
