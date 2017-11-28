@@ -34,5 +34,6 @@ SUBDIR+=	tcsh
 SUBDIR+=	xonsh
 SUBDIR+=	xsh
 SUBDIR+=	zsh
+SUBDIR+=	zsh-completions
 
 .include "../mk/misc/category.mk"
