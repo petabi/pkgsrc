@@ -1,0 +1,32 @@
+$NetBSD$
+
+--- lib/pcre/CMakeLists.txt.orig	2017-11-14 05:11:16.000000000 +0000
++++ lib/pcre/CMakeLists.txt
+@@ -1,3 +1,5 @@
++include(CheckCCompilerFlag)
++
+ add_definitions(-DHAVE_MEMMOVE)
+ add_definitions(-DLINK_SIZE=2 -DPARENS_NEST_LIMIT=250 -DNEWLINE=10)
+ add_definitions(-DMAX_NAME_COUNT=10000 -DMAX_NAME_SIZE=32)
+@@ -37,17 +39,13 @@ foreach(wflag
+   set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wno-${wflag}")
+ endforeach()
+ 
++check_c_compiler_flag(-Wno-comma HAS_NO_COMMA)
++if (HAS_NO_COMMA)
++  set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wno-comma")
++endif()
+ if("${CMAKE_C_COMPILER_ID}" STREQUAL "GNU")
+    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wno-maybe-uninitialized")
+ endif()
+-if("${CMAKE_C_COMPILER_ID}" STREQUAL "Clang" AND
+-    NOT CMAKE_C_COMPILER_VERSION VERSION_LESS 4.0)
+-   set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wno-comma")
+-endif()
+-if("${CMAKE_C_COMPILER_ID}" STREQUAL "AppleClang" AND
+-    NOT CMAKE_C_COMPILER_VERSION VERSION_LESS 8.1)
+-   set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wno-comma")
+-endif()
+ 
+ add_library(pcre OBJECT
+   pcre_chartables.c pcre_compile.c pcre_globals.c pcre_newline.c
