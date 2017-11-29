@@ -54,8 +54,10 @@ if ! id pbulk; then
     if ! pw groupshow users; then pw groupadd users; fi
     pw useradd pbulk -m -g users
 fi
+: ${BOOTSTRAPARGS:=--cwrappers no --compiler clang}
 ;;
 Darwin)
+: ${BOOTSTRAPARGS:=}
 ;;
 *)
 if ! id pbulk; then echo "user \"pbulk\" is absent"; exit 1; fi
@@ -73,7 +75,8 @@ ${PKGSRCDIR}/bootstrap/bootstrap \
   ${unprivileged:+--unprivileged} \
   --mk-fragment=${TMPDIR}/pbulk.mk \
   --prefix=${PBULKPREFIX} \
-  --workdir=${PBULKWORK}
+  --workdir=${PBULKWORK} \
+  ${BOOTSTRAPARGS}
 rm -rf ${PBULKWORK}
 rm -f ${TMPDIR}/pbulk.mk
 
