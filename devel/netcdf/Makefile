@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.45 2017/11/29 18:29:35 minskim Exp $
 
-DISTNAME=	netcdf-4.4.1.1
+DISTNAME=	netcdf-4.5.0
 CATEGORIES=	devel
 MASTER_SITES=	https://www.unidata.ucar.edu/downloads/netcdf/ftp/
 
