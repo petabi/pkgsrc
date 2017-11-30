@@ -108,6 +108,7 @@ REPLACE_INTERPRETER+=	py34
 REPLACE.py34.old=	.*python[^ ]*
 REPLACE.py34.new=	${PREFIX}/bin/python${PY_VER_SUFFIX}
 REPLACE_FILES.py34=	Lib/*.py Lib/encodings/*.py Lib/idlelib/*.py Lib/*/*/*.py Lib/*/*/*/*.py Mac/Tools/*.py
+REPLACE_FILES.py34+=	Lib/test/*.py Lib/turtledemo/*.py
 
 SUBST_CLASSES+=		findlib
 SUBST_MESSAGE.findlib=	Fixing find_library_file on Darwin.
