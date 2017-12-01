@@ -37,5 +37,6 @@ SUBDIR+=	zsh
 SUBDIR+=	zsh-autosuggestions
 SUBDIR+=	zsh-completions
 SUBDIR+=	zsh-pure
+SUBDIR+=	zsh-syntax-highlighting
 
 .include "../mk/misc/category.mk"
