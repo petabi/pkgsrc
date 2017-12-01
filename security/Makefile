@@ -379,6 +379,7 @@ SUBDIR+=	pscan
 SUBDIR+=	putty
 SUBDIR+=	pwsafe
 SUBDIR+=	py-Des
+SUBDIR+=	py-OTXv2
 SUBDIR+=	py-OpenSSL
 SUBDIR+=	py-SSLCrypto
 SUBDIR+=	py-acme
