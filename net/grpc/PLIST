@@ -1,4 +1,4 @@
-@comment $NetBSD: PLIST,v 1.2 2017/10/27 16:45:34 minskim Exp $
+@comment $NetBSD$
 bin/check_epollexclusive
 bin/gen_hpack_tables
 bin/gen_legal_metadata_characters
@@ -160,14 +160,14 @@ lib/cmake/grpc/gRPCConfig.cmake
 lib/cmake/grpc/gRPCConfigVersion.cmake
 lib/cmake/grpc/gRPCTargets-noconfig.cmake
 lib/cmake/grpc/gRPCTargets.cmake
-lib/libgpr.a
-lib/libgrpc++.a
-lib/libgrpc++_cronet.a
-lib/libgrpc++_error_details.a
-lib/libgrpc++_reflection.a
-lib/libgrpc++_unsecure.a
-lib/libgrpc.a
-lib/libgrpc_cronet.a
+lib/libgpr.so
+lib/libgrpc++.so
+lib/libgrpc++_cronet.so
+lib/libgrpc++_error_details.so
+lib/libgrpc++_reflection.so
+lib/libgrpc++_unsecure.so
+lib/libgrpc.so
+lib/libgrpc_cronet.so
 lib/libgrpc_csharp_ext.so
-lib/libgrpc_plugin_support.a
-lib/libgrpc_unsecure.a
+lib/libgrpc_plugin_support.so
+lib/libgrpc_unsecure.so
