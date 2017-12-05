@@ -13,7 +13,8 @@ LICENSE=	apache-2.0
 DEPENDS+=	${PYPKGPREFIX}-grpcio>=1.7.0:../../net/py-grpcio
 DEPENDS+=	${PYPKGPREFIX}-protobuf>=3.3.0:../../devel/py-protobuf
 
-USE_LANGUAGES=	c c++
+USE_LANGUAGES=	c c++11
 
 .include "../../lang/python/egg.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
