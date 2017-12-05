@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/reconverge
+include/reconverge/coreUT.h
+lib/libreconverge.a
