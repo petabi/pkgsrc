@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- etc/CMakeLists.txt.orig	2017-12-27 18:30:49.000000000 +0000
++++ etc/CMakeLists.txt
+@@ -1,5 +1,5 @@
+ #  Configuration file required for daemonizing reconverge.
+-install(FILES reconverge/general_detectors.json DESTINATION ${CMAKE_INSTALL_SYSCONFDIR}/reconverge)
++install(FILES reconverge/general_detectors.json DESTINATION ${EGDIR}/reconverge)
+ 
+-install(FILES blackwatch/badurl.txt DESTINATION ${CMAKE_INSTALL_SYSCONFDIR}/blackwatch)
+-install(FILES blackwatch/badip.txt DESTINATION ${CMAKE_INSTALL_SYSCONFDIR}/blackwatch)
++install(FILES blackwatch/badurl.txt DESTINATION ${EGDIR}/reconverge)
++install(FILES blackwatch/badip.txt DESTINATION ${EGDIR}/reconverge)

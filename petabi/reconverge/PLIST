@@ -1,0 +1,11 @@
+@comment $NetBSD$
+bin/blackwatch
+bin/reconverge
+bin/reconverge-config
+include/reconverge/coreUT.h
+lib/libreconverge.a
+share/examples/rc.d/blackwatch
+share/examples/rc.d/reconverge
+share/examples/reconverge/badip.txt
+share/examples/reconverge/badurl.txt
+share/examples/reconverge/general_detectors.json
