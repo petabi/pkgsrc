@@ -2224,6 +2224,7 @@ SUBDIR+=	py-queuelib
 SUBDIR+=	py-quixote
 SUBDIR+=	py-radon
 SUBDIR+=	py-rauth
+SUBDIR+=	py-re3
 SUBDIR+=	py-readlike
 SUBDIR+=	py-readline
 SUBDIR+=	py-rednose
