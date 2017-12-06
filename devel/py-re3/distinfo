@@ -1,0 +1,6 @@
+$NetBSD: distinfo,v 1.1 2017/09/16 21:31:35 minskim Exp $
+
+SHA1 (pyre2-0.2.23.tar.gz) = 4e1eac87f28a6e0c114a67e6f9c6cae28416a7f4
+RMD160 (pyre2-0.2.23.tar.gz) = 5aedf48962c2b0e9f7ab344bee503d0694971972
+SHA512 (pyre2-0.2.23.tar.gz) = 03e60adc8ce9662162509a5a3ce4bba35337b79076ee46c9fb64fa2d42cee2aa5f85be5f738cf041f6b8b40393240698ebbad536b899329d8c12e3a8be45ad12
+Size (pyre2-0.2.23.tar.gz) = 2142440 bytes
