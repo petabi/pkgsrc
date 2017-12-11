@@ -1959,6 +1959,7 @@ SUBDIR+=	py-hglist
 SUBDIR+=	py-hgnested
 SUBDIR+=	py-hgtools
 SUBDIR+=	py-hgview
+SUBDIR+=	py-hyperscan
 SUBDIR+=	py-hypothesis
 SUBDIR+=	py-idle
 SUBDIR+=	py-incremental
