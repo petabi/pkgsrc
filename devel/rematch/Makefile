@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	rematch-1.11.1
+DISTNAME=	rematch-1.11.2
 CATEGORIES=	devel
 MASTER_SITES=	# None
 EXTRACT_SUFX=	.tar.bz2
@@ -16,6 +16,7 @@ CMAKE_ARGS=	-DCMAKE_BUILD_TYPE=Release
 
 BUILDLINK_DEPMETHOD.atf?=	build
 BUILDLINK_DEPMETHOD.llvm?=	build
+BUILDLINK_API_DEPENDS.llvm+=	llvm>=5.0
 BUILDLINK_API_DEPENDS.pius-session+=	pius-session>=0.21.0
 
 .include "../../benchmarks/google-benchmark/buildlink3.mk"
