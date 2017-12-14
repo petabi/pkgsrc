@@ -11,6 +11,7 @@ COMMENT=	CPython extension for hyperscan
 LICENSE=	mit
 
 USE_LANGUAGES=	c
+USE_TOOLS+=	pkg-config
 
 .include "../../devel/hyperscan/buildlink3.mk"
 .include "../../lang/python/egg.mk"
