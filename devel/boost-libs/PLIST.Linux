@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/libboost_stacktrace_backtrace.a
+lib/libboost_stacktrace_backtrace.so
+lib/libboost_stacktrace_backtrace.so.${BOOST_VERSION}
