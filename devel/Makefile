@@ -60,6 +60,7 @@ SUBDIR+=	apache-ant15
 SUBDIR+=	apache-arrow-c++
 SUBDIR+=	apache-ivy
 SUBDIR+=	apache-maven
+SUBDIR+=	apache-parquet-cpp
 SUBDIR+=	apel
 SUBDIR+=	appdata-tools
 SUBDIR+=	apr

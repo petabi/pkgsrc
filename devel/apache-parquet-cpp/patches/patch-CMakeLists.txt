@@ -1,0 +1,26 @@
+$NetBSD$
+
+Fix install_name on macOS.
+
+--- CMakeLists.txt.orig	2017-10-22 10:55:45.000000000 +0000
++++ CMakeLists.txt
+@@ -81,7 +81,7 @@ endif()
+ enable_testing()
+ 
+ # where to find cmake modules
+-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake_modules")
++set (CMAKE_MODULE_PATH "/opt/pkgsrc/devel/apache-parquet-cpp/work/.buildlink/cmake-Modules" ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake_modules")
+ set(BUILD_SUPPORT_DIR "${CMAKE_SOURCE_DIR}/build-support")
+ 
+ find_package(ClangTools)
+@@ -98,10 +98,6 @@ if(CCACHE_FOUND)
+   set_property(GLOBAL PROPERTY RULE_LAUNCH_LINK ccache)
+ endif(CCACHE_FOUND)
+ 
+-if(APPLE)
+-  set(CMAKE_MACOSX_RPATH 1)
+-endif()
+-
+ # if no build build type is specified, default to debug builds
+ if (NOT CMAKE_BUILD_TYPE)
+   set(CMAKE_BUILD_TYPE Debug)

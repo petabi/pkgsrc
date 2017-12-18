@@ -1,0 +1,8 @@
+$NetBSD$
+
+SHA1 (apache-parquet-cpp-1.3.1.tar.gz) = 4575f8eb438fef1b3f617a786aee4f36f62aa3da
+RMD160 (apache-parquet-cpp-1.3.1.tar.gz) = 989993966b596295496bf7849411e4441a0cfea1
+SHA512 (apache-parquet-cpp-1.3.1.tar.gz) = 474a87cd8fa0077a113da6ddd524fa2941faadaf0ad1c2163d60ccd87496575880a3b6c201116773e1f1922261cddab2d632240aebf3c58e9617f19ab74c35b2
+Size (apache-parquet-cpp-1.3.1.tar.gz) = 324301 bytes
+SHA1 (patch-CMakeLists.txt) = b16879fcd6fbffd4e21aaa63ee96b67e2b0f5fef
+SHA1 (patch-cmake__modules_BuildUtils.cmake) = 0bd680979239a8d600e8d6c5b4e4b9229faacc2d
