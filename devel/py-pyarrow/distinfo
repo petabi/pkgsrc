@@ -1,0 +1,7 @@
+$NetBSD$
+
+SHA1 (apache-arrow-0.7.1.tar.gz) = 4597b28bf78c4055e14214ea840a957d73669232
+RMD160 (apache-arrow-0.7.1.tar.gz) = e0341b0891163de9bba37b266128b3e4867da197
+SHA512 (apache-arrow-0.7.1.tar.gz) = 8c5614c53ee3bdff579d938dca06ff2e2f9afeba0466de3a7469bfa95d06f0c2e42a80c1908e5c73a9b711057a433a882135fc392a409aa7cf101cb68d621cb8
+Size (apache-arrow-0.7.1.tar.gz) = 1728000 bytes
+SHA1 (patch-CMakeLists.txt) = 73d1e57e99c9100542ca12e2aed53a78e42f3a95

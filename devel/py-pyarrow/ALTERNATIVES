@@ -1,0 +1,1 @@
+bin/plasma_store @PREFIX@/bin/plasma_store@PYVERSSUFFIX@
