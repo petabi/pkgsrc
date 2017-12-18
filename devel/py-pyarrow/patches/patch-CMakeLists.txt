@@ -1,0 +1,15 @@
+$NetBSD$
+
+Fix install_name on macOS.
+
+--- CMakeLists.txt.orig	2017-09-27 13:19:05.000000000 +0000
++++ CMakeLists.txt
+@@ -36,7 +36,7 @@ endif()
+ # Must be declared in the top-level CMakeLists.txt.
+ set(CMAKE_SKIP_INSTALL_ALL_DEPENDENCY true)
+ 
+-set(CMAKE_MACOSX_RPATH 1)
++set(CMAKE_MACOSX_RPATH OFF)
+ set(CMAKE_OSX_DEPLOYMENT_TARGET 10.9)
+ 
+ # Generate a Clang compile_commands.json "compilation database" file for use
