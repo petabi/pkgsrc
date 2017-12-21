@@ -5,4 +5,8 @@ include/petabi/ip_tools/Rule.h
 include/petabi/ip_tools/common.h
 include/petabi/ip_tools/lpm.h
 lib/liblpm.so
+lib/liblpm.so.0
+lib/liblpm.so.${PKGVERSION}
 lib/libpclass.so
+lib/libpclass.so.0
+lib/libpclass.so.${PKGVERSION}

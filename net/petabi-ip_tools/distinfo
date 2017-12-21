@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (petabi-ip_tools-0.2.3.tar.bz2) = 2f2808f77ae618052841bb975fd9fdf2e8555f32
-RMD160 (petabi-ip_tools-0.2.3.tar.bz2) = 7e43b8c8881204078ae9b830395e7c2f4ca8f6e7
-SHA512 (petabi-ip_tools-0.2.3.tar.bz2) = 789546cd4835137c507bcb6bb049544d8eb26fcd67d9eadaa755b9cdcac0fcf66006d4688dbe84ecf50159b1168c35c237504d52511ffc0b1e33811fc9b1d845
-Size (petabi-ip_tools-0.2.3.tar.bz2) = 3234890 bytes
+SHA1 (petabi-ip_tools-0.3.0.tar.bz2) = b421cfdd8b4dc49516fd00a15656f2c66fe8d379
+RMD160 (petabi-ip_tools-0.3.0.tar.bz2) = c8a1eed4b1052fd70bac1549577705deb6be4d36
+SHA512 (petabi-ip_tools-0.3.0.tar.bz2) = d324607851a3d524c18c8c8c26660e61421cc4f9e0093dc0341a0884a48e9fa2f13317f77b1cf0183c5941d00182748acd412bfe53b2f373a475f375d8d77b09
+Size (petabi-ip_tools-0.3.0.tar.bz2) = 3239765 bytes
