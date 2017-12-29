@@ -1,6 +1,7 @@
 # $NetBSD: Makefile.common,v 1.25 2017/12/30 10:39:24 adam Exp $
 # used by lang/clang/Makefile
 # used by lang/clang-static-analyzer/Makefile
+# used by lang/clang-tools-extra/Makefile
 
 DISTNAME=	cfe-5.0.1.src
 CATEGORIES=	lang devel
