@@ -320,6 +320,7 @@ SUBDIR+=	prboom-plus
 SUBDIR+=	pushover
 SUBDIR+=	puzzles
 SUBDIR+=	py-easyAI
+SUBDIR+=	py-py3minepi
 SUBDIR+=	py-pysol_cards
 SUBDIR+=	py-ranking
 SUBDIR+=	py-renpy
