@@ -30,6 +30,7 @@ SUBDIR+=	cint
 SUBDIR+=	clang
 SUBDIR+=	clang-bin
 SUBDIR+=	clang-static-analyzer
+SUBDIR+=	clang-tools-extra
 SUBDIR+=	classpath
 SUBDIR+=	classpath-gui
 SUBDIR+=	clisp

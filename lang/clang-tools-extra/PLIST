@@ -1,0 +1,20 @@
+@comment $NetBSD$
+bin/clang-tidy
+lib/libclangTidy.a
+lib/libclangTidyAndroidModule.a
+lib/libclangTidyBoostModule.a
+lib/libclangTidyBugproneModule.a
+lib/libclangTidyCERTModule.a
+lib/libclangTidyCppCoreGuidelinesModule.a
+lib/libclangTidyGoogleModule.a
+lib/libclangTidyHICPPModule.a
+lib/libclangTidyLLVMModule.a
+lib/libclangTidyMPIModule.a
+lib/libclangTidyMiscModule.a
+lib/libclangTidyModernizeModule.a
+lib/libclangTidyPerformanceModule.a
+lib/libclangTidyPlugin.a
+lib/libclangTidyReadabilityModule.a
+lib/libclangTidyUtils.a
+share/clang/clang-tidy-diff.py
+share/clang/run-clang-tidy.py
