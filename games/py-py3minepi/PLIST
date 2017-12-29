@@ -1,0 +1,27 @@
+@comment $NetBSD$
+${PYSITELIB}/${EGG_INFODIR}/PKG-INFO
+${PYSITELIB}/${EGG_INFODIR}/SOURCES.txt
+${PYSITELIB}/${EGG_INFODIR}/dependency_links.txt
+${PYSITELIB}/${EGG_INFODIR}/top_level.txt
+${PYSITELIB}/${EGG_INFODIR}/zip-safe
+${PYSITELIB}/mcpi/__init__.py
+${PYSITELIB}/mcpi/__init__.pyc
+${PYSITELIB}/mcpi/__init__.pyo
+${PYSITELIB}/mcpi/block.py
+${PYSITELIB}/mcpi/block.pyc
+${PYSITELIB}/mcpi/block.pyo
+${PYSITELIB}/mcpi/connection.py
+${PYSITELIB}/mcpi/connection.pyc
+${PYSITELIB}/mcpi/connection.pyo
+${PYSITELIB}/mcpi/event.py
+${PYSITELIB}/mcpi/event.pyc
+${PYSITELIB}/mcpi/event.pyo
+${PYSITELIB}/mcpi/minecraft.py
+${PYSITELIB}/mcpi/minecraft.pyc
+${PYSITELIB}/mcpi/minecraft.pyo
+${PYSITELIB}/mcpi/util.py
+${PYSITELIB}/mcpi/util.pyc
+${PYSITELIB}/mcpi/util.pyo
+${PYSITELIB}/mcpi/vec3.py
+${PYSITELIB}/mcpi/vec3.pyc
+${PYSITELIB}/mcpi/vec3.pyo
