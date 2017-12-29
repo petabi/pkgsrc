@@ -275,6 +275,7 @@ SUBDIR+=	prboom-plus
 SUBDIR+=	pushover
 SUBDIR+=	puzzles
 SUBDIR+=	py-easyAI
+SUBDIR+=	py-py3minepi
 SUBDIR+=	py-ranking
 SUBDIR+=	py-renpy
 SUBDIR+=	py-trueskill
