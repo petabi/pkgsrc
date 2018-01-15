@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	rematch-1.11.4
+DISTNAME=	rematch-1.13.0
 CATEGORIES=	devel
 MASTER_SITES=	# None
 EXTRACT_SUFX=	.tar.bz2
