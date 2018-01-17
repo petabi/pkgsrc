@@ -12,7 +12,7 @@ R_PKGNAME=	combinat
 R_PKGVER=	0.0-8
 
 post-extract:
-	echo 'exportPattern("^[^\\.]")' > ${WRKSRC}/NAMESPACE
+	echo 'exportPattern("^[^.]")' > ${WRKSRC}/NAMESPACE
 
 .include "../../math/R/Makefile.extension"
 .include "../../mk/bsd.pkg.mk"
