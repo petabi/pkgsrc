@@ -10,5 +10,8 @@ LICENSE=	gnu-gpl-v2
 
 USE_LANGUAGES=	# none
 
+post-extract:
+	echo 'exportPattern("^[^.]")' > ${WRKSRC}/NAMESPACE
+
 .include "../../math/R/Makefile.extension"
 .include "../../mk/bsd.pkg.mk"
