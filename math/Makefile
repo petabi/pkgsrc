@@ -18,6 +18,7 @@ SUBDIR+=	R-RColorBrewer
 SUBDIR+=	R-RPostgreSQL
 SUBDIR+=	R-RandomFields
 SUBDIR+=	R-Rcmdr
+SUBDIR+=	R-RcppArmadillo
 SUBDIR+=	R-RcppEigen
 SUBDIR+=	R-SparseM
 SUBDIR+=	R-VGAM
