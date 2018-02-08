@@ -38,6 +38,7 @@ SUBDIR+=	R-combinat
 SUBDIR+=	R-date
 SUBDIR+=	R-e1071
 SUBDIR+=	R-emdbook
+SUBDIR+=	R-forecast
 SUBDIR+=	R-fracdiff
 SUBDIR+=	R-gdata
 SUBDIR+=	R-genetics
