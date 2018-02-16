@@ -90,6 +90,6 @@ MAKEVARS+=			USE_BUILTIN.oracle-jre8
 CHECK_BUILTIN.oracle-jre8?=	no
 .if !empty(CHECK_BUILTIN.oracle-jre8:M[nN][oO])
 .  if !empty(USE_BUILTIN.oracle-jre8:M[yY][eE][sS])
-PKG_JAVA_HOME=	${JAVAVM8}
+PKG_JAVA_HOME?=	${JAVAVM8}
 .  endif
 .endif
