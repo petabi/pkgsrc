@@ -12,6 +12,10 @@ BUILDLINK_DEPMETHOD.oracle-jdk8?=	build
 
 BUILDLINK_PASSTHRU_DIRS+=	${BUILDLINK_JAVA_PREFIX.oracle-jre8}
 
+CHECK_BUILTIN.oracle-jdk8:=	yes
+.include "../../lang/oracle-jdk8/builtin.mk"
+CHECK_BUILTIN.oracle-jdk8:=	no
+
 .include "../../mk/bsd.fast.prefs.mk"
 
 .if ${OPSYS} == "SunOS"
@@ -22,6 +26,12 @@ BUILDLINK_CPPFLAGS.oracle-jdk8=						\
 BUILDLINK_CPPFLAGS.oracle-jdk8=						\
 	-I${BUILDLINK_JAVA_PREFIX.oracle-jre8}/include			\
 	-I${BUILDLINK_JAVA_PREFIX.oracle-jre8}/include/linux
+.endif
+
+# A workaround for Darwin, where
+# ${BUILDLINK_JAVA_PREFIX.oracle-jre8}/bin doesn't have javac.
+.if defined(_JAVA_HOME_ANSWER)
+BUILDLINK_JAVA_PREFIX.oracle-jdk8=	${_JAVA_HOME_ANSWER}
 .endif
 
 BUILDLINK_DEPMETHOD.oracle-jre8?=	${BUILDLINK_DEPMETHOD.oracle-jdk8}
