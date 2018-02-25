@@ -4,4 +4,5 @@ SHA1 (include-what-you-use-0.10.src.tar.gz) = 51ecee3b252b628ec9d5f04bb7b14e74ce
 RMD160 (include-what-you-use-0.10.src.tar.gz) = 3f56875c989b09b51e146b291d5c570854f91d8e
 SHA512 (include-what-you-use-0.10.src.tar.gz) = 2bf2593dba252d870074125f976a237e901e969323969f2c8fb030e8376bb230f1d5c2baecc8cd8fad7099e83589c7666c44cd178d2094f6e883cace1e53ad90
 Size (include-what-you-use-0.10.src.tar.gz) = 440406 bytes
+SHA1 (patch-iwyu__driver.cc) = 9041e31bff59f5bd2ea6c2475b94a946b66454c8
 SHA1 (patch-iwyu__output.cc) = 55a8c7ad35613206ad01dd312afdabb5649e63c2
