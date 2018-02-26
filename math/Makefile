@@ -87,6 +87,7 @@ SUBDIR+=	R-plyr
 SUBDIR+=	R-poweRlaw
 SUBDIR+=	R-prettyunits
 SUBDIR+=	R-prob
+SUBDIR+=	R-prophet
 SUBDIR+=	R-quadprog
 SUBDIR+=	R-quantreg
 SUBDIR+=	R-randomForest
