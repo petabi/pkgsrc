@@ -1,0 +1,6 @@
+$NetBSD: distinfo,v 1.1 2018/02/26 17:31:26 minskim Exp $
+
+SHA1 (R/plogr_0.1-1.tar.gz) = f81de60c00923d9674fb764195c09d5e6fd981d1
+RMD160 (R/plogr_0.1-1.tar.gz) = 078c9f9c88f1d6ca8c12a85c7e275e1fc3b781cf
+SHA512 (R/plogr_0.1-1.tar.gz) = f59ea7235984514aad809f2cc30972318ae2b18917b0c13ab81e8281543d2d1f0e93ae33f9ac077c30687db55acd17b357bdc4d1654e2b70b456055a755de39d
+Size (R/plogr_0.1-1.tar.gz) = 7421 bytes

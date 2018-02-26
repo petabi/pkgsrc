@@ -24,6 +24,7 @@ SUBDIR+=	R-crayon
 SUBDIR+=	R-evaluate
 SUBDIR+=	R-lazyeval
 SUBDIR+=	R-magrittr
+SUBDIR+=	R-plogr
 SUBDIR+=	R-proto
 SUBDIR+=	R-repr
 SUBDIR+=	R-rlang
