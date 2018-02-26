@@ -82,6 +82,7 @@ SUBDIR+=	R-splancs
 SUBDIR+=	R-stabledist
 SUBDIR+=	R-statmod
 SUBDIR+=	R-tibble
+SUBDIR+=	R-tidyr
 SUBDIR+=	R-wle
 SUBDIR+=	R-xts
 SUBDIR+=	R-zoo
