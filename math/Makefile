@@ -51,6 +51,7 @@ SUBDIR+=	R-ellipsis
 SUBDIR+=	R-emdbook
 SUBDIR+=	R-energy
 SUBDIR+=	R-estimability
+SUBDIR+=	R-extraDistr
 SUBDIR+=	R-forcats
 SUBDIR+=	R-forecast
 SUBDIR+=	R-fracdiff
