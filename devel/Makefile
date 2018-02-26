@@ -25,6 +25,7 @@ SUBDIR+=	R-cli
 SUBDIR+=	R-crayon
 SUBDIR+=	R-evaluate
 SUBDIR+=	R-glue
+SUBDIR+=	R-inline
 SUBDIR+=	R-lazyeval
 SUBDIR+=	R-magrittr
 SUBDIR+=	R-pkgconfig
