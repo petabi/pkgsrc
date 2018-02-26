@@ -37,6 +37,7 @@ SUBDIR+=	R-proto
 SUBDIR+=	R-purrr
 SUBDIR+=	R-repr
 SUBDIR+=	R-rlang
+SUBDIR+=	R-tidyselect
 SUBDIR+=	R-uuid
 SUBDIR+=	RBTools
 SUBDIR+=	RTFM
