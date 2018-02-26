@@ -1,0 +1,6 @@
+$NetBSD: distinfo,v 1.1 2018/02/26 17:31:26 minskim Exp $
+
+SHA1 (R/dplyr_0.7.4.tar.gz) = 4c0e4952c81d8229432d16c2a9dfeee947302c37
+RMD160 (R/dplyr_0.7.4.tar.gz) = b81c875a7044affcad779e0954989c9df3541f61
+SHA512 (R/dplyr_0.7.4.tar.gz) = bade6153d6cb54fd62f4327ec732d855c452d1d3d83f861cfedd16df6a55bd89677414d7a4e33dc1fee26dc267296ba576ccaaaac6d7463d289fa8f3091ab7cd
+Size (R/dplyr_0.7.4.tar.gz) = 808054 bytes
