@@ -1,0 +1,6 @@
+$NetBSD: distinfo,v 1.1 2018/02/26 17:31:26 minskim Exp $
+
+SHA1 (R/tidyr_0.8.0.tar.gz) = 51dfc2c8b72107b42b93ea7a78cdac91d41017c4
+RMD160 (R/tidyr_0.8.0.tar.gz) = 7cdee054a24164de266f5dc23b1fc16d607d5fe6
+SHA512 (R/tidyr_0.8.0.tar.gz) = 9bed951c815a373432dfa77f89ec642c5964595ea9373f222eb6c2e1ca0b60cad4a4edbce83d173f29fa4cff83fec048e797704eec49cd2ca721a6af1b622ca6
+Size (R/tidyr_0.8.0.tar.gz) = 377417 bytes
