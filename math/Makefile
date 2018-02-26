@@ -39,6 +39,7 @@ SUBDIR+=	R-date
 SUBDIR+=	R-dplyr
 SUBDIR+=	R-e1071
 SUBDIR+=	R-emdbook
+SUBDIR+=	R-extraDistr
 SUBDIR+=	R-forecast
 SUBDIR+=	R-fracdiff
 SUBDIR+=	R-gdata
