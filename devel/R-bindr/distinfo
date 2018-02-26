@@ -1,0 +1,6 @@
+$NetBSD: distinfo,v 1.1 2018/02/26 17:31:26 minskim Exp $
+
+SHA1 (R/bindr_0.1.tar.gz) = 67347d42183252ae46fc8fbe5f01f8d86b754aa3
+RMD160 (R/bindr_0.1.tar.gz) = fd01231f5d5948fa31c7ccc762e19d32e73a1dab
+SHA512 (R/bindr_0.1.tar.gz) = ede87e8ea5d7603f1aead948472ce734b1e466da20d8f292278815d1b76e0051ada939172a24ca629162691210c1af9f0767ac43590612eea05c4bd91993632d
+Size (R/bindr_0.1.tar.gz) = 5928 bytes

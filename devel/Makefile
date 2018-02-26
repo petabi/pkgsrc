@@ -16,6 +16,7 @@ SUBDIR+=	R-IRkernel
 SUBDIR+=	R-R6
 SUBDIR+=	R-Rcpp
 SUBDIR+=	R-assertthat
+SUBDIR+=	R-bindr
 SUBDIR+=	R-bit
 SUBDIR+=	R-bit64
 SUBDIR+=	R-cli
