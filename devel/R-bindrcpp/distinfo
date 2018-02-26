@@ -1,0 +1,6 @@
+$NetBSD: distinfo,v 1.1 2018/02/26 17:31:26 minskim Exp $
+
+SHA1 (R/bindrcpp_0.2.tar.gz) = b3542f61941d45e99894e5b1b6d211cb2a2af2f3
+RMD160 (R/bindrcpp_0.2.tar.gz) = f45871a95d7745bd5132b300769ab6caff25e2bf
+SHA512 (R/bindrcpp_0.2.tar.gz) = c341d4e7059860fb9390610711cc19d899929f08d175cf4ac1ad1c6a0209ec6f4b7a6bf44d8607b89af9a075bbd7abd8d1837953b81f6a99816d1a954796988e
+Size (R/bindrcpp_0.2.tar.gz) = 8089 bytes
