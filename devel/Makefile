@@ -31,6 +31,7 @@ SUBDIR+=	R-magrittr
 SUBDIR+=	R-pkgconfig
 SUBDIR+=	R-plogr
 SUBDIR+=	R-proto
+SUBDIR+=	R-purrr
 SUBDIR+=	R-repr
 SUBDIR+=	R-rlang
 SUBDIR+=	R-uuid
