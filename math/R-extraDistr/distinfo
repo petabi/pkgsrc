@@ -1,0 +1,6 @@
+$NetBSD: distinfo,v 1.1 2018/02/26 17:31:26 minskim Exp $
+
+SHA1 (R/extraDistr_1.8.8.tar.gz) = 9dddf8dc7b21c67eebdddf543116c3c52bd6f258
+RMD160 (R/extraDistr_1.8.8.tar.gz) = 74335a1c64027e54a96a954b55582a41d117df2b
+SHA512 (R/extraDistr_1.8.8.tar.gz) = e54941e159095bda0384b1bcc143f40c484d7a9017e5939cc2326fe4fd3eae47396b2b150668334d498407a071113347c8f80a812fcfa6c59f90a63d52f0904d
+Size (R/extraDistr_1.8.8.tar.gz) = 127282 bytes
