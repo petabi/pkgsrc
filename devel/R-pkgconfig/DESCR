@@ -1,0 +1,3 @@
+pkgconfig provides an easy way to create configuration parameters in
+your R package. Configuration values set in different packages are
+independent.

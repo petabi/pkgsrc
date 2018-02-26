@@ -26,6 +26,7 @@ SUBDIR+=	R-evaluate
 SUBDIR+=	R-glue
 SUBDIR+=	R-lazyeval
 SUBDIR+=	R-magrittr
+SUBDIR+=	R-pkgconfig
 SUBDIR+=	R-plogr
 SUBDIR+=	R-proto
 SUBDIR+=	R-repr
