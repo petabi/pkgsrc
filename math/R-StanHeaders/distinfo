@@ -1,0 +1,6 @@
+$NetBSD: distinfo,v 1.1 2018/02/26 17:31:26 minskim Exp $
+
+SHA1 (R/StanHeaders_2.17.2.tar.gz) = ca7bc153de61cd31563eddc073efec2265dfe823
+RMD160 (R/StanHeaders_2.17.2.tar.gz) = 18acdadce33450bae514608fe1c1ea1e39255448
+SHA512 (R/StanHeaders_2.17.2.tar.gz) = ddebbf48f22ad04ce0e342250662499f05abf0d9a4e766454e163e93a7468f8fe815e32b5b42521f8c98e0912b3b8c7668a916a5b885975f74e9cc85f0f5c8a0
+Size (R/StanHeaders_2.17.2.tar.gz) = 955082 bytes
