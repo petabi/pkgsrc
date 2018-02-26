@@ -69,6 +69,7 @@ SUBDIR+=	R-pixmap
 SUBDIR+=	R-plyr
 SUBDIR+=	R-poweRlaw
 SUBDIR+=	R-prob
+SUBDIR+=	R-prophet
 SUBDIR+=	R-quadprog
 SUBDIR+=	R-quantreg
 SUBDIR+=	R-randomForest

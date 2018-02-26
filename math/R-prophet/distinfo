@@ -1,0 +1,6 @@
+$NetBSD: distinfo,v 1.1 2018/02/26 17:31:26 minskim Exp $
+
+SHA1 (R/prophet_0.2.1.tar.gz) = 5d057aa98035256790df8a4abadb4dbcbb84d6b8
+RMD160 (R/prophet_0.2.1.tar.gz) = 637d9fe747148d7125d622214b8077d2a61ea418
+SHA512 (R/prophet_0.2.1.tar.gz) = 81cce7de4ab00953cb597ee06a0ef9a6be3dc97b5a15e5175eca9b2675ee0240a417c487b8986d743f5edc7bf92f4bd20299cfd8143fb3f44023d9f485c275ff
+Size (R/prophet_0.2.1.tar.gz) = 1063998 bytes
