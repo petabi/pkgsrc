@@ -11,6 +11,7 @@ SUBDIR+=	Gorm
 SUBDIR+=	MoarVM
 SUBDIR+=	ObjectiveLib
 SUBDIR+=	ProjectCenter
+SUBDIR+=	R-BH
 SUBDIR+=	R-IRdisplay
 SUBDIR+=	R-IRkernel
 SUBDIR+=	R-R6
