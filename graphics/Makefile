@@ -23,6 +23,7 @@ SUBDIR+=	PanoTools
 SUBDIR+=	R-colorspace
 SUBDIR+=	R-dichromat
 SUBDIR+=	R-ggplot2
+SUBDIR+=	R-gridExtra
 SUBDIR+=	R-labeling
 SUBDIR+=	R-latticeExtra
 SUBDIR+=	R-munsell
