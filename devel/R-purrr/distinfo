@@ -1,0 +1,6 @@
+$NetBSD: distinfo,v 1.1 2018/02/26 17:31:26 minskim Exp $
+
+SHA1 (R/purrr_0.2.4.tar.gz) = 89211b41a2055f76ab9e06188ab837bf20173f62
+RMD160 (R/purrr_0.2.4.tar.gz) = 73737f6cc3c8be4efd9028cb2379117ffe868bf8
+SHA512 (R/purrr_0.2.4.tar.gz) = a62300df996477a9b2aa10f97c15e165f41aa689886047d3469cd73d93da8125feb1caeb70987b089b3fd08fcde9f5bc971e6c949352e20d7beefcc36c7aa48b
+Size (R/purrr_0.2.4.tar.gz) = 126147 bytes
