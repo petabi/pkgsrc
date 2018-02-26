@@ -21,6 +21,7 @@ SUBDIR+=	R-Rcmdr
 SUBDIR+=	R-RcppArmadillo
 SUBDIR+=	R-RcppEigen
 SUBDIR+=	R-SparseM
+SUBDIR+=	R-StanHeaders
 SUBDIR+=	R-VGAM
 SUBDIR+=	R-XML
 SUBDIR+=	R-abind

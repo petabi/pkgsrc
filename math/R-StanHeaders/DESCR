@@ -1,0 +1,12 @@
+The C++ header files of the Stan project are provided by this package,
+but it contains no R code, vignettes, or function documentation. The
+Stan project develops a probabilistic programming language that
+implements full or approximate Bayesian statistical inference via
+Markov Chain Monte Carlo or 'variational' methods and implements
+(optionally penalized) maximum likelihood estimation via
+optimization. The Stan library includes an advanced automatic
+differentiation scheme, 'templated' statistical and linear algebra
+functions that can handle the automatically 'differentiable' scalar
+types (and doubles, 'ints', etc.), and a parser for the Stan
+language. The 'rstan' package provides user-facing R functions to
+parse, compile, test, estimate, and analyze Stan models.
