@@ -36,6 +36,7 @@ SUBDIR+=	R-clim.pact
 SUBDIR+=	R-coda
 SUBDIR+=	R-combinat
 SUBDIR+=	R-date
+SUBDIR+=	R-dplyr
 SUBDIR+=	R-e1071
 SUBDIR+=	R-emdbook
 SUBDIR+=	R-forecast
