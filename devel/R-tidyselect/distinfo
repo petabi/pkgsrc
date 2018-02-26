@@ -1,0 +1,6 @@
+$NetBSD: distinfo,v 1.1 2018/02/26 17:31:26 minskim Exp $
+
+SHA1 (R/tidyselect_0.2.4.tar.gz) = 2580fcddbf9ae1dc1da6b391e93cce3efbbd28ee
+RMD160 (R/tidyselect_0.2.4.tar.gz) = a61dd5a4b45434349fdb5af6d4e9adcd838dc99d
+SHA512 (R/tidyselect_0.2.4.tar.gz) = 5a480ccae17a5386653668d5887a3b616ff7114fbaecff84206f30c257858c1e41e3ef59bc717e9c8ccf8f100d40373af1b247dabc085b234fd157c1383f2f6b
+Size (R/tidyselect_0.2.4.tar.gz) = 21702 bytes
