@@ -18,6 +18,7 @@ SUBDIR+=	R-R6
 SUBDIR+=	R-Rcpp
 SUBDIR+=	R-assertthat
 SUBDIR+=	R-bindr
+SUBDIR+=	R-bindrcpp
 SUBDIR+=	R-bit
 SUBDIR+=	R-bit64
 SUBDIR+=	R-blob
