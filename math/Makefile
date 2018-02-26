@@ -93,6 +93,7 @@ SUBDIR+=	R-randomForest
 SUBDIR+=	R-relimp
 SUBDIR+=	R-reshape2
 SUBDIR+=	R-robustbase
+SUBDIR+=	R-rstan
 SUBDIR+=	R-rstudioapi
 SUBDIR+=	R-sandwich
 SUBDIR+=	R-sgeostat

@@ -1,0 +1,6 @@
+$NetBSD: distinfo,v 1.1 2018/02/26 17:31:26 minskim Exp $
+
+SHA1 (R/rstan_2.17.3.tar.gz) = e1e534d7d14fb70ffc3972fe3dc12ae2c3b110fa
+RMD160 (R/rstan_2.17.3.tar.gz) = 68d2da30d329633ad68c35d991ff4d3e4d5e325d
+SHA512 (R/rstan_2.17.3.tar.gz) = 3a9018fd5a51ac87dfb6fa9b46b9dbdd7c02024a15085c483f58c6006b7b68f1d91b85725683a7f6a2b7f3d7e1ef5febfc477a0a43ca41cd91e0dffe74a716b7
+Size (R/rstan_2.17.3.tar.gz) = 747202 bytes
