@@ -21,6 +21,7 @@ SUBDIR+=	R-bindr
 SUBDIR+=	R-bindrcpp
 SUBDIR+=	R-bit
 SUBDIR+=	R-bit64
+SUBDIR+=	R-blob
 SUBDIR+=	R-cli
 SUBDIR+=	R-crayon
 SUBDIR+=	R-evaluate

@@ -1,0 +1,6 @@
+$NetBSD: distinfo,v 1.1 2018/02/26 17:31:26 minskim Exp $
+
+SHA1 (R/blob_1.1.0.tar.gz) = b73751f15979af6819b807328d9662cb34dc744f
+RMD160 (R/blob_1.1.0.tar.gz) = 454aeb57693d5befac2f0c1edfa912643b117237
+SHA512 (R/blob_1.1.0.tar.gz) = 09416444e4195020b1c445d62d27802113564f76d18f912d7318e064cc3e2441a84ee23376edb273bc6eaa1fbf22f59aa2ff364ab996e2a002efe47e1f96d6b8
+Size (R/blob_1.1.0.tar.gz) = 4319 bytes
