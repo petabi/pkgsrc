@@ -28,6 +28,7 @@ SUBDIR+=	R-glue
 SUBDIR+=	R-inline
 SUBDIR+=	R-lazyeval
 SUBDIR+=	R-magrittr
+SUBDIR+=	R-memoise
 SUBDIR+=	R-pkgconfig
 SUBDIR+=	R-plogr
 SUBDIR+=	R-proto
