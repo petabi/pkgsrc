@@ -30,6 +30,8 @@ PY_SETUP_SUBST+=	X11LIB=
 PY_SETUP_SUBST+=	X11LIB=\'X11\'
 .endif
 
+.include "options.mk"
+
 .include "../../lang/python/extension.mk"
 
 .if ${_PYTHON_VERSION} >= 27
