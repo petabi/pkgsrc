@@ -29,6 +29,8 @@ PY_SETUP_SUBST+=	X11LIB=
 PY_SETUP_SUBST+=	X11LIB=\'X11\'
 .endif
 
+.include "options.mk"
+
 .include "../../lang/python/extension.mk"
 
 .if ${_PYTHON_VERSION} >= 27
@@ -44,5 +46,4 @@ do-patch:
 .include "../../lang/python/srcdist.mk"
 .include "../../lang/tcl/buildlink3.mk"
 .include "../../x11/tk/buildlink3.mk"
-.include "../../x11/libX11/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
