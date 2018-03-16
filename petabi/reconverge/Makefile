@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	reconverge-0.8.0
+DISTNAME=	reconverge-0.9.0
 CATEGORIES=	sysutils
 MASTER_SITES=	# None
 EXTRACT_SUFX=	.tar.bz2

@@ -1,8 +1,8 @@
 $NetBSD$
 
-SHA1 (reconverge-0.8.0.tar.bz2) = 4054781a904935904c137974e66087a58766ecab
-RMD160 (reconverge-0.8.0.tar.bz2) = f473f79ae2c45fd1fca165095d167165b96cedb7
-SHA512 (reconverge-0.8.0.tar.bz2) = e974bf9906fb8d4a08377da6b762cfbb5084360a038ae3fe700d8eec0bec2697b5aa08d2400fe28e06f9b2ac2176950c5e7798bc8560d19d09883ee188980f0e
-Size (reconverge-0.8.0.tar.bz2) = 1115528 bytes
+SHA1 (reconverge-0.9.0.tar.bz2) = f5ffc0aa1c37e00b58a0a8f7291922859b9f66fb
+RMD160 (reconverge-0.9.0.tar.bz2) = aeb99bb83befd943331a07ec1a8bff1bc0aa00db
+SHA512 (reconverge-0.9.0.tar.bz2) = 7a2dd603106e13964b773d68bfa0a1e5a76a66e213acb6132745a4ce7239d3885d24d5a8ea4195e27dd9462d0358618033515b9f50ebafcd5e5b6b80a1830ea1
+Size (reconverge-0.9.0.tar.bz2) = 1096759 bytes
 SHA1 (patch-etc_CMakeLists.txt) = 67964083cf5b503a5b38a4250a4d59fb4da24fb7
 SHA1 (patch-src_blackwatch__main.cpp) = b8624aa9f1bab101a68bf442a8a9152a314a8b5e
