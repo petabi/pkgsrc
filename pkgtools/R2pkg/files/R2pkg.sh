@@ -167,6 +167,7 @@ field <- function(key,value) paste(key,'=\t',value,sep='')
 licenses <- list()
 licenses[['ACM']]           <- 'acm-license'
 licenses[['APACHE']]        <- 'apache-2.0'
+licenses[['Apache License (== 2.0)']] <- 'apache-2.0'
 licenses[['ARTISTIC']]      <- 'artistic-2.0'
 licenses[['BSD-2']]         <- '2-clause-bsd'
 licenses[['GPL']]           <- 'gnu-gpl-v2 OR gnu-gpl-v3'
