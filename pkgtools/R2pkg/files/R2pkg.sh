@@ -209,10 +209,15 @@ pkgsrc.license <- function(s)
 
 package <- function(s) field('R_PKGNAME',one.line(s))
 version <- function(s) field('R_PKGVER',one.line(s))
-comment <- function(s) field('COMMENT',one.line(s))
 
 categories <- function() paste('CATEGORIES=',basename(dirname(getwd())),sep='	')
 description <- function(s) strwrap(s,width=71)
+
+comment <- function(s)
+{
+  s <- gsub("^A ", "", s)
+  field('COMMENT',one.line(s))
+}
 
 homepage <- function(s)
 {
