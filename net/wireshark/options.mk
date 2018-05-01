@@ -57,7 +57,6 @@ CONFIGURE_ARGS+=	--disable-wireshark
 CONFIGURE_ARGS+=	--enable-wireshark
 PLIST.mans=		yes
 INSTALLATION_DIRS+=	share/applications
-.  if ${OPSYS} != "Darwin"
 PLIST.icons=		yes
 POST_INSTALL_TARGETS+=	install-icons
 INSTALLATION_DIRS+=	share/icons/hicolor/scalable/apps
@@ -68,9 +67,9 @@ MIMEICON_SIZES=		16 24 32 48 64 128 256
 INSTALLATION_DIRS+=	share/icons/hicolor/${d}x${d}/apps
 .    endfor
 
-.    for d in ${MIMEICON_SIZES}
+.  for d in ${MIMEICON_SIZES}
 INSTALLATION_DIRS+=	share/icons/hicolor/${d}x${d}/mimetypes
-.    endfor
+.  endfor
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
@@ -79,11 +78,10 @@ INSTALLATION_DIRS+=	share/icons/hicolor/${d}x${d}/mimetypes
 install-icons:
 	${INSTALL_DATA} ${WRKSRC}/image/wsicon.svg \
 		${DESTDIR}${PREFIX}/share/icons/hicolor/scalable/apps/wireshark.svg
-.    for d in ${MIMEICON_SIZES}
+.  for d in ${MIMEICON_SIZES}
 	${INSTALL_DATA} ${WRKSRC}/image/WiresharkDoc-${d}.png \
 		${DESTDIR}${PREFIX}/share/icons/hicolor/${d}x${d}/mimetypes/application-vnd.tcpdump.pcap.png
-.    endfor
-.  endif
+.  endfor
 .endif
 
 .if empty(PKG_OPTIONS:Mlua)
