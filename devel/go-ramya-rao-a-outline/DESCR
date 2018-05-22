@@ -1,0 +1,2 @@
+Simple utility for extracting a JSON representation of the
+declarations in a Go source file.
