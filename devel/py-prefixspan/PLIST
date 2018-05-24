@@ -1,4 +1,4 @@
-@comment $NetBSD: PLIST,v 1.2 2018/02/26 08:51:43 adam Exp $
+@comment $NetBSD$
 bin/prefixspan-cli${PYVERSSUFFIX}
 ${PYSITELIB}/${EGG_INFODIR}/PKG-INFO
 ${PYSITELIB}/${EGG_INFODIR}/SOURCES.txt
@@ -11,3 +11,21 @@ ${PYSITELIB}/prefixspan/__init__.pyo
 ${PYSITELIB}/prefixspan/api.py
 ${PYSITELIB}/prefixspan/api.pyc
 ${PYSITELIB}/prefixspan/api.pyo
+${PYSITELIB}/prefixspan/closed.py
+${PYSITELIB}/prefixspan/closed.pyc
+${PYSITELIB}/prefixspan/closed.pyo
+${PYSITELIB}/prefixspan/frequent.py
+${PYSITELIB}/prefixspan/frequent.pyc
+${PYSITELIB}/prefixspan/frequent.pyo
+${PYSITELIB}/prefixspan/generator.py
+${PYSITELIB}/prefixspan/generator.pyc
+${PYSITELIB}/prefixspan/generator.pyo
+${PYSITELIB}/prefixspan/localtyping.py
+${PYSITELIB}/prefixspan/localtyping.pyc
+${PYSITELIB}/prefixspan/localtyping.pyo
+${PYSITELIB}/prefixspan/prefixspan.py
+${PYSITELIB}/prefixspan/prefixspan.pyc
+${PYSITELIB}/prefixspan/prefixspan.pyo
+${PYSITELIB}/prefixspan/topk.py
+${PYSITELIB}/prefixspan/topk.pyc
+${PYSITELIB}/prefixspan/topk.pyo
