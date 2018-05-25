@@ -1,0 +1,4 @@
+A utility for extracting a JSON representation of the package symbols
+from a go source tree.  If a directory named src is under the
+directory given that directory will be walked for source code,
+otherwise the entire tree will be walked.
