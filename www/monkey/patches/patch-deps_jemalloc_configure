@@ -1,0 +1,15 @@
+$NetBSD$
+
+Portability fix.
+
+--- deps/jemalloc/configure.orig	2016-06-04 23:16:47.000000000 +0000
++++ deps/jemalloc/configure
+@@ -6298,7 +6298,7 @@ else
+ fi
+ 
+ if test "x$have_sbrk" = "x1" ; then
+-  if test "x$sbrk_deprecated" == "x1" ; then
++  if test "x$sbrk_deprecated" = "x1" ; then
+     { $as_echo "$as_me:${as_lineno-$LINENO}: result: Disabling dss allocation because sbrk is deprecated" >&5
+ $as_echo "Disabling dss allocation because sbrk is deprecated" >&6; }
+     enable_dss="0"
