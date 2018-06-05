@@ -1,0 +1,14 @@
+$NetBSD$
+
+Add missing libraries in linking.
+
+--- plugins/tls/CMakeLists.txt.orig	2016-06-04 23:16:47.000000000 +0000
++++ plugins/tls/CMakeLists.txt
+@@ -13,5 +13,7 @@ endif()
+ 
+ MONKEY_PLUGIN(tls "${src}")
+ 
++MONKEY_PLUGIN_LINK_LIB(tls mbedcrypto)
+ MONKEY_PLUGIN_LINK_LIB(tls mbedtls)
++MONKEY_PLUGIN_LINK_LIB(tls mbedx509)
+ add_subdirectory(conf)
