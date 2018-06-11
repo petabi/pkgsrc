@@ -1,8 +1,7 @@
 # $NetBSD: Makefile,v 1.5 2018/06/12 17:50:28 bsiegert Exp $
 
-DISTNAME=	hugo-0.26
+DISTNAME=	hugo-0.42.2
 PKGNAME=	go-${DISTNAME}
-PKGREVISION=	3
 MASTER_SITES=	${MASTER_SITE_GITHUB:=gohugoio/}
 CATEGORIES=	www
 GITHUB_TAG=	v${PKGVERSION_NOREV}
@@ -48,6 +47,13 @@ REPLACE_SH+=	pull-docs.sh
 .include "../../textproc/go-prose/buildlink3.mk"
 .include "../../devel/go-i18n/buildlink3.mk"
 .include "../../graphics/go-image/buildlink3.mk"
+.include "../../devel/go-debounce/buildlink3.mk"
+.include "../../devel/go-sync/buildlink3.mk"
+.include "../../graphics/go-imaging/buildlink3.mk"
+.include "../../graphics/go-smartcrop/buildlink3.mk"
+.include "../../textproc/go-chroma/buildlink3.mk"
+.include "../../textproc/go-glob/buildlink3.mk"
+.include "../../textproc/go-tablewriter/buildlink3.mk"
 .include "../../lang/go/go-package.mk"
 .include "../../mk/bsd.pkg.mk"
 
