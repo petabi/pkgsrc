@@ -1,0 +1,5 @@
+Stan is a C++ package providing full Bayesian inference using the
+No-U-Turn sampler (NUTS), a variant of Hamiltonian Monte Carlo (HMC),
+approximate Bayesian inference using automatic differentiation
+variational inference (ADVI), and penalized maximum likelihood
+estimation (MLE) using L-BFGS optimization.

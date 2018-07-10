@@ -1,0 +1,6 @@
+$NetBSD: distinfo,v 1.9 2017/09/26 14:34:23 mspo Exp $
+
+SHA1 (stan-2.17.1.tar.gz) = e0d274ded6be06d6f0296d12b069773b0ec81815
+RMD160 (stan-2.17.1.tar.gz) = bdc7d2e079642886cd35fe3e182b301a4abdb81e
+SHA512 (stan-2.17.1.tar.gz) = 56d43d1b37043366c1cdbc81731fe0edfcbc0234c1ec0cf735d3dd0c57d837536cba35376416bc4d306b02b5d7fc7a039770b080ededf1b0a90d380cc217daab
+Size (stan-2.17.1.tar.gz) = 18458629 bytes
