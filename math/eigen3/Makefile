@@ -19,9 +19,12 @@ CONFIGURE_DIRS=	_build
 WRKSRC=		${WRKDIR}/eigen-eigen-323c052e1731
 
 CMAKE_ARGS+=	-DCMAKEPACKAGE_INSTALL_DIR=${PREFIX}/lib/cmake/eigen3
+CMAKE_ARGS+=	-DMETIS_DIR=${BUILDLINK_PREFIX.metis:Q}
 CMAKE_ARGS+=	-DPKGCONFIG_INSTALL_DIR=${PREFIX}/lib/pkgconfig
 
 PKGCONFIG_OVERRIDE+=	eigen.pc.in
+
+.include "../../math/metis/buildlink3.mk"
 
 pre-configure:
 	${MKDIR} ${WRKSRC}/_build
