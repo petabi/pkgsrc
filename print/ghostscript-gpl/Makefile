@@ -88,6 +88,8 @@ BUILDLINK_TRANSFORM.IRIX+=	l:fontconfig:fontconfig:iconv
 CONFIGURE_ENV+=		LPLIBDIR=${PREFIX}/lib
 CONFIGURE_ENV+=		ZLIB_DIR=${BUILDLINK_PREFIX.zlib}/lib
 
+LIBS.Linux+=		-lz
+
 # On OpenBSD 5.3, libxcb is required libXt.
 LDFLAGS.OpenBSD+=	-lxcb
 
