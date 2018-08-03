@@ -19,4 +19,5 @@ CMAKE_ARGS+=	-DBUILD_SHARED_LIBS=ON
 .include "../../archivers/lzo/buildlink3.mk"
 .include "../../devel/googletest/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
