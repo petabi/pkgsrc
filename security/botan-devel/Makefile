@@ -63,6 +63,10 @@ LDFLAGS.SunOS+=	-lnsl -lsocket
 
 .if ${OPSYS} == "Darwin"
 post-install:
+	install_name_tool -change \
+		${DESTDIR}${PREFIX}/lib/libbotan-2.0.dylib \
+		${PREFIX}/lib/libbotan-2.0.dylib \
+		${DESTDIR}${PREFIX}/bin/botan
 	install_name_tool -id ${PREFIX}/lib/libbotan-2.0.dylib \
 		${DESTDIR}${PREFIX}/lib/libbotan-2.0.dylib
 .endif
