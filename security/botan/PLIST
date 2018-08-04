@@ -59,7 +59,7 @@ include/botan-1.10/botan/dl_algo.h
 include/botan-1.10/botan/dl_group.h
 include/botan-1.10/botan/dlies.h
 include/botan-1.10/botan/dsa.h
-include/botan-1.10/botan/dyn_engine.h
+${PLIST.dyn_load}include/botan-1.10/botan/dyn_engine.h
 include/botan-1.10/botan/eax.h
 include/botan-1.10/botan/ec_group.h
 include/botan-1.10/botan/ecb.h
@@ -185,7 +185,7 @@ include/botan-1.10/botan/serpent.h
 include/botan-1.10/botan/sha160.h
 ${PLIST.i386}include/botan-1.10/botan/sha1_x86_32.h
 ${PLIST.x86_64}include/botan-1.10/botan/sha1_sse2.h
-${PLIST.x86_64}include/botan-1.10/botan/sha1_x86_64.h
+${PLIST.asm_x86_64}include/botan-1.10/botan/sha1_x86_64.h
 include/botan-1.10/botan/sha2_32.h
 include/botan-1.10/botan/sha2_64.h
 include/botan-1.10/botan/skein_512.h

@@ -28,10 +28,13 @@ MAKE_FLAGS+=	LIB_OPT=${CXXFLAGS:Q}
 
 .include "../../mk/bsd.prefs.mk"
 
-PLIST_VARS+=	x86 x86_64 i386
+PLIST_VARS+=	asm_x86_64 dyn_load x86 x86_64 i386
 
 .if ${MACHINE_ARCH} == "x86_64"
 CONFIGURE_ARGS+=	--cpu=amd64
+.  if ${OPSYS} != "Darwin"
+PLIST.asm_x86_64=	yes
+.  endif
 PLIST.x86_64=		yes
 PLIST.x86=		yes
 .elif ${MACHINE_ARCH} == "i386"
@@ -44,6 +47,10 @@ CONFIGURE_ARGS+=	--cpu=ppc
 CONFIGURE_ARGS+=	--cpu=ppc64
 .elif ${MACHINE_ARCH} == "arm"
 CONFIGURE_ARGS+=	--cpu=arm
+.endif
+
+.if ${OPSYS} != "Darwin"
+PLIST.dyn_load=	yes
 .endif
 
 .include "../../lang/python/application.mk"
