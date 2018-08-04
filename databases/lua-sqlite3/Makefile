@@ -20,9 +20,16 @@ CFLAGS+=		-fPIC
 
 INSTALLATION_DIRS+=	${LUA_LDIR} ${LUA_CDIR}
 
+.include "../../mk/bsd.prefs.mk"
+
 post-install:
 	mv ${DESTDIR}${PREFIX}/${LUA_CDIR}/*.lua \
 	   ${DESTDIR}${PREFIX}/${LUA_LDIR}
+.if ${OPSYS} == "Darwin"
+	install_name_tool -id ${PREFIX}/${LUA_CDIR}/libluasqlite3.so \
+		${DESTDIR}${PREFIX}/${LUA_CDIR}/libluasqlite3.so
+.endif
+
 
 .include "../../databases/sqlite3/buildlink3.mk"
 .include "../../lang/lua/module.mk"
