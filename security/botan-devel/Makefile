@@ -59,4 +59,11 @@ LDFLAGS.SunOS+=	-lnsl -lsocket
 .include "../../devel/boost-libs/buildlink3.mk"
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
+
+.if ${OPSYS} == "Darwin"
+post-install:
+	install_name_tool -id ${PREFIX}/lib/libbotan-2.0.dylib \
+		${DESTDIR}${PREFIX}/lib/libbotan-2.0.dylib
+.endif
+
 .include "../../mk/bsd.pkg.mk"
