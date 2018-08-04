@@ -21,6 +21,7 @@ CONFIG_SHELL=		${PYTHONBIN}
 CONFIGURE_SCRIPT=	./configure.py
 CONFIGURE_ARGS+=	--prefix=${PREFIX} --with-zlib --with-boost
 CONFIGURE_ARGS+=	--docdir=share/doc
+CONFIGURE_ARGS+=	--without-sphinx
 
 REPLACE_PYTHON+=	*.py src/scripts/*.py
 
