@@ -12,13 +12,5 @@ LICENSE=	mit
 
 USE_LANGUAGES=	c
 
-PLIST_VARS+=	python2
-
-.include "../../lang/python/pyversion.mk"
-
-.if !empty(PYVERSSUFFIX:M2.*)
-PLIST.python2=	yes
-.endif
-
 .include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"

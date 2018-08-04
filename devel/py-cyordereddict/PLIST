@@ -22,9 +22,9 @@ ${PYSITELIB}/cyordereddict/test/__init__.pyo
 ${PYSITELIB}/cyordereddict/test/_mapping_tests.py
 ${PYSITELIB}/cyordereddict/test/_mapping_tests.pyc
 ${PYSITELIB}/cyordereddict/test/_mapping_tests.pyo
-${PLIST.python2}${PYSITELIB}/cyordereddict/test/_test_support.py
-${PLIST.python2}${PYSITELIB}/cyordereddict/test/_test_support.pyc
-${PLIST.python2}${PYSITELIB}/cyordereddict/test/_test_support.pyo
+${PLIST.py2x}${PYSITELIB}/cyordereddict/test/_test_support.py
+${PLIST.py2x}${PYSITELIB}/cyordereddict/test/_test_support.pyc
+${PLIST.py2x}${PYSITELIB}/cyordereddict/test/_test_support.pyo
 ${PYSITELIB}/cyordereddict/test/test_cyordereddict.py
 ${PYSITELIB}/cyordereddict/test/test_cyordereddict.pyc
 ${PYSITELIB}/cyordereddict/test/test_cyordereddict.pyo
