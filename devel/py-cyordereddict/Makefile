@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.2 2017/04/14 00:40:29 minskim Exp $
+# $NetBSD: Makefile,v 1.3 2018/08/10 15:36:16 minskim Exp $
 
 DISTNAME=	cyordereddict-1.0.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
