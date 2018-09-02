@@ -1,0 +1,6 @@
+$NetBSD: distinfo,v 1.2 2009/05/18 22:04:28 abs Exp $
+
+SHA1 (julia-1.0.0-darwin-x86_64.tar.gz) = 9be89265b05edb7c4f4d45f7d3abc6a5005c71d3
+RMD160 (julia-1.0.0-darwin-x86_64.tar.gz) = fa956da3ad4ef8e3c9b0993f4d00d67037cf372b
+SHA512 (julia-1.0.0-darwin-x86_64.tar.gz) = 36c35148675147aab7e31f6e75b8c4522f001d0a175066ab5d508206690c761349037efbc5cdad7eef61a863de5ebc47fd471527a1bd9b2d496f168eefbd89f9
+Size (julia-1.0.0-darwin-x86_64.tar.gz) = 81848527 bytes

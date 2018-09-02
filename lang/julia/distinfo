@@ -1,8 +1,7 @@
 $NetBSD$
 
-SHA1 (julia-0.6.1.tar.gz) = 656d666a64c96a04dd251e1f82e0ee1f8d33bb8d
-RMD160 (julia-0.6.1.tar.gz) = 13ca9333b85fe29eb4985ded10bce2669d85bc5f
-SHA512 (julia-0.6.1.tar.gz) = 8e7b14e8bba1eae1d2a7f43a114dc42e1870d2e692d8892a09475f48839c9b596eb8aaa24b111d3bac6836282a4d7ab64d10c4481c8193f1574cabcf2541db6e
-Size (julia-0.6.1.tar.gz) = 5587691 bytes
-SHA1 (patch-Make.inc) = e667ec8e537b46b08f0546b1da886872d27bc3a9
-SHA1 (patch-contrib_fixup-libgfortran.sh) = b38d48c05dc9aecb535e8134acc119f4395b0442
+SHA1 (julia-1.0.0-full.tar.gz) = e73bccfa6e12e5646be02dfa2ca9b8c7f3ff98f1
+RMD160 (julia-1.0.0-full.tar.gz) = c984591c5a000193496e54a4b2d8950fbe76f884
+SHA512 (julia-1.0.0-full.tar.gz) = c64917f106925fceb7b0afadc457f5f0c73df5ffbb4d225fbf28d3cfcb3a91e1c15d1d92d96c7fb5a024ae2ad8d926a8fc923214a8b268509910d004f72d7710
+Size (julia-1.0.0-full.tar.gz) = 95652014 bytes
+SHA1 (patch-Make.inc) = 857854418877e1709f625f9d771e6ec1ecc87d20
