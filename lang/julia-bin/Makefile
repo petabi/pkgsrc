@@ -27,6 +27,30 @@ REPLACE_FILES.julia=	share/julia/build_sysimg.jl \
 
 INSTALLATION_DIRS=	bin include lib share ${PKGMANDIR}
 
+.include "../../mk/bsd.prefs.mk"
+.if ${OPSYS} == "Darwin"
+.PHONY: fix-darwin-install-name
+post-install: fix-darwin-install-name
+fix-darwin-install-name:
+	otool -XL ${DESTDIR}${PREFIX}/bin/julia				\
+	    | ${GREP} '@rpath' | while read rpath rest; do		\
+		install_name_tool -change $$rpath			\
+		    `${ECHO} $$rpath | ${SED} -e 's,@rpath,${PREFIX}/lib,g'` \
+		    ${DESTDIR}${PREFIX}/bin/julia;			\
+	done
+.  for lib in lib lib/julia
+	for f in ${DESTDIR}${PREFIX}/${lib}/lib*.dylib; do		\
+		[ ! -f $$f ] && continue;				\
+		install_name_tool -id `${ECHO} $$f | ${SED} -e 's,${DESTDIR},,g'` $$f; \
+		otool -XL $$f | grep '@rpath' | while read rpath rest; do \
+			install_name_tool -change $$rpath \
+			    `${ECHO} $$rpath | ${SED} -e 's,@rpath,${PREFIX}/lib/julia,g'` \
+			    $$f;					\
+		done;							\
+	done
+.  endfor
+.endif
+
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 
 post-extract:
