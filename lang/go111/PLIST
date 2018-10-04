@@ -8495,4 +8495,3 @@ go111/test/varerr.go
 go111/test/varinit.go
 go111/test/writebarrier.go
 go111/test/zerodivide.go
-@pkgdir bin
