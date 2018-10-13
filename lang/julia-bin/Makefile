@@ -1,9 +1,10 @@
 # $NetBSD$
 
-DISTNAME=	julia-1.0.0-${LOWER_OPSYS}-${MACHINE_ARCH}
+DISTNAME=	julia-1.0.1-${LOWER_OPSYS}-${MACHINE_ARCH}
 PKGNAME=	${DISTNAME:S/julia/julia-bin/:S/-${LOWER_OPSYS}-${MACHINE_ARCH}//}
 CATEGORIES=	lang
 MASTER_SITES=	${MASTER_SITE_BACKUP}
+EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	minskim@NetBSD.org
 HOMEPAGE=	https://julialang.org/
@@ -16,8 +17,6 @@ NO_BUILD=	yes
 WRKSRC=		${WRKDIR}/julia
 USE_LANGUAGES=	# none
 USE_TOOLS+=	pax
-
-CHECK_SHLIBS_SKIP=	lib/julia/*.dylib  # failed with @rpath
 
 REPLACE_INTERPRETER+=	julia
 REPLACE.julia.old=	/usr/bin/env julia

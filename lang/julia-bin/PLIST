@@ -70,7 +70,7 @@ lib/julia/libpcre2-8.0.dylib
 lib/julia/libpcre2-8.dylib
 lib/julia/libquadmath.0.dylib
 lib/julia/libspqr.dylib
-lib/julia/libssh2.1.0.1.dylib
+lib/julia/libssh2.${PKGVERSION}.dylib
 lib/julia/libssh2.1.dylib
 lib/julia/libssh2.dylib
 lib/julia/libsuitesparse_wrapper.dylib
@@ -87,7 +87,6 @@ lib/libjulia.dylib
 man/man1/julia.1
 share/appdata/julia.appdata.xml
 share/applications/julia.desktop
-share/doc/julia/html/en/NEWS.html
 share/doc/julia/html/en/assets/arrow.svg
 share/doc/julia/html/en/assets/documenter.css
 share/doc/julia/html/en/assets/documenter.js
@@ -538,6 +537,7 @@ share/julia/stdlib/v1.0/LinearAlgebra/src/triangular.jl
 share/julia/stdlib/v1.0/LinearAlgebra/src/tridiag.jl
 share/julia/stdlib/v1.0/LinearAlgebra/src/uniformscaling.jl
 share/julia/stdlib/v1.0/LinearAlgebra/test/adjtrans.jl
+share/julia/stdlib/v1.0/LinearAlgebra/test/ambiguous_exec.jl
 share/julia/stdlib/v1.0/LinearAlgebra/test/bidiag.jl
 share/julia/stdlib/v1.0/LinearAlgebra/test/blas.jl
 share/julia/stdlib/v1.0/LinearAlgebra/test/bunchkaufman.jl
@@ -640,7 +640,6 @@ share/julia/stdlib/v1.0/Pkg/src/REPLMode.jl
 share/julia/stdlib/v1.0/Pkg/src/Resolve.jl
 share/julia/stdlib/v1.0/Pkg/src/Types.jl
 share/julia/stdlib/v1.0/Pkg/src/generate.jl
-share/julia/stdlib/v1.0/Pkg/src/precompile.jl
 share/julia/stdlib/v1.0/Pkg/src/resolve/FieldValues.jl
 share/julia/stdlib/v1.0/Pkg/src/resolve/MaxSum.jl
 share/julia/stdlib/v1.0/Pkg/src/resolve/VersionWeights.jl
