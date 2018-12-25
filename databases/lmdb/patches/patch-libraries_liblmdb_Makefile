@@ -19,22 +19,3 @@ Use proper install commands.
  
  clean:
  	rm -rf $(PROGS) *.[ao] *.[ls]o *~ testdb
-@@ -68,10 +68,14 @@ liblmdb$(SOEXT):	mdb.lo midl.lo
- #	$(CC) $(LDFLAGS) -pthread -shared -Wl,-Bsymbolic -o $@ mdb.o midl.o $(SOLIBS)
- 	$(CC) $(LDFLAGS) -pthread -shared -o $@ mdb.lo midl.lo $(SOLIBS)
- 
--mdb_stat: mdb_stat.o liblmdb.a
--mdb_copy: mdb_copy.o liblmdb.a
--mdb_dump: mdb_dump.o liblmdb.a
--mdb_load: mdb_load.o liblmdb.a
-+mdb_stat: mdb_stat.o liblmdb${SOEXT}
-+	$(CC) $(LDFLAGS) -L. -Wl,-R. -llmdb -o $@ $<
-+mdb_copy: mdb_copy.o liblmdb${SOEXT}
-+	$(CC) $(LDFLAGS) -L. -Wl,-R.  -llmdb -o $@ $<
-+mdb_dump: mdb_dump.o liblmdb${SOEXT}
-+	$(CC) $(LDFLAGS) -L. -Wl,-R. -llmdb -o $@ $<
-+mdb_load: mdb_load.o liblmdb${SOEXT}
-+	$(CC) $(LDFLAGS) -L. -Wl,-R. -llmdb -o $@ $<
- mtest:    mtest.o    liblmdb.a
- mtest2:	mtest2.o liblmdb.a
- mtest3:	mtest3.o liblmdb.a
