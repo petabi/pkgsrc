@@ -4,3 +4,7 @@ SHA1 (tensorflow-1.13.1-cp37-cp37m-macosx_10_11_x86_64.whl) = a6aab9b06823e7b6dd
 RMD160 (tensorflow-1.13.1-cp37-cp37m-macosx_10_11_x86_64.whl) = 911983ea2d973e24780ef78f27e0cf304469c3b0
 SHA512 (tensorflow-1.13.1-cp37-cp37m-macosx_10_11_x86_64.whl) = 062e17d333ef8cacc266a79f1a27b2a1f126b611acf44bf6b1e4e95959d1dc7904f4087fdd9c045f20015e84c8d9cf21b36daf372659bd3aaa015c381dfea6d4
 Size (tensorflow-1.13.1-cp37-cp37m-macosx_10_11_x86_64.whl) = 73574769 bytes
+SHA1 (tensorflow-1.13.1-cp37-cp37m-manylinux1_x86_64.whl) = c07f3da712c72e118621553a4cb7ebb5a1a5fe43
+RMD160 (tensorflow-1.13.1-cp37-cp37m-manylinux1_x86_64.whl) = 6190e04238abf4013147133a98a94c92d423e7b3
+SHA512 (tensorflow-1.13.1-cp37-cp37m-manylinux1_x86_64.whl) = 43a21d4f4e9f197382b755c0a0a9043e236411691c567314e32335c0820596c823977d0e652cef5118480cb9636f2e7f2f016bc1bb8b0893575536c79f8e132c
+Size (tensorflow-1.13.1-cp37-cp37m-manylinux1_x86_64.whl) = 92637477 bytes

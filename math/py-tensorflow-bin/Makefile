@@ -1,10 +1,8 @@
 # $NetBSD$
 
-DISTNAME=	tensorflow-1.13.1-cp37-cp37m-macosx_10_11_x86_64
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/tensorflow-/tensorflow-bin-/:C/-cp37.*//}
+DISTNAME=	tensorflow-1.13.1
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/tensorflow-/tensorflow-bin-/}
 CATEGORIES=	math python
-MASTER_SITES=	https://pypi.python.org/packages/d5/1c/3ac472009a5c54ae7ec5a3294520ca36d1908cd1e5cf3e3fd923f9b7b31f/
-EXTRACT_SUFX=	.whl
 
 MAINTAINER=	minskim@NetBSD.org
 HOMEPAGE=	https://www.tensorflow.org/
@@ -24,7 +22,7 @@ DEPENDS+=	${PYPKGPREFIX}-tensorboard>=1.13.0:../../math/py-tensorboard
 DEPENDS+=	${PYPKGPREFIX}-tensorflow_estimator>=1.13.0:../../math/py-tensorflow_estimator
 DEPENDS+=	${PYPKGPREFIX}-termcolor>=1.1.0:../../devel/py-termcolor
 
-ONLY_FOR_PLATFORM=		Darwin-1[5-9].*-x86_64
+ONLY_FOR_PLATFORM=		Darwin-1[5-9].*-x86_64 Linux-*-x86_64
 PYTHON_VERSIONS_ACCEPTED=	37
 
 NO_BUILD=	yes
@@ -38,6 +36,19 @@ REPLACE_PYTHON=	tensorflow-${PKGVERSION_NOREV}.data/purelib/tensorflow/aux-bin/t
 INSTALLATION_DIRS+=	${PYSITELIB}
 
 .include "../../mk/bsd.prefs.mk"
+
+DISTFILES:=	# empty
+
+.if !empty(MACHINE_PLATFORM:MDarwin-1[5-9].*-x86_64)
+TFARCH:=	macosx_10_11_x86_64
+MASTER_SITES:=	https://pypi.python.org/packages/d5/1c/3ac472009a5c54ae7ec5a3294520ca36d1908cd1e5cf3e3fd923f9b7b31f/
+DISTFILES:=	${DISTFILES} ${DISTNAME}-cp37-cp37m-${TFARCH}.whl
+.endif
+.if !empty(MACHINE_PLATFORM:MLinux-*-x86_64)
+TFARCH:=	manylinux1_x86_64
+MASTER_SITES:=	https://files.pythonhosted.org/packages/d4/29/6b4f1e02417c3a1ccc85380f093556ffd0b35dc354078074c5195c8447f2/
+DISTFILES:=	${DISTFILES} ${DISTNAME}-cp37-cp37m-${TFARCH}.whl
+.endif
 
 .if ${OPSYS} == "Darwin"
 .PHONY: fix-darwin-install-name
@@ -56,7 +67,7 @@ fix-darwin-install-name:
 .include "../../lang/python/extension.mk"
 
 post-extract:
-	unzip -q -d ${WRKDIR} ${WRKDIR}/${DISTFILES}
+	unzip -q -d ${WRKDIR} ${WRKDIR}/${DISTNAME}-*.whl
 
 do-install:
 	cd ${WRKDIR} && pax -rw tensorflow-${PKGVERSION_NOREV}.dist-info ${DESTDIR}${PREFIX}/${PYSITELIB}
