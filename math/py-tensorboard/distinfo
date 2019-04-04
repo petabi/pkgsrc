@@ -1,6 +1,7 @@
 $NetBSD: distinfo,v 1.1 2018/04/06 19:22:41 minskim Exp $
 
-SHA1 (tensorboard-1.7.0.tar.gz) = 0e31bc6edb242313d959af6d04831fda948ffb61
-RMD160 (tensorboard-1.7.0.tar.gz) = c8e182234b23b952ce526f94853edcdc217ae9ac
-SHA512 (tensorboard-1.7.0.tar.gz) = 1a57745675f404f2c566c2e356329c9e2b98899e9b350fe77f7018dae9d2c34d52dfdea8de5e02cc699d1c0819a9ec1d78df51e88f97c09ef2f72f808ab7a800
-Size (tensorboard-1.7.0.tar.gz) = 4311124 bytes
+SHA1 (tensorboard-1.13.1.tar.gz) = f3a8ccabd0046f81d8b29dd0bba45324b6203264
+RMD160 (tensorboard-1.13.1.tar.gz) = ea5bab3989c76b4162a4ea6e4b2762d20e5d5101
+SHA512 (tensorboard-1.13.1.tar.gz) = 13995728f9007b305d989180aba4da50ff70a1382e8f6121427db7cbdbb6139a971a1f4d96bc0bc9ce6795d432a528b1b08158a1b1ec2822939bb5d4f08e8e74
+Size (tensorboard-1.13.1.tar.gz) = 71747891 bytes
+SHA1 (patch-tensorboard_pip__package_build__pip__package.sh) = 1a1a168b6b936735aa51cd85714bcb0c21e49e1c

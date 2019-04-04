@@ -5,7 +5,7 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math python
 MASTER_SITES=	${MASTER_SITE_GITHUB:=tensorflow/}
 GITHUB_PROJECT=	tensorboard
-GITHUB_TAG=	1.7.0
+GITHUB_TAG=	1.13.1
 
 MAINTAINER=	minskim@NetBSD.org
 HOMEPAGE=	https://github.com/tensorflow/tensorboard
@@ -14,7 +14,6 @@ LICENSE=	apache-2.0
 
 DEPENDS+=	${PYPKGPREFIX}-bleach>=1.5.0:../../www/py-bleach
 DEPENDS+=	${PYPKGPREFIX}-markdown>=2.6.8:../../textproc/py-markdown
-DEPENDS+=	${PYPKGPREFIX}-html5lib>=0.9999999:../../textproc/py-html5lib
 DEPENDS+=	${PYPKGPREFIX}-numpy>=1.12.0:../../math/py-numpy
 DEPENDS+=	${PYPKGPREFIX}-protobuf>=3.3.0:../../devel/py-protobuf
 DEPENDS+=	${PYPKGPREFIX}-six>=1.10.0:../../lang/py-six
@@ -30,7 +29,7 @@ DEPENDS+=	${PYPKGPREFIX}-futures>=3.1.1:../../devel/py-futures
 .include "../../lang/python/egg.mk"
 
 post-extract:
-.for f in MANIFEST.in setup.cfg setup.py
+.for f in MANIFEST.in README.rst setup.cfg setup.py
 	${CP} ${WRKSRC}/tensorboard/pip_package/${f} ${WRKSRC}
 .endfor
 
