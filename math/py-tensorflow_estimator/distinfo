@@ -1,0 +1,6 @@
+$NetBSD$
+
+SHA1 (tensorflow_estimator-1.13.0-py2.py3-none-any.whl) = 9563e37d848d941a7eb8985517b3b65c9774a8b8
+RMD160 (tensorflow_estimator-1.13.0-py2.py3-none-any.whl) = 22151c8a073882e3372e051b79d538c071dd1e25
+SHA512 (tensorflow_estimator-1.13.0-py2.py3-none-any.whl) = 31cf36f9ca318442f0da596d7132c211422cbc4c5a1ec479f374667c89be7dbec06cd7dba0b71b357c5de39c4e31445b78bb30b19f6b9c13e754f3d7bbfbf145
+Size (tensorflow_estimator-1.13.0-py2.py3-none-any.whl) = 367559 bytes
