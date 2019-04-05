@@ -2,6 +2,7 @@
 
 DISTNAME=	tensorflow-1.13.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/tensorflow-/tensorflow-bin-/}
+PKGREVISION=	1
 CATEGORIES=	math python
 
 MAINTAINER=	minskim@NetBSD.org
@@ -60,6 +61,23 @@ fix-darwin-install-name:
 		libdir=`dirname $${lib} | sed -e 's,${DESTDIR},,'`;     \
 		chmod u+w $${lib};					\
 		install_name_tool -id $${libdir}/$${libname} $${lib};   \
+		install_name_tool -change '@rpath/libtensorflow_framework.so' \
+		'${PREFIX}/${PYSITELIB}/tensorflow/libtensorflow_framework.so' \
+		$${lib}; \
+	done
+.elif ${OPSYS} == "Linux"
+BUILD_DEPENDS+=	patchelf-[0-9]*:../../devel/patchelf
+
+.PHONY: fix-relative-rpath
+post-install: fix-relative-rpath
+fix-relative-rpath:
+	${FIND} ${DESTDIR}${PREFIX} -name "*.so" |                      \
+		while read lib; do                                      \
+		libname=`basename $${lib}`;                             \
+		libdir=`dirname $${lib} | sed -e 's,${DESTDIR},,'`;     \
+		chmod u+w $${lib};					\
+		${PREFIX}/bin/patchelf --set-rpath 			\
+			${PREFIX}/${PYSITELIB}/tensorflow $${lib};	\
 	done
 .endif
 
