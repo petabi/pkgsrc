@@ -1,0 +1,6 @@
+$NetBSD$
+
+SHA1 (tensorflow_hub-0.4.0-py2.py3-none-any.whl) = af8ddff8066b35483f13c498da26ede7bb5bddb6
+RMD160 (tensorflow_hub-0.4.0-py2.py3-none-any.whl) = 62631197abe68371cd41cd76f69925a543ef04d2
+SHA512 (tensorflow_hub-0.4.0-py2.py3-none-any.whl) = cea139e91abc8a461c1ddccb90899c74597e132f62e3563b49e0aec6fedabd0e924d0ee964d4879f83d798a0db81db745692e25e863a23455e803ecee47747d4
+Size (tensorflow_hub-0.4.0-py2.py3-none-any.whl) = 75358 bytes

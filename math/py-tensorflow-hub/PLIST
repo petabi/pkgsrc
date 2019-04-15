@@ -1,0 +1,25 @@
+@comment $NetBSD$
+${PYSITELIB}/tensorflow_hub/__init__.py
+${PYSITELIB}/tensorflow_hub/compressed_module_resolver.py
+${PYSITELIB}/tensorflow_hub/config.py
+${PYSITELIB}/tensorflow_hub/estimator.py
+${PYSITELIB}/tensorflow_hub/feature_column.py
+${PYSITELIB}/tensorflow_hub/image_module_info_pb2.py
+${PYSITELIB}/tensorflow_hub/image_util.py
+${PYSITELIB}/tensorflow_hub/keras_layer.py
+${PYSITELIB}/tensorflow_hub/meta_graph_lib.py
+${PYSITELIB}/tensorflow_hub/module.py
+${PYSITELIB}/tensorflow_hub/module_attachment_pb2.py
+${PYSITELIB}/tensorflow_hub/module_def_pb2.py
+${PYSITELIB}/tensorflow_hub/module_impl.py
+${PYSITELIB}/tensorflow_hub/module_spec.py
+${PYSITELIB}/tensorflow_hub/module_v2.py
+${PYSITELIB}/tensorflow_hub/native_module.py
+${PYSITELIB}/tensorflow_hub/registry.py
+${PYSITELIB}/tensorflow_hub/resolver.py
+${PYSITELIB}/tensorflow_hub/saved_model_lib.py
+${PYSITELIB}/tensorflow_hub/saved_model_module.py
+${PYSITELIB}/tensorflow_hub/tensor_info.py
+${PYSITELIB}/tensorflow_hub/tf_utils.py
+${PYSITELIB}/tensorflow_hub/tf_v1.py
+${PYSITELIB}/tensorflow_hub/version.py
