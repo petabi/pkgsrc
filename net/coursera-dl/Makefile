@@ -12,10 +12,12 @@ LICENSE=	gnu-lgpl-v3
 
 USE_LANGUAGES=	# none
 
+DEPENDS+=	${PYPKGPREFIX}-attrs>=18.1.0:../../devel/py-attrs
 DEPENDS+=	${PYPKGPREFIX}-beautifulsoup4>=4.1.3:../../www/py-beautifulsoup4
+DEPENDS+=	${PYPKGPREFIX}-configargparse>=0.12.0:../../devel/py-configargparse
 DEPENDS+=	${PYPKGPREFIX}-requests>=2.10.0:../../devel/py-requests
 DEPENDS+=	${PYPKGPREFIX}-six>=1.5.0:../../lang/py-six
-DEPENDS+=	${PYPKGPREFIX}-urllib3>=1.10:../../www/py-urllib3
+DEPENDS+=	${PYPKGPREFIX}-urllib3>=1.23:../../www/py-urllib3
 DEPENDS+=	${PYPKGPREFIX}-asn1>=0.1.7:../../security/py-asn1
 DEPENDS+=	${PYPKGPREFIX}-keyring>=4.0:../../security/py-keyring
 

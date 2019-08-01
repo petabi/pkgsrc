@@ -4,3 +4,6 @@ SHA1 (coursera-dl-0.11.4.tar.gz) = c1e49d21a9d3e2d5fce69009d4b438d9c8d95b46
 RMD160 (coursera-dl-0.11.4.tar.gz) = 371f1d5a245d2761566dda63c45923812d2e0834
 SHA512 (coursera-dl-0.11.4.tar.gz) = 64d95d0ea6cbd479f48fd1c54a9e4df9ebaf50b77aca0f84b378a88814b6ec7c683b8a6fc36e6fb593a155a517d47ab89844c4262f0c7daa10d3b9f786c2bed4
 Size (coursera-dl-0.11.4.tar.gz) = 238406 bytes
+SHA1 (patch-coursera_commandline.py) = a39dc0cd09ea8b5f4203cec7eaf3f8b0dce56de8
+SHA1 (patch-coursera_coursera__dl.py) = ae01d3aab041d266c3da331f2162f6d114c3d4af
+SHA1 (patch-requirements.txt) = 8f2e1d917c8efc4f27ad355ff06111db9384d5d5
