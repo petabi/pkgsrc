@@ -50,6 +50,15 @@ Also look for uuid/uuid.h.
          self.add_multiarch_paths()
  
          # Add paths specified in the environment variables LDFLAGS and
+@@ -638,7 +639,7 @@
+             add_dir_to_list(self.compiler.include_dirs,
+                             sysconfig.get_config_var("INCLUDEDIR"))
+
+-        system_lib_dirs = ['/lib64', '/usr/lib64', '/lib', '/usr/lib']
++        system_lib_dirs = ['/lib64', '/usr/lib64', '/lib', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+         system_include_dirs = ['/usr/include']
+         # lib_dirs and inc_dirs are used to search for files;
+         # if a file is found in one of those directories, it can
 @@ -814,8 +815,6 @@ class PyBuildExt(build_ext):
          # use the same library for the readline and curses modules.
          if 'curses' in readline_termcap_library:
