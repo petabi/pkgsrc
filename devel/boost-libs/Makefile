@@ -44,7 +44,7 @@ PLIST.longdbl=		yes
 # libboost_stacktrace_backtrace requires libbacktrace.
 # FIXME: The condition needs to be refined for non-Debian/Ubuntu
 # platforms shipped with libbacktrace.
-.if ${OPSYS} == "Linux" && exists(/etc/debian_version)
+.if ${OPSYS} == "Linux" && exists(/etc/debian_version) && !empty(PKGSRC_COMPILER:Mgcc)
 PLIST.backtrace=	yes
 .endif
 
